@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntervalNumbers", "Interval
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeIngredients", "CakeIngredients\CakeIngredients.csproj", "{4C6194E6-05E9-48CC-BD38-EE1885F84B5F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaloriesCounter", "CaloriesCounter\CaloriesCounter.csproj", "{261D8C8F-035B-4271-B2EE-5EF0865DF80E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{4C6194E6-05E9-48CC-BD38-EE1885F84B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C6194E6-05E9-48CC-BD38-EE1885F84B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C6194E6-05E9-48CC-BD38-EE1885F84B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{261D8C8F-035B-4271-B2EE-5EF0865DF80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{261D8C8F-035B-4271-B2EE-5EF0865DF80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{261D8C8F-035B-4271-B2EE-5EF0865DF80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{261D8C8F-035B-4271-B2EE-5EF0865DF80E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
