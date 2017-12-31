@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantDiscount", "Resta
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel", "Hotel\Hotel.csproj", "{221520AB-2E58-4AEC-9D76-502C92928825}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordInPlural", "WordInPlural\WordInPlural.csproj", "{197BF502-C8FA-4C92-B057-BE8C4FB519B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{221520AB-2E58-4AEC-9D76-502C92928825}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{221520AB-2E58-4AEC-9D76-502C92928825}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{221520AB-2E58-4AEC-9D76-502C92928825}.Release|Any CPU.Build.0 = Release|Any CPU
+		{197BF502-C8FA-4C92-B057-BE8C4FB519B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{197BF502-C8FA-4C92-B057-BE8C4FB519B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{197BF502-C8FA-4C92-B057-BE8C4FB519B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{197BF502-C8FA-4C92-B057-BE8C4FB519B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
