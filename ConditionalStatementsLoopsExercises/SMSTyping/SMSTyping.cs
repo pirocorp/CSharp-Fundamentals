@@ -18,7 +18,6 @@ public class SMS_Typing
             }
             else
             {
-;
                 var mainDigit = int.Parse(currentMessageCharacter[0].ToString());
                 var numberOfDigits = currentMessageCharacter.Length;
                 var offset = (mainDigit - 2) * 3;
@@ -30,12 +29,9 @@ public class SMS_Typing
 
                 var letterIndex = offset + numberOfDigits - 1;
                 var currentMessage = (char)(letterIndex + 97);
-
                 SMS += currentMessage;
             }
         }
-
         Console.WriteLine(SMS);
     }
-
 }
