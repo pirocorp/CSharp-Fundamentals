@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoGallery", "PhotoGaller
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMCounter", "BPMCounter\BPMCounter.csproj", "{2056B95C-68E5-4AF8-8F96-5B04536AF544}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNASequences", "DNASequences\DNASequences.csproj", "{711D17BE-E883-4399-904E-4DCBFA39C1AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{2056B95C-68E5-4AF8-8F96-5B04536AF544}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2056B95C-68E5-4AF8-8F96-5B04536AF544}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2056B95C-68E5-4AF8-8F96-5B04536AF544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{711D17BE-E883-4399-904E-4DCBFA39C1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711D17BE-E883-4399-904E-4DCBFA39C1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711D17BE-E883-4399-904E-4DCBFA39C1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711D17BE-E883-4399-904E-4DCBFA39C1AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
