@@ -8,27 +8,19 @@ public class SMS_Typing
 
         var SMS = string.Empty;
 
-        SMS = GetSMS(n, SMS);
-
-        Console.WriteLine(SMS);
-    }
-
-    private static string GetSMS(int n, string SMS)
-    {
         for (int i = 0; i < n; i++)
         {
-            var currentMessageCharacters = Console.ReadLine();
+            var currentMessageCharacter = Console.ReadLine();
 
-            if (currentMessageCharacters == "0")
+            if (currentMessageCharacter == "0")
             {
                 SMS += " ";
             }
-
             else
             {
-                var mainDigit = int.Parse(currentMessageCharacters[0].ToString());
-                var numberOfDigits = currentMessageCharacters.Length;
-
+;
+                var mainDigit = int.Parse(currentMessageCharacter[0].ToString());
+                var numberOfDigits = currentMessageCharacter.Length;
                 var offset = (mainDigit - 2) * 3;
 
                 if (mainDigit == 8 || mainDigit == 9)
@@ -37,13 +29,13 @@ public class SMS_Typing
                 }
 
                 var letterIndex = offset + numberOfDigits - 1;
-
                 var currentMessage = (char)(letterIndex + 97);
 
                 SMS += currentMessage;
             }
         }
 
-        return SMS;
+        Console.WriteLine(SMS);
     }
+
 }
