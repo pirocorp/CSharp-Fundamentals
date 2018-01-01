@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BPMCounter", "BPMCounter\BP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DNASequences", "DNASequences\DNASequences.csproj", "{711D17BE-E883-4399-904E-4DCBFA39C1AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainingHallEquipment", "TrainingHallEquipment\TrainingHallEquipment.csproj", "{F84C4B8A-0F1D-4887-BDAF-8A1016173717}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{711D17BE-E883-4399-904E-4DCBFA39C1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{711D17BE-E883-4399-904E-4DCBFA39C1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{711D17BE-E883-4399-904E-4DCBFA39C1AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84C4B8A-0F1D-4887-BDAF-8A1016173717}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84C4B8A-0F1D-4887-BDAF-8A1016173717}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84C4B8A-0F1D-4887-BDAF-8A1016173717}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84C4B8A-0F1D-4887-BDAF-8A1016173717}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
