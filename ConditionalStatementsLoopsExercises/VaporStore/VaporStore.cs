@@ -26,6 +26,7 @@ namespace VaporStore
                     Console.WriteLine("Out of money!");
                     return;
                 }
+
                 game = Console.ReadLine();
                 var price = 0.0m;
 
@@ -54,7 +55,7 @@ namespace VaporStore
 
                             if (price > balance)
                             {
-                                Console.WriteLine("Bought Too Expensive");
+                                Console.WriteLine("Too Expensive");
                                 continue;
                             }
                             else
