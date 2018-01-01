@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriplesLatinLetters", "Trip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greeting", "Greeting\Greeting.csproj", "{1D805704-156C-48DB-AF00-755AD0FAEFAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorVolumePyramid", "RefactorVolumePyramid\RefactorVolumePyramid.csproj", "{2F4685D0-A76D-45A1-9A81-A5263FD7215D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1D805704-156C-48DB-AF00-755AD0FAEFAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D805704-156C-48DB-AF00-755AD0FAEFAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D805704-156C-48DB-AF00-755AD0FAEFAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4685D0-A76D-45A1-9A81-A5263FD7215D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4685D0-A76D-45A1-9A81-A5263FD7215D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4685D0-A76D-45A1-9A81-A5263FD7215D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4685D0-A76D-45A1-9A81-A5263FD7215D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
