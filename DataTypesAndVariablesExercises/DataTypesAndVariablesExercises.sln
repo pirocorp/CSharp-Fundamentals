@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePhotographer", "TheaPhot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeBoundaries", "TypeBoundaries\TypeBoundaries.csproj", "{A6260D8C-982B-4C88-9F40-E87EEA2763A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberChecker", "NumberChecker\NumberChecker.csproj", "{2DA7FE63-6EDB-4E97-9408-08938103383A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A6260D8C-982B-4C88-9F40-E87EEA2763A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6260D8C-982B-4C88-9F40-E87EEA2763A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6260D8C-982B-4C88-9F40-E87EEA2763A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DA7FE63-6EDB-4E97-9408-08938103383A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DA7FE63-6EDB-4E97-9408-08938103383A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DA7FE63-6EDB-4E97-9408-08938103383A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DA7FE63-6EDB-4E97-9408-08938103383A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
