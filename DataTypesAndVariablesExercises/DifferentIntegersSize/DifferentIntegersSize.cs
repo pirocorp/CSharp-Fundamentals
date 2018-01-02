@@ -13,6 +13,7 @@ namespace DifferentIntegersSize
                 var num = long.Parse(numString);
 
                 Console.WriteLine($"{num} can fit in:");
+
                 if (num >= sbyte.MinValue && num <= sbyte.MaxValue)
                 {
                     Console.WriteLine("* sbyte");
