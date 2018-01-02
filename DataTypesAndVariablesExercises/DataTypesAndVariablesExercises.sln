@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentenceThief", "SentenceTh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseBuilder", "HouseBuilder\HouseBuilder.csproj", "{5B07A91E-E79B-4836-B89D-96DA3A20325A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeWord", "MakeWord\MakeWord.csproj", "{AD5F3706-4792-441C-8FC3-8242EA6BA84F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{5B07A91E-E79B-4836-B89D-96DA3A20325A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B07A91E-E79B-4836-B89D-96DA3A20325A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B07A91E-E79B-4836-B89D-96DA3A20325A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD5F3706-4792-441C-8FC3-8242EA6BA84F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5F3706-4792-441C-8FC3-8242EA6BA84F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5F3706-4792-441C-8FC3-8242EA6BA84F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5F3706-4792-441C-8FC3-8242EA6BA84F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
