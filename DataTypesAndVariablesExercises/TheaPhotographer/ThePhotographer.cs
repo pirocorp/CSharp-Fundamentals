@@ -6,21 +6,15 @@ namespace ThePhotographer
     {
         static void Main()
         {
-            int nPictures = int.Parse(Console.ReadLine());
-            int filterInSec = int.Parse(Console.ReadLine());
-            double filterFactor = double.Parse(Console.ReadLine()); //filter factor or the percentage of the total pictures that are considered “good” to be uploaded.
-            int uploadTimePic = int.Parse(Console.ReadLine());
+            long nPictures = int.Parse(Console.ReadLine());
+            long filterInSec = int.Parse(Console.ReadLine());
+            long filterFactor = int.Parse(Console.ReadLine()); 
+            long uploadTimePic = int.Parse(Console.ReadLine());
 
-            filterFactor = filterFactor / 100;
-            Console.WriteLine("filterFactor " + filterFactor);
-            int filterPics = (int)Math.Ceiling(nPictures * filterFactor);
-            Console.WriteLine("filterPics " + filterPics);
+            int filterPics = (int)Math.Ceiling(nPictures * (filterFactor / 100.0));
             long filterPicsTime = nPictures * filterInSec;
-            Console.WriteLine("filterPicsTime " + filterPicsTime);
             long uploadPicsTime = filterPics * uploadTimePic;
-            Console.WriteLine("uploadPicsTime " + uploadPicsTime);
             long totalTime = filterPicsTime + uploadPicsTime;
-            Console.WriteLine("totalTime " + totalTime);
 
             var seconds = totalTime % 60;
             var minutes = totalTime / 60;
