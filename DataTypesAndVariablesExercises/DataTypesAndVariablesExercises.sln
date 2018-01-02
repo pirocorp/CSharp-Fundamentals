@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleProperties", "Rect
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelDigit", "VowelDigit\VowelDigit.csproj", "{550BC122-C133-4EA3-B77C-2F26029658AB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegerToHexAndBinary", "IntegerToHexAndBinary\IntegerToHexAndBinary.csproj", "{8677C6F9-A276-48CE-89C0-20F6DCCBBCDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{550BC122-C133-4EA3-B77C-2F26029658AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{550BC122-C133-4EA3-B77C-2F26029658AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{550BC122-C133-4EA3-B77C-2F26029658AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8677C6F9-A276-48CE-89C0-20F6DCCBBCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8677C6F9-A276-48CE-89C0-20F6DCCBBCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8677C6F9-A276-48CE-89C0-20F6DCCBBCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8677C6F9-A276-48CE-89C0-20F6DCCBBCDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
