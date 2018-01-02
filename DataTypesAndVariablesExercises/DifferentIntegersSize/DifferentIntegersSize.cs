@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Numerics;
+//using System.Numerics;
 
 namespace DifferentIntegersSize
 {
@@ -7,14 +7,11 @@ namespace DifferentIntegersSize
     {
         static void Main()
         {
-            BigInteger num = BigInteger.Parse(Console.ReadLine());
+            var numString = Console.ReadLine();
+            try
+            {                
+                var num = long.Parse(numString);
 
-            if (num > long.MaxValue || num < long.MinValue)
-            {
-                Console.WriteLine($"{num} can't fit in any type");
-            }
-            else
-            {
                 Console.WriteLine($"{num} can fit in:");
                 if (num >= sbyte.MinValue && num <= sbyte.MaxValue)
                 {
@@ -44,6 +41,11 @@ namespace DifferentIntegersSize
                 {
                     Console.WriteLine("* long");
                 }
+            }
+            catch
+            {
+                //BigInteger num = BigInteger.Parse(Console.ReadLine());
+                Console.WriteLine($"{numString} can't fit in any type");
             }
         }
     }
