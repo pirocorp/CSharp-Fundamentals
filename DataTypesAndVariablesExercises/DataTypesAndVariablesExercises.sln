@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeBoundaries", "TypeBound
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberChecker", "NumberChecker\NumberChecker.csproj", "{2DA7FE63-6EDB-4E97-9408-08938103383A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaterOverflow", "WaterOverflow\WaterOverflow.csproj", "{28C8778A-F94D-4B73-93F4-1A2F362A11AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{2DA7FE63-6EDB-4E97-9408-08938103383A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DA7FE63-6EDB-4E97-9408-08938103383A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DA7FE63-6EDB-4E97-9408-08938103383A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C8778A-F94D-4B73-93F4-1A2F362A11AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C8778A-F94D-4B73-93F4-1A2F362A11AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C8778A-F94D-4B73-93F4-1A2F362A11AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C8778A-F94D-4B73-93F4-1A2F362A11AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
