@@ -12,22 +12,22 @@ namespace ThePhotographer
             int uploadTimePic = int.Parse(Console.ReadLine());
 
             filterFactor = filterFactor / 100;
-            //Console.WriteLine("filterFactor " + filterFactor);
+            Console.WriteLine("filterFactor " + filterFactor);
             int filterPics = (int)Math.Ceiling(nPictures * filterFactor);
-            //Console.WriteLine("filterPics " + filterPics);
+            Console.WriteLine("filterPics " + filterPics);
             long filterPicsTime = nPictures * filterInSec;
-            //Console.WriteLine("filterPicsTime " + filterPicsTime);
+            Console.WriteLine("filterPicsTime " + filterPicsTime);
             long uploadPicsTime = filterPics * uploadTimePic;
-            //Console.WriteLine("uploadPicsTime " + uploadPicsTime);
+            Console.WriteLine("uploadPicsTime " + uploadPicsTime);
             long totalTime = filterPicsTime + uploadPicsTime;
-            //Console.WriteLine("totalTime " + totalTime);
+            Console.WriteLine("totalTime " + totalTime);
 
             var seconds = totalTime % 60;
             var minutes = totalTime / 60;
             var hours = minutes / 60;
             var days = hours / 24;
             minutes %= 60;
-            hours %= 60;
+            hours %= 24;
 
             Console.WriteLine($"{days}:{hours:d2}:{minutes:d2}:{seconds:d2}");
         }
