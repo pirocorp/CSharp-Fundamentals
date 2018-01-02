@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertSpeedUnits", "Practi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RectangleProperties", "RectangleProperties\RectangleProperties.csproj", "{6B1F430D-B307-4992-ADB5-76DB21D5EF70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowelDigit", "VowelDigit\VowelDigit.csproj", "{550BC122-C133-4EA3-B77C-2F26029658AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6B1F430D-B307-4992-ADB5-76DB21D5EF70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B1F430D-B307-4992-ADB5-76DB21D5EF70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B1F430D-B307-4992-ADB5-76DB21D5EF70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550BC122-C133-4EA3-B77C-2F26029658AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550BC122-C133-4EA3-B77C-2F26029658AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550BC122-C133-4EA3-B77C-2F26029658AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550BC122-C133-4EA3-B77C-2F26029658AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
