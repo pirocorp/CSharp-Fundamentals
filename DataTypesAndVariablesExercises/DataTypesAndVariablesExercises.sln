@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DifferentIntegersSize", "Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThePhotographer", "TheaPhotographer\ThePhotographer.csproj", "{8F94C07A-EFB4-4FC4-A696-856C70DA1A0F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeBoundaries", "TypeBoundaries\TypeBoundaries.csproj", "{A6260D8C-982B-4C88-9F40-E87EEA2763A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8F94C07A-EFB4-4FC4-A696-856C70DA1A0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F94C07A-EFB4-4FC4-A696-856C70DA1A0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F94C07A-EFB4-4FC4-A696-856C70DA1A0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6260D8C-982B-4C88-9F40-E87EEA2763A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6260D8C-982B-4C88-9F40-E87EEA2763A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6260D8C-982B-4C88-9F40-E87EEA2763A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6260D8C-982B-4C88-9F40-E87EEA2763A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
