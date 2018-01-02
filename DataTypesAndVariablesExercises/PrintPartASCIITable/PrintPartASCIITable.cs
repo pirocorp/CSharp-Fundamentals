@@ -4,7 +4,7 @@ namespace PrintPartASCIITable
 {
     class PrintPartASCIITable
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var startAscii = int.Parse(Console.ReadLine());
             var endAscii = int.Parse(Console.ReadLine());
