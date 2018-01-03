@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakeWord", "MakeWord\MakeWo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumChars", "SumChars\SumChars.csproj", "{8828296D-1D06-4AB5-8DA1-08AC91B11BB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConcatenation", "StringConcatenation\StringConcatenation.csproj", "{49ED763F-B5D3-45E6-9797-B286CE68FF76}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{8828296D-1D06-4AB5-8DA1-08AC91B11BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8828296D-1D06-4AB5-8DA1-08AC91B11BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8828296D-1D06-4AB5-8DA1-08AC91B11BB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49ED763F-B5D3-45E6-9797-B286CE68FF76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49ED763F-B5D3-45E6-9797-B286CE68FF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49ED763F-B5D3-45E6-9797-B286CE68FF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49ED763F-B5D3-45E6-9797-B286CE68FF76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
