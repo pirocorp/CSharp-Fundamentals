@@ -12,9 +12,7 @@ namespace DataOverflow
             var numMax = Math.Max(numOne, numTwo);
             var numMin = Math.Min(numOne, numTwo);
 
-            string biggerType = "";
             string smallerType = "";
-
             ulong numMinTypeMaxValue = 0;
 
             if (numMin <= byte.MaxValue)
@@ -39,6 +37,8 @@ namespace DataOverflow
                 smallerType = "ulong";
                 numMinTypeMaxValue = ulong.MaxValue;
             }
+
+            string biggerType = "";
 
             if (numMax <= byte.MaxValue)
             {
