@@ -65,6 +65,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataOverflow", "DataOverflo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsWords", "DigitsWords\DigitsWords.csproj", "{D6CA297B-0929-4444-8893-05C8AF2733C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCIIString", "ASCIIString\ASCIIString.csproj", "{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{D6CA297B-0929-4444-8893-05C8AF2733C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6CA297B-0929-4444-8893-05C8AF2733C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6CA297B-0929-4444-8893-05C8AF2733C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
