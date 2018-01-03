@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumChars", "SumChars\SumCha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringConcatenation", "StringConcatenation\StringConcatenation.csproj", "{49ED763F-B5D3-45E6-9797-B286CE68FF76}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerKegs", "BeerKegs\BeerKegs.csproj", "{2545EFFA-B680-4D2D-BC52-31E073D73550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{49ED763F-B5D3-45E6-9797-B286CE68FF76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49ED763F-B5D3-45E6-9797-B286CE68FF76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49ED763F-B5D3-45E6-9797-B286CE68FF76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2545EFFA-B680-4D2D-BC52-31E073D73550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2545EFFA-B680-4D2D-BC52-31E073D73550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2545EFFA-B680-4D2D-BC52-31E073D73550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2545EFFA-B680-4D2D-BC52-31E073D73550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
