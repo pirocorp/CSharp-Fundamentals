@@ -42,10 +42,10 @@ namespace SentenceThief
                 yearsInPrison = (long)Math.Ceiling(thief / -128.0);
             }
 
-            string years;
+            string years = yearsInPrison > 1 ? "years" : "year";
 
-            if (yearsInPrison > 1) years = "years";
-            else years = "year";
+            //if (yearsInPrison > 1) years = "years";
+            //else years = "year";
 
             Console.WriteLine($"Prisoner with id {thief} is sentenced to {yearsInPrison} {years}");
         }
