@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TravelingLightSpeed", "Trav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleFormations", "TriangleFormations\TriangleFormations.csproj", "{0A29DDCA-0432-4DCE-8256-F41CB7451B84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataOverflow", "DataOverflow\DataOverflow.csproj", "{36B8CA35-FEA2-43F4-9281-9280787A9124}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{0A29DDCA-0432-4DCE-8256-F41CB7451B84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A29DDCA-0432-4DCE-8256-F41CB7451B84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A29DDCA-0432-4DCE-8256-F41CB7451B84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36B8CA35-FEA2-43F4-9281-9280787A9124}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36B8CA35-FEA2-43F4-9281-9280787A9124}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36B8CA35-FEA2-43F4-9281-9280787A9124}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36B8CA35-FEA2-43F4-9281-9280787A9124}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
