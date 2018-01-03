@@ -67,6 +67,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitsWords", "DigitsWords\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASCIIString", "ASCIIString\ASCIIString.csproj", "{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{F791E4D5-7AD5-4074-AC79-9A01AD3DD743}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -201,6 +203,10 @@ Global
 		{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B9EF195-5635-4CDC-B88A-99AC4FC5869C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F791E4D5-7AD5-4074-AC79-9A01AD3DD743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F791E4D5-7AD5-4074-AC79-9A01AD3DD743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F791E4D5-7AD5-4074-AC79-9A01AD3DD743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F791E4D5-7AD5-4074-AC79-9A01AD3DD743}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
