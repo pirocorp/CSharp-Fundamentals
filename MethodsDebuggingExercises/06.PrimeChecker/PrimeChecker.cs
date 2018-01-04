@@ -6,28 +6,19 @@ namespace PrimeChecker
     {
         static void Main()
         {
-            long startNum = long.Parse(Console.ReadLine());
-            long endNum = long.Parse(Console.ReadLine());
-            string result = PrimeInRange(startNum, endNum);
-            Console.WriteLine(result);
-            //Console.WriteLine(IsPrime(n));
-        }
-
-        static string PrimeInRange(long startNum, long endNum)
-        {
-            if (endNum <= startNum) return string.Empty;
-
-            string result = string.Empty;
-            for (long i = startNum; i <= endNum; i++)
-            {
-                if (IsPrime(i))
-                {
-                    result += i + ", ";
-                }
-            }
-
-            result = result.Remove(result.Length - 2);
-            return result;
+            long n = long.Parse(Console.ReadLine());
+            //for (int i = 0; i <= n; i++)
+            //{
+            //    if (IsPrime(i))
+            //    {
+            //        Console.WriteLine($"{i} true");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine($"{i} false");
+            //    }
+            //}
+            Console.WriteLine(IsPrime(n));
         }
 
         static bool IsPrime(long number)
