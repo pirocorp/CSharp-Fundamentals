@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlankReceipt", "BlankReceip
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignOfInteger", "SignOfInteger\SignOfInteger.csproj", "{1A28D87A-A37F-4427-8835-48B780D77607}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintingTriangle", "PrintingTriangle\PrintingTriangle.csproj", "{2D086A7A-5C9B-4BE4-A369-52D7524FCB2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A28D87A-A37F-4427-8835-48B780D77607}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A28D87A-A37F-4427-8835-48B780D77607}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A28D87A-A37F-4427-8835-48B780D77607}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D086A7A-5C9B-4BE4-A369-52D7524FCB2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D086A7A-5C9B-4BE4-A369-52D7524FCB2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D086A7A-5C9B-4BE4-A369-52D7524FCB2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D086A7A-5C9B-4BE4-A369-52D7524FCB2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
