@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.HelloName!", "HelloName!\1.HelloName!.csproj", "{7ACFE9B7-1BEE-4723-8E7C-8804864958E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.HelloName!", "HelloName!\01.HelloName!.csproj", "{7ACFE9B7-1BEE-4723-8E7C-8804864958E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MaxMethod", "2.MaxMethod\2.MaxMethod.csproj", "{D93B4503-953D-40AF-8FFA-B641764C2FA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.MaxMethod", "2.MaxMethod\02.MaxMethod.csproj", "{D93B4503-953D-40AF-8FFA-B641764C2FA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.EnglishNameOfTheLastDigit", "3.EnglishNameOfTheLastDigit\3.EnglishNameOfTheLastDigit.csproj", "{0DB827BE-49AF-481C-87A0-CCBE9D38F92F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.EnglishNameOfTheLastDigit", "3.EnglishNameOfTheLastDigit\03.EnglishNameOfTheLastDigit.csproj", "{0DB827BE-49AF-481C-87A0-CCBE9D38F92F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Numbers in Reversed Order", "04. Numbers in Reversed Order\04. Numbers in Reversed Order.csproj", "{156C677F-39BD-457B-B70D-4C9ED6A08795}"
 EndProject
