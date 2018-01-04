@@ -21,16 +21,17 @@ namespace BlankReceipt
             Console.WriteLine("CASH RECEIPT");
             Console.WriteLine("------------------------------");
         }
+
         static void PrintBody()
         {
             Console.WriteLine("Charged to____________________");
             Console.WriteLine("Received by___________________");
         }
+
         static void PrintFooter()
         {
             Console.WriteLine("------------------------------");
             Console.WriteLine("© SoftUni");
         }
-
     }
 }
