@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.MaxMethod", "2.MaxMethod\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.EnglishNameOfTheLastDigit", "3.EnglishNameOfTheLastDigit\3.EnglishNameOfTheLastDigit.csproj", "{0DB827BE-49AF-481C-87A0-CCBE9D38F92F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Numbers in Reversed Order", "04. Numbers in Reversed Order\04. Numbers in Reversed Order.csproj", "{156C677F-39BD-457B-B70D-4C9ED6A08795}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0DB827BE-49AF-481C-87A0-CCBE9D38F92F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DB827BE-49AF-481C-87A0-CCBE9D38F92F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DB827BE-49AF-481C-87A0-CCBE9D38F92F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156C677F-39BD-457B-B70D-4C9ED6A08795}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156C677F-39BD-457B-B70D-4C9ED6A08795}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156C677F-39BD-457B-B70D-4C9ED6A08795}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156C677F-39BD-457B-B70D-4C9ED6A08795}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
