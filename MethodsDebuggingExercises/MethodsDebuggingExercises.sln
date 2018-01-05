@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.SequenceCommands", "18.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19.String Repeater", "19.String Repeater\19.String Repeater.csproj", "{E16095A7-46CB-4DAC-B5DF-3754D6A19443}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20.Notifications", "20.Notifications\20.Notifications.csproj", "{F1261464-95A6-472A-A4C2-3C3B6A57B359}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{E16095A7-46CB-4DAC-B5DF-3754D6A19443}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E16095A7-46CB-4DAC-B5DF-3754D6A19443}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E16095A7-46CB-4DAC-B5DF-3754D6A19443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1261464-95A6-472A-A4C2-3C3B6A57B359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1261464-95A6-472A-A4C2-3C3B6A57B359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1261464-95A6-472A-A4C2-3C3B6A57B359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1261464-95A6-472A-A4C2-3C3B6A57B359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
