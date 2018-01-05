@@ -49,10 +49,8 @@ namespace MasterNumber
             {
                 return true;
             }
-            else
-            {
-                return false;
-            }
+
+            return false;            
         }
 
         static bool IsSymetric(int number)
