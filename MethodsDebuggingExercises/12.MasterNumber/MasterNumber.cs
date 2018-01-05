@@ -57,28 +57,19 @@ namespace MasterNumber
 
         static bool IsSymetric(int number)
         {
-            string n = number.ToString();
-            for (int i = 0; i < n.Length / 2; i++)
-            {
-                if (n[i] != n[n.Length - 1 - i]) { return false; }
-            }
-            return true;
-            //string numberString = number.ToString();
-            //string resultString = string.Empty;
-            //for (int i = numberString.Length - 1; i >= 0; i--)
-            //{
-            //    char currentNumber = numberString[i];
-            //    resultString += currentNumber;
-            //}
+            int currentNumber = number;
+            int palendrom = 0;
 
-            //if(numberString == resultString)
-            //{
-            //    return true;
-            //}
-            //else
-            //{
-            //    return false;
-            //}
+            while(currentNumber != 0)
+            {
+                palendrom *= 10;
+                palendrom += currentNumber % 10;
+                currentNumber /= 10;
+            }
+
+            if (palendrom == number) return true;
+
+            return false;
         }
     }
 }
