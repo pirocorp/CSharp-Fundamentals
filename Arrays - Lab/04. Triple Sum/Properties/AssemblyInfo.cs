@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("03. Last K Numbers Sums")]
+[assembly: AssemblyTitle("04. Triple Sum")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("03. Last K Numbers Sums")]
+[assembly: AssemblyProduct("04. Triple Sum")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("673daf0f-9d22-4510-917d-a413a5cd5920")]
+[assembly: Guid("cbf4149c-126b-4047-bf3e-c5dd30cfb687")]
 
 // Version information for an assembly consists of the following four values:
 //

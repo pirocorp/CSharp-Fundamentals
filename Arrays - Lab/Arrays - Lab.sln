@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Reverse Array of Intege
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Last K Numbers Sums", "03. Last K Numbers Sums\03. Last K Numbers Sums.csproj", "{673DAF0F-9D22-4510-917D-A413A5CD5920}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Triple Sum", "04. Triple Sum\04. Triple Sum.csproj", "{CBF4149C-126B-4047-BF3E-C5DD30CFB687}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{673DAF0F-9D22-4510-917D-A413A5CD5920}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{673DAF0F-9D22-4510-917D-A413A5CD5920}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{673DAF0F-9D22-4510-917D-A413A5CD5920}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF4149C-126B-4047-BF3E-C5DD30CFB687}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF4149C-126B-4047-BF3E-C5DD30CFB687}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF4149C-126B-4047-BF3E-C5DD30CFB687}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF4149C-126B-4047-BF3E-C5DD30CFB687}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
