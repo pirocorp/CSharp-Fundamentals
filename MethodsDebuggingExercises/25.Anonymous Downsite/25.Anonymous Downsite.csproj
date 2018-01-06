@@ -7,7 +7,7 @@
     <ProjectGuid>{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>_25.Anonymous_Downsite</RootNamespace>
-    <AssemblyName>_25.Anonymous_Downsite</AssemblyName>
+    <AssemblyName>25.Anonymous Downsite</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -34,6 +34,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -42,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="AnonymousDownsite.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -51,6 +51,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23.Debugging Exercise Tetri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24.Debugging Exercise Mining Coins", "22.Debugging Exercise Mining Coins\24.Debugging Exercise Mining Coins.csproj", "{A775D855-8214-4261-9AEF-C840E0AD3F0D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25.Anonymous Downsite", "25.Anonymous Downsite\25.Anonymous Downsite.csproj", "{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{A775D855-8214-4261-9AEF-C840E0AD3F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A775D855-8214-4261-9AEF-C840E0AD3F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A775D855-8214-4261-9AEF-C840E0AD3F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
