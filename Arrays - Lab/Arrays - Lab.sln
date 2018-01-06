@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Last K Numbers Sums", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Triple Sum", "04. Triple Sum\04. Triple Sum.csproj", "{CBF4149C-126B-4047-BF3E-C5DD30CFB687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Rounding Numbers", "05. Rounding Numbers\05. Rounding Numbers.csproj", "{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{CBF4149C-126B-4047-BF3E-C5DD30CFB687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBF4149C-126B-4047-BF3E-C5DD30CFB687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBF4149C-126B-4047-BF3E-C5DD30CFB687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
