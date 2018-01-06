@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24.Debugging Exercise Minin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25.Anonymous Downsite", "25.Anonymous Downsite\25.Anonymous Downsite.csproj", "{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26.Hornet Wings", "26.Hornet Wings\26.Hornet Wings.csproj", "{22B8D4CD-A2B7-4B83-9C8E-121655708BBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{536B9C45-84A2-4BE7-9B90-BD13589AA1D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B8D4CD-A2B7-4B83-9C8E-121655708BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B8D4CD-A2B7-4B83-9C8E-121655708BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B8D4CD-A2B7-4B83-9C8E-121655708BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B8D4CD-A2B7-4B83-9C8E-121655708BBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
