@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26.Hornet Wings", "26.Horne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27.Poke Mon", "27.Poke Mon\27.Poke Mon.csproj", "{2D67279F-71C8-46AA-BA62-EC077450121A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28.Resurrection", "28.Resurrection\28.Resurrection.csproj", "{F6E7C459-E11F-4818-9FE7-DBF3BDD598CD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{2D67279F-71C8-46AA-BA62-EC077450121A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D67279F-71C8-46AA-BA62-EC077450121A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D67279F-71C8-46AA-BA62-EC077450121A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6E7C459-E11F-4818-9FE7-DBF3BDD598CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6E7C459-E11F-4818-9FE7-DBF3BDD598CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6E7C459-E11F-4818-9FE7-DBF3BDD598CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6E7C459-E11F-4818-9FE7-DBF3BDD598CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
