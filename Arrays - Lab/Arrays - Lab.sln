@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Triple Sum", "04. Tripl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Rounding Numbers", "05. Rounding Numbers\05. Rounding Numbers.csproj", "{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Reverse Array of Strings", "06. Reverse Array of Strings\06. Reverse Array of Strings.csproj", "{720E637B-C59E-4447-B90C-AAEDB325B1E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C45E33F-7D10-4E87-8456-EC1B42D2FEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{720E637B-C59E-4447-B90C-AAEDB325B1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{720E637B-C59E-4447-B90C-AAEDB325B1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{720E637B-C59E-4447-B90C-AAEDB325B1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{720E637B-C59E-4447-B90C-AAEDB325B1E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
