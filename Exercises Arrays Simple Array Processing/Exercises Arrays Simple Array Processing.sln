@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Array Elements Equal to
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Phonebook", "13. Phonebook\13. Phonebook.csproj", "{7FBDD745-898C-497E-B6F4-17B2EEC19618}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Phone", "14. Phone\14. Phone.csproj", "{1778B504-84B8-446B-867A-53E002196B2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{7FBDD745-898C-497E-B6F4-17B2EEC19618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FBDD745-898C-497E-B6F4-17B2EEC19618}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FBDD745-898C-497E-B6F4-17B2EEC19618}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1778B504-84B8-446B-867A-53E002196B2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1778B504-84B8-446B-867A-53E002196B2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1778B504-84B8-446B-867A-53E002196B2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1778B504-84B8-446B-867A-53E002196B2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
