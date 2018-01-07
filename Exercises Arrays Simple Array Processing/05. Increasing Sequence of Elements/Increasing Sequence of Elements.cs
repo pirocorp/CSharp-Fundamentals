@@ -16,7 +16,7 @@ namespace _05.Increasing_Sequence_of_Elements
             bool isIncreasingSsequence = true;
             for (int i = 0; i < numbers.Length-1; i++)
             {
-                if (numbers[i] > numbers[i+1])
+                if (numbers[i] >= numbers[i+1])
                 {
                     isIncreasingSsequence = false;
                     break;
