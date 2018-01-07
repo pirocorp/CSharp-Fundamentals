@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _09.Extract_Middle_Elements
 {
@@ -11,21 +8,19 @@ namespace _09.Extract_Middle_Elements
         static void Main()
         {
             //Input and Processing Data
-            string consoleLine = Console.ReadLine();
+            
             char[] delimeterList = {' '};
-            string[] inputStrings = consoleLine.Split(delimeterList, StringSplitOptions.RemoveEmptyEntries);
-            int[] numbers = inputStrings.Select(int.Parse).ToArray();
+            int[] numbers = Console.ReadLine()
+                .Split(delimeterList, StringSplitOptions.RemoveEmptyEntries)
+                .Select(int.Parse)
+                .ToArray();
 
             int[] middleElements = ExtractMiddleElements(numbers);
 
-            Console.Write("{");
-            Console.Write(" {0},", middleElements[0]);
-            for (int i = 1; i < middleElements.Length; i++)
-            {
-                Console.Write($" {middleElements[i]},");
-            }
+            //string.Join
 
-            Console.WriteLine("\b }");
+            string result = string.Join(", ", middleElements);
+            Console.WriteLine("{ " + result + " }");
         }
 
         private static int[] ExtractMiddleElements(int[] numbers)
