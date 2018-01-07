@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("13. Rotate Array of Strings")]
+[assembly: AssemblyTitle("14. Count of Odd Numbers in Array")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("13. Rotate Array of Strings")]
+[assembly: AssemblyProduct("14. Count of Odd Numbers in Array")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8954d482-f117-49f6-bce7-17840349fb96")]
+[assembly: Guid("3f84fc55-1a58-46c4-8855-998c5cd82506")]
 
 // Version information for an assembly consists of the following four values:
 //

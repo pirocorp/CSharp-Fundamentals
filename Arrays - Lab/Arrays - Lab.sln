@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Smallest Element in Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Rotate Array of Strings", "13. Rotate Array of Strings\13. Rotate Array of Strings.csproj", "{8954D482-F117-49F6-BCE7-17840349FB96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Count of Odd Numbers in Array", "14. Count of Odd Numbers in Array\14. Count of Odd Numbers in Array.csproj", "{3F84FC55-1A58-46C4-8855-998C5CD82506}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{8954D482-F117-49F6-BCE7-17840349FB96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8954D482-F117-49F6-BCE7-17840349FB96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8954D482-F117-49F6-BCE7-17840349FB96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F84FC55-1A58-46C4-8855-998C5CD82506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F84FC55-1A58-46C4-8855-998C5CD82506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F84FC55-1A58-46C4-8855-998C5CD82506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F84FC55-1A58-46C4-8855-998C5CD82506}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
