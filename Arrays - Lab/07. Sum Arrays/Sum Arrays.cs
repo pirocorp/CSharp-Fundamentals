@@ -30,18 +30,20 @@ namespace _07.Sum_Arrays
 
         private static int[] SumArrays(int[] arrayOfNumbers1, int[] arrayOfNumbers2)
         {
-            if (arrayOfNumbers2.Length > arrayOfNumbers1.Length)
-            {
-                int[] arraySwap = arrayOfNumbers1;
-                arrayOfNumbers1 = arrayOfNumbers2;
-                arrayOfNumbers2 = arraySwap;
-            }
+            //if (arrayOfNumbers2.Length > arrayOfNumbers1.Length)
+            //{
+            //    int[] arraySwap = arrayOfNumbers1;
+            //    arrayOfNumbers1 = arrayOfNumbers2;
+            //    arrayOfNumbers2 = arraySwap;
+            //}
 
-            int[] sumOfArrays = new int[arrayOfNumbers1.Length];
+            int lenght = Math.Max(arrayOfNumbers1.Length, arrayOfNumbers2.Length);
 
-            for (int i = 0; i < sumOfArrays.Length; i++)
+            int[] sumOfArrays = new int[lenght];
+
+            for (int i = 0; i < lenght; i++)
             {
-                sumOfArrays[i] = arrayOfNumbers1[i] + arrayOfNumbers2[i % arrayOfNumbers2.Length];
+                sumOfArrays[i] = arrayOfNumbers1[i % arrayOfNumbers1.Length] + arrayOfNumbers2[i % arrayOfNumbers2.Length];
             }
 
             return sumOfArrays;
