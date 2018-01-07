@@ -1,14 +1,13 @@
-﻿using System;
-using System.Linq;
-
-namespace _09.Extract_Middle_Elements
+﻿namespace _09.Extract_Middle_Elements
 {
+    using System;
+    using System.Linq;
+
     class Program
     {
         static void Main()
         {
             //Input and Processing Data
-            
             char[] delimeterList = {' '};
             int[] numbers = Console.ReadLine()
                 .Split(delimeterList, StringSplitOptions.RemoveEmptyEntries)
@@ -16,8 +15,6 @@ namespace _09.Extract_Middle_Elements
                 .ToArray();
 
             int[] middleElements = ExtractMiddleElements(numbers);
-
-            //string.Join
 
             string result = string.Join(", ", middleElements);
             Console.WriteLine("{ " + result + " }");
