@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Extract Middle Elements
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Sum Array Elements", "10. Sum Array Elements\10. Sum Array Elements.csproj", "{4A8A2E0A-F859-48D2-87F9-406E8DCB0049}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Multiply an Array of Doubles", "11. Multiply an Array of Doubles\11. Multiply an Array of Doubles.csproj", "{79FE165D-0CCE-4D7F-B544-36C26556FD53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{4A8A2E0A-F859-48D2-87F9-406E8DCB0049}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A8A2E0A-F859-48D2-87F9-406E8DCB0049}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A8A2E0A-F859-48D2-87F9-406E8DCB0049}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FE165D-0CCE-4D7F-B544-36C26556FD53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FE165D-0CCE-4D7F-B544-36C26556FD53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FE165D-0CCE-4D7F-B544-36C26556FD53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FE165D-0CCE-4D7F-B544-36C26556FD53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

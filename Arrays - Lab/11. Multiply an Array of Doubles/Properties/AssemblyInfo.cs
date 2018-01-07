@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("10. Sum Array Elements")]
+[assembly: AssemblyTitle("11. Multiply an Array of Doubles")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("10. Sum Array Elements")]
+[assembly: AssemblyProduct("11. Multiply an Array of Doubles")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4a8a2e0a-f859-48d2-87f9-406e8dcb0049")]
+[assembly: Guid("79fe165d-0cce-4d7f-b544-36c26556fd53")]
 
 // Version information for an assembly consists of the following four values:
 //
