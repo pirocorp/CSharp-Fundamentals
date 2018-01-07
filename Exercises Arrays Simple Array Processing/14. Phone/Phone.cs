@@ -14,13 +14,7 @@
             {
                 if (command.Length == 1)
                 {
-                    for (int i = 0; i < names.Length; i++)
-                    {
-                        if (command[0] == names[i] && i < phoneNumber.Length)
-                        {
-                            Console.WriteLine($"{command[0]} -> {phoneNumber[i]}");
-                        }
-                    }
+                    PrintContact(names, command, phoneNumber);
                 }
                 else
                 {
@@ -35,6 +29,17 @@
                 }
 
                 command = Console.ReadLine().Split(delimeterList, StringSplitOptions.RemoveEmptyEntries);
+            }
+        }
+
+        private static void PrintContact(string[] names, string[] command, string[] phoneNumber)
+        {
+            for (int i = 0; i < names.Length; i++)
+            {
+                if (command[0] == names[i] && i < phoneNumber.Length)
+                {
+                    Console.WriteLine($"{command[0]} -> {phoneNumber[i]}");
+                }
             }
         }
 
