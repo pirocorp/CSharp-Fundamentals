@@ -14,7 +14,7 @@ namespace _07.Count_of_Capital_Letters_in_Array
             int count = 0;
             for (int i = 0; i < inputStrings.Length; i++)
             {
-                if (inputStrings[i].Length == 1 && inputStrings[0][0] >= 'A' && inputStrings[0][0] <= 'Z')
+                if (inputStrings[i].Length == 1 && inputStrings[i][0] >= 'A' && inputStrings[i][0] <= 'Z')
                 {
                     count++;
                 }
