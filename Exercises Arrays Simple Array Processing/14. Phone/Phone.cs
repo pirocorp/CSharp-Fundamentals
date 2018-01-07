@@ -1,7 +1,6 @@
-﻿using System;
-
-namespace _14.Phone
+﻿namespace _14.Phone
 {
+    using System;
     class Phone
     {
         static void Main()
@@ -39,89 +38,97 @@ namespace _14.Phone
             }
         }
 
-        private static void PrintMessage(string[] phoneNumber, string[] names, string s)
+        private static void PrintCall(string[] phoneNumber, string[] names, string element)
         {
-            bool isNumber = IsNumber(phoneNumber, s);
+            bool isNumber = IsNumber(phoneNumber, element);
 
             if (isNumber)
             {
-                int elementIndex = -1;
-                for (int i = 0; i < phoneNumber.Length; i++)
-                {
-                    if (s == phoneNumber[i]) elementIndex = i;
-                }
+                int elementIndex = ElementIndex(phoneNumber, element);
+                Console.WriteLine($"calling {names[elementIndex]}...");
+                int sumOfDigits = SumOfDigits(element);
+                CallResult(sumOfDigits);
+            }
+            else
+            {
+                int elementIndex = ElementIndex(names, element);
+                Console.WriteLine($"calling {phoneNumber[elementIndex]}...");
+                int sumOfDigits = SumOfDigits(phoneNumber[elementIndex]);
+                CallResult(sumOfDigits);
+            }
+        }
 
+        private static void PrintMessage(string[] phoneNumber, string[] names, string element)
+        {
+            bool isNumber = IsNumber(phoneNumber, element);
+
+            if (isNumber)
+            {
+                int elementIndex = ElementIndex(phoneNumber, element);
                 Console.WriteLine($"sending sms to {names[elementIndex]}...");
-                int diferenceFromDigits = DiferenceFromDigits(s);
+                int diferenceFromDigits = DiferenceFromDigits(element);
                 MessageResult(diferenceFromDigits);
             }
             else
             {
-                int elementIndex = -1;
-                for (int i = 0; i < names.Length; i++)
-                {
-                    if (s == names[i]) elementIndex = i;
-                }
+                int elementIndex = ElementIndex(names, element);
                 Console.WriteLine($"sending sms to {phoneNumber[elementIndex]}...");
                 int diferenceFromDigits = DiferenceFromDigits(phoneNumber[elementIndex]);
                 MessageResult(diferenceFromDigits);
             }
         }
 
-        private static void MessageResult(int diferenceFromDigits)
+        private static bool IsNumber(string[] phoneNumber, string element)
         {
-            if (diferenceFromDigits % 2 == 0)
+            bool isNumber = false;
+
+            for (int i = 0; i < phoneNumber.Length; i++)
             {
-                Console.WriteLine("meet me there");
+                if (element == phoneNumber[i]) isNumber = true;
             }
-            else
-            {
-                Console.WriteLine("busy");
-            }
+
+            return isNumber;
         }
 
-        private static int DiferenceFromDigits(string s)
+        private static int ElementIndex(string[] phoneNumber, string element)
+        {
+            int elementIndex = -1;
+            for (int i = 0; i < phoneNumber.Length; i++)
+            {
+                if (element == phoneNumber[i]) elementIndex = i;
+            }
+
+            return elementIndex;
+        }
+
+        private static int SumOfDigits(string element)
+        {
+            int sum = 0;
+            for (int i = 0; i < element.Length; i++)
+            {
+                if (element[i] >= '0' && element[i] <= '9')
+                {
+                    string str = new string(element[i], 1);
+                    sum += int.Parse(str);
+                }
+            }
+
+            return sum;
+        }
+
+        private static int DiferenceFromDigits(string element)
         {
             int diference = 0;
-            for (int i = 0; i < s.Length; i++)
+            for (int i = 0; i < element.Length; i++)
             {
-                if (s[i] >= '0' && s[i] <= '9')
+                if (element[i] >= '0' && element[i] <= '9')
                 {
-                    string element = new string(s[i], 1);
-                    diference -= int.Parse(element);
+                    string str = new string(element[i], 1);
+                    diference -= int.Parse(str);
                 }
             }
 
             return diference;
-        }
-
-        private static void PrintCall(string[] phoneNumber, string[] names, string s)
-        {
-            bool isNumber = IsNumber(phoneNumber, s);
-
-            if (isNumber)
-            {
-                int elementIndex = -1;
-                for (int i = 0; i < phoneNumber.Length; i++)
-                {
-                    if (s == phoneNumber[i]) elementIndex = i;
-                }
-
-                Console.WriteLine($"calling {names[elementIndex]}...");
-                int sumOfDigits = SumOfDigits(s);
-                CallResult(sumOfDigits);
-            }
-            else
-            {
-                int elementIndex = -1;
-                for (int i = 0; i < names.Length; i++)
-                {
-                    if (s == names[i]) elementIndex = i;
-                }
-                Console.WriteLine($"calling {phoneNumber[elementIndex]}...");
-                int sumOfDigits = SumOfDigits(phoneNumber[elementIndex]);
-                CallResult(sumOfDigits);
-            }
         }
 
         private static void CallResult(int sumOfDigits)
@@ -138,31 +145,16 @@ namespace _14.Phone
             }
         }
 
-        private static int SumOfDigits(string s)
+        private static void MessageResult(int diferenceFromDigits)
         {
-            int sum = 0;
-            for (int i = 0; i < s.Length; i++)
+            if (diferenceFromDigits % 2 == 0)
             {
-                if (s[i] >= '0' && s[i] <= '9')
-                {
-                    string element = new string (s[i], 1);
-                    sum += int.Parse(element);
-                }
+                Console.WriteLine("meet me there");
             }
-
-            return sum;
-        }
-
-        private static bool IsNumber(string[] phoneNumber, string s)
-        {
-            bool isNumber = false;
-
-            for (int i = 0; i < phoneNumber.Length; i++)
+            else
             {
-                if (s == phoneNumber[i]) isNumber = true;
+                Console.WriteLine("busy");
             }
-
-            return isNumber;
         }
     }
 }
