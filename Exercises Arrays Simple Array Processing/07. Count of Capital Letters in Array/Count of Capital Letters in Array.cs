@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 namespace _07.Count_of_Capital_Letters_in_Array
 {
