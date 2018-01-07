@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Count of Given Element i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Count Occurrences of Larger Numbers", "04. Count Occurrences of Larger Numbers\04. Count Occurrences of Larger Numbers.csproj", "{0DBC3844-7734-486D-991A-F7A83B0C603E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Increasing Sequence of Elements", "05. Increasing Sequence of Elements\05. Increasing Sequence of Elements.csproj", "{C4A00DED-B8D2-42E2-BD4F-50E50CEE0C88}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{0DBC3844-7734-486D-991A-F7A83B0C603E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DBC3844-7734-486D-991A-F7A83B0C603E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DBC3844-7734-486D-991A-F7A83B0C603E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4A00DED-B8D2-42E2-BD4F-50E50CEE0C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4A00DED-B8D2-42E2-BD4F-50E50CEE0C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4A00DED-B8D2-42E2-BD4F-50E50CEE0C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4A00DED-B8D2-42E2-BD4F-50E50CEE0C88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
