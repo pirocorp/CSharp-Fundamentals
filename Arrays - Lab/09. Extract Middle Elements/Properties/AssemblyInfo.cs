@@ -1,14 +1,15 @@
 ﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("08. Condense Array to Number")]
+[assembly: AssemblyTitle("09. Extract Middle Elements")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("08. Condense Array to Number")]
+[assembly: AssemblyProduct("09. Extract Middle Elements")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1bbe0b31-94a1-4e5e-bc5a-acc71ec5d33b")]
+[assembly: Guid("20bc2c8d-5456-4732-b8d7-be0efae8bf0e")]
 
 // Version information for an assembly consists of the following four values:
 //
