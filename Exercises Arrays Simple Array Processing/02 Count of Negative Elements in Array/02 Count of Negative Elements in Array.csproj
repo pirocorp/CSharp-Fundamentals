@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE4A33F2-8E88-4063-AA7D-CB27FD052ADD}</ProjectGuid>
+    <ProjectGuid>{9F6449C8-7B07-4872-9AF9-4EA5DC5C382C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Largest_Element_in_Array</RootNamespace>
-    <AssemblyName>_01.Largest_Element_in_Array</AssemblyName>
+    <RootNamespace>_02_Count_of_Negative_Elements_in_Array</RootNamespace>
+    <AssemblyName>02 Count of Negative Elements in Array</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Largest Element in Array.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
