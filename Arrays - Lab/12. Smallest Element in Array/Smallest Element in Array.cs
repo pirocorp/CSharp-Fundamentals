@@ -28,8 +28,8 @@ namespace _12.Smallest_Element_in_Array
 
             }
 
+            smallest = numbers.Min();
             Console.WriteLine(smallest);
-
         }
     }
 }
