@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("02 Count of Negative Elements in Array")]
+[assembly: AssemblyTitle("03 Count of Given Element in Array")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("02 Count of Negative Elements in Array")]
+[assembly: AssemblyProduct("03 Count of Given Element in Array")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9f6449c8-7b07-4872-9af9-4ea5dc5c382c")]
+[assembly: Guid("7f726e5b-21b8-4520-906c-6419e4c6e244")]
 
 // Version information for an assembly consists of the following four values:
 //
