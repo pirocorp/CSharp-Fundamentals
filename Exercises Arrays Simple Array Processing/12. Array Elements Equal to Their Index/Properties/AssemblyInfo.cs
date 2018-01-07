@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("11. Last 3 Consecutive Equal Strings")]
+[assembly: AssemblyTitle("12. Array Elements Equal to Their Index")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("11. Last 3 Consecutive Equal Strings")]
+[assembly: AssemblyProduct("12. Array Elements Equal to Their Index")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("32650068-aa91-46b1-83ef-8687ecaf3173")]
+[assembly: Guid("cc90069d-82b2-4a5e-9ac0-3c6ad7d14bce")]
 
 // Version information for an assembly consists of the following four values:
 //
