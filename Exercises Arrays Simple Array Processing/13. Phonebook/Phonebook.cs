@@ -13,15 +13,19 @@ namespace _13.Phonebook
             string name = Console.ReadLine();
             while (name != "done")
             {
-                for (int i = 0; i < names.Length; i++)
-                {
-                    if (name == names[i] && i < phoneNumber.Length)
-                    {
-                        Console.WriteLine($"{name} -> {phoneNumber[i]}");
-                    }
-                }
-
+                PrintContact(names, name, phoneNumber);
                 name = Console.ReadLine();
+            }
+        }
+
+        private static void PrintContact(string[] names, string name, string[] phoneNumber)
+        {
+            for (int i = 0; i < names.Length; i++)
+            {
+                if (name == names[i] && i < phoneNumber.Length)
+                {
+                    Console.WriteLine($"{name} -> {phoneNumber[i]}");
+                }
             }
         }
     }
