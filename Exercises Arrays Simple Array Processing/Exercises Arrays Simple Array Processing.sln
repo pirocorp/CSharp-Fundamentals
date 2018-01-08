@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Phone", "14. Phone\14. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Char Rotation", "15. Char Rotation\15. Char Rotation.csproj", "{59C62B57-E6B5-4485-AE59-DCC5E9184C3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Power Plants", "16. Power Plants\16. Power Plants.csproj", "{811F2CB7-7A35-4EA0-ADA4-F5E84268E918}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{59C62B57-E6B5-4485-AE59-DCC5E9184C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59C62B57-E6B5-4485-AE59-DCC5E9184C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59C62B57-E6B5-4485-AE59-DCC5E9184C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{811F2CB7-7A35-4EA0-ADA4-F5E84268E918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811F2CB7-7A35-4EA0-ADA4-F5E84268E918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811F2CB7-7A35-4EA0-ADA4-F5E84268E918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811F2CB7-7A35-4EA0-ADA4-F5E84268E918}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
