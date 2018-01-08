@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 
 namespace _17.Resizable_Array
 {
@@ -93,23 +92,6 @@ namespace _17.Resizable_Array
             }
         }
 
-        private static double[] SortArrey(double[] numbers)
-        {
-            double [] sortedArray = new double[numbers.Length];
-            Initialise(sortedArray);
-            int sortedIndex = 0;
-            for (int indexNumbers = 0; indexNumbers < numbers.Length; indexNumbers++)
-            {
-                if (!Double.IsNaN(numbers[indexNumbers]))
-                {
-                    sortedArray[sortedIndex] = numbers[indexNumbers];
-                    sortedIndex++;
-                }
-            }
-
-            return sortedArray;
-        }
-
         private static int GetIndexOfFreeSpaceInArray(double[] numbers)
         {
             for (int index = numbers.Length - 1; index >= 0; index--)
@@ -192,6 +174,23 @@ namespace _17.Resizable_Array
             }
 
             return arrayIsEmpty;
+        }
+        
+        private static double[] SortArrey(double[] numbers)
+        {
+            double[] sortedArray = new double[numbers.Length];
+            Initialise(sortedArray);
+            int sortedIndex = 0;
+            for (int indexNumbers = 0; indexNumbers < numbers.Length; indexNumbers++)
+            {
+                if (!Double.IsNaN(numbers[indexNumbers]))
+                {
+                    sortedArray[sortedIndex] = numbers[indexNumbers];
+                    sortedIndex++;
+                }
+            }
+
+            return sortedArray;
         }
     }
 }
