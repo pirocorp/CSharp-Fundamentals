@@ -22,7 +22,7 @@ namespace _23.Max_Sequence_of_Equal_Elements
 
             for (int i = 1; i < numbers.Length; i++)
             {
-                if (numbers[i - 1] > numbers[i])
+                if (numbers[i - 1] < numbers[i])
                 {
                     lenth++;
                 }
