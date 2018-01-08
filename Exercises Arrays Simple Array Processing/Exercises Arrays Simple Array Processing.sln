@@ -53,6 +53,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24. Max Sequence of Increas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25. Most Frequent Number", "25. Most Frequent Number\25. Most Frequent Number.csproj", "{9DEDCBB3-370A-4466-B6A7-37CC0EBCD54B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Index of Letters", "26. Index of Letters\26. Index of Letters.csproj", "{F39CF6F7-8D03-47B7-B52A-75B75D48DC2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{9DEDCBB3-370A-4466-B6A7-37CC0EBCD54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DEDCBB3-370A-4466-B6A7-37CC0EBCD54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DEDCBB3-370A-4466-B6A7-37CC0EBCD54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F39CF6F7-8D03-47B7-B52A-75B75D48DC2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F39CF6F7-8D03-47B7-B52A-75B75D48DC2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F39CF6F7-8D03-47B7-B52A-75B75D48DC2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F39CF6F7-8D03-47B7-B52A-75B75D48DC2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
