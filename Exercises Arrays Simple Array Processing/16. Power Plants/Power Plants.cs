@@ -27,17 +27,11 @@ namespace _16.Power_Plants
                 EndOfSeason(plantsPowerLevel);
             }
 
-            int seasons = days / plantsPowerLevel.Length;
-
-            if (days % plantsPowerLevel.Length == 0)
-            {
-                seasons--;
-            }
-
+            var seasons = Seasons(days, plantsPowerLevel);
             var seasonString = SeasonString(seasons);
             Console.WriteLine($"survived {days} days ({seasons} {seasonString})");
         }
-
+        
         private static int AllDaysInSeason(int[] plantsPowerLevel)
         {
             int days = -1;
@@ -77,7 +71,19 @@ namespace _16.Power_Plants
                 if (plantsPowerLevel[plant] > 0) plantsPowerLevel[plant]++;
             }
         }
-        
+
+        private static int Seasons(int days, int[] plantsPowerLevel)
+        {
+            int seasons = days / plantsPowerLevel.Length;
+
+            if (days % plantsPowerLevel.Length == 0)
+            {
+                seasons--;
+            }
+
+            return seasons;
+        }
+
         private static string SeasonString(int seasons)
         {
             string seasonString = String.Empty;
