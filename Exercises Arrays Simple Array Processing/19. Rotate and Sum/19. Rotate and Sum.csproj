@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B132E282-BEAC-4171-A14D-B3D02C4D8B4D}</ProjectGuid>
+    <ProjectGuid>{BA9A9845-B9D7-4EAF-88D4-F90B0C46F8F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_18.Largest_Common_End</RootNamespace>
-    <AssemblyName>_18.Largest_Common_End</AssemblyName>
+    <RootNamespace>_19.Rotate_and_Sum</RootNamespace>
+    <AssemblyName>_19.Rotate_and_Sum</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Largest Common End.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
