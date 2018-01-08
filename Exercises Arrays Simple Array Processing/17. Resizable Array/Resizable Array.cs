@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace _17.Resizable_Array
 {
@@ -30,7 +31,7 @@ namespace _17.Resizable_Array
 
                 command = Console.ReadLine().Split();
             }
-
+            
             PrintArray(numbers);
         }
 
@@ -48,13 +49,14 @@ namespace _17.Resizable_Array
             }
             else
             {
+                //numbers = SortArrey(numbers);
                 int freeIndex = GetIndexOfFreeSpaceInArray(numbers);
                 numbers[freeIndex] = element;
             }
 
             return numbers;
         }
-
+        
         private static bool IsArrayFull(double[] numbers)
         {
             bool arrayIsFull = true;
@@ -91,30 +93,54 @@ namespace _17.Resizable_Array
             }
         }
 
-        private static int GetIndexOfFreeSpaceInArray(double[] numbers)
+        private static double[] SortArrey(double[] numbers)
         {
-            for (int index = 0; index < numbers.Length; index++)
+            double [] sortedArray = new double[numbers.Length];
+            Initialise(sortedArray);
+            int sortedIndex = 0;
+            for (int indexNumbers = 0; indexNumbers < numbers.Length; indexNumbers++)
             {
-                if (Double.IsNaN(numbers[index])) return index;
+                if (!Double.IsNaN(numbers[indexNumbers]))
+                {
+                    sortedArray[sortedIndex] = numbers[indexNumbers];
+                    sortedIndex++;
+                }
             }
 
-            return -1;
+            return sortedArray;
+        }
+
+        private static int GetIndexOfFreeSpaceInArray(double[] numbers)
+        {
+            for (int index = numbers.Length - 1; index >= 0; index--)
+            {
+                if (!Double.IsNaN(numbers[index]))
+                {
+                    if (index + 1 < numbers.Length)
+                    {
+                        return index + 1;
+                    }
+                }
+            }
+
+            return 0;
         }
 
         private static void Pop(double[] numbers)
         {
             int indexOfLastValidNumberInArray = LastValidNumberInArray(numbers);
-            numbers[indexOfLastValidNumberInArray] = double.NaN;
+            numbers[indexOfLastValidNumberInArray] = numbers[numbers.Length - 1]= double.NaN;
         }
 
         private static int LastValidNumberInArray(double[] numbers)
         {
             int lastValidIndex = 0;
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = numbers.Length -1; i >= 0; i--)
             {
                 if (!Double.IsNaN(numbers[i]))
                 {
                     lastValidIndex = i;
+                    return lastValidIndex;
                 }
             }
 
