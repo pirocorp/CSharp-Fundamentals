@@ -57,7 +57,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Index of Letters", "26.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. Equal Sums", "28. Equal Sums\28. Equal Sums.csproj", "{5E73CFCF-2E9B-4766-8B64-7021396E87D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27. Pairs by Difference", "27. Pairs by Difference\27. Pairs by Difference.csproj", "{B2A833B1-30EF-47DF-A5B3-A5A3255B3520}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27.Pairs by Difference", "27.Pairs by Difference\27.Pairs by Difference.csproj", "{E4185754-6F60-461F-A845-9D3578BBFEBE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -173,10 +173,10 @@ Global
 		{5E73CFCF-2E9B-4766-8B64-7021396E87D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E73CFCF-2E9B-4766-8B64-7021396E87D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E73CFCF-2E9B-4766-8B64-7021396E87D2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B2A833B1-30EF-47DF-A5B3-A5A3255B3520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B2A833B1-30EF-47DF-A5B3-A5A3255B3520}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B2A833B1-30EF-47DF-A5B3-A5A3255B3520}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B2A833B1-30EF-47DF-A5B3-A5A3255B3520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4185754-6F60-461F-A845-9D3578BBFEBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4185754-6F60-461F-A845-9D3578BBFEBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4185754-6F60-461F-A845-9D3578BBFEBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4185754-6F60-461F-A845-9D3578BBFEBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
