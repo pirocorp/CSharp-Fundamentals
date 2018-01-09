@@ -20,7 +20,7 @@ namespace _17.Resizable_Array
                         Pop(numbers);
                         break;
                     case "removeAt":
-                        RemoveAt(numbers, command[1]);
+                        numbers = RemoveAt(numbers, command[1]);
                         break;
                     case "clear":
                         Clear(numbers);
@@ -129,10 +129,52 @@ namespace _17.Resizable_Array
             return lastValidIndex;
         }
 
-        private static void RemoveAt(double[] numbers, string stringIndex)
+        private static double[] RemoveAt(double[] numbers, string stringIndex)
         {
             int index = int.Parse(stringIndex);
             numbers[index] = double.NaN;
+
+            numbers = DeFragmentedArray(numbers);
+            return numbers;
+        }
+
+        private static double[] DeFragmentedArray(double[] numbers)
+        {
+            int numberOfValuesInArray = NumberOfValuesInArray(numbers);
+
+            if (numberOfValuesInArray <= 0)
+            {
+                double[] array = new double[4];
+                Initialise(array);
+                return array;
+            }
+
+            double[] defragmentedArray = new double[numberOfValuesInArray];
+            int defragmentedArrayIndex = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (!double.IsNaN(numbers[i]))
+                {
+                    defragmentedArray[defragmentedArrayIndex] = numbers[i];
+                    defragmentedArrayIndex++;
+                }
+            }
+
+            return defragmentedArray;
+        }
+
+        private static int NumberOfValuesInArray(double[] numbers)
+        {
+            int numberOfValuesInArray = 0;
+            for (int i = 0; i < numbers.Length; i++)
+            {
+                if (!double.IsNaN(numbers[i]))
+                {
+                    numberOfValuesInArray++;
+                }
+            }
+
+            return numberOfValuesInArray;
         }
 
         private static void Clear(double[] numbers)
