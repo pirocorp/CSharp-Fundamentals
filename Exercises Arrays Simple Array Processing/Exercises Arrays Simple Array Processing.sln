@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33. Pizza Ingredients", "33
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34. Heists", "34. Heists\34. Heists.csproj", "{5E481465-5FAC-492C-A2C7-67BB1587CFCD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35. Inventory Matcher", "35. Inventory Matcher\35. Inventory Matcher.csproj", "{90BE5E94-A5D3-4FE8-8375-659C4A5618EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{5E481465-5FAC-492C-A2C7-67BB1587CFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E481465-5FAC-492C-A2C7-67BB1587CFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E481465-5FAC-492C-A2C7-67BB1587CFCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BE5E94-A5D3-4FE8-8375-659C4A5618EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BE5E94-A5D3-4FE8-8375-659C4A5618EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BE5E94-A5D3-4FE8-8375-659C4A5618EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BE5E94-A5D3-4FE8-8375-659C4A5618EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
