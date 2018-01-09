@@ -143,9 +143,7 @@ namespace _17.Resizable_Array
 
             if (numberOfValuesInArray <= 0)
             {
-                double[] array = new double[4];
-                Initialise(array);
-                return array;
+               return numbers;
             }
 
             double[] defragmentedArray = new double[numberOfValuesInArray];
