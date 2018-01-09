@@ -75,6 +75,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "35. Inventory Matcher", "35
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "36. Upgraded Matcher", "36. Upgraded Matcher\36. Upgraded Matcher.csproj", "{371245EF-9F4E-4AC8-82C7-2AD24B3889BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "37. Jump Around", "37. Jump Around\37. Jump Around.csproj", "{ACD53EB9-3A01-4BAA-8010-F0E3989DA549}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +227,10 @@ Global
 		{371245EF-9F4E-4AC8-82C7-2AD24B3889BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{371245EF-9F4E-4AC8-82C7-2AD24B3889BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{371245EF-9F4E-4AC8-82C7-2AD24B3889BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD53EB9-3A01-4BAA-8010-F0E3989DA549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD53EB9-3A01-4BAA-8010-F0E3989DA549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD53EB9-3A01-4BAA-8010-F0E3989DA549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD53EB9-3A01-4BAA-8010-F0E3989DA549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
