@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29. Array Statistics", "29.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30. Manipulate Array", "30. Manipulate Array\30. Manipulate Array.csproj", "{055153C4-9A85-451F-BACC-23FEFBC3A142}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "31. Safe Manipulation", "31. Safe Manipulation\31. Safe Manipulation.csproj", "{EA8655FA-E148-48D8-936A-9CD6366B42AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{055153C4-9A85-451F-BACC-23FEFBC3A142}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{055153C4-9A85-451F-BACC-23FEFBC3A142}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{055153C4-9A85-451F-BACC-23FEFBC3A142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8655FA-E148-48D8-936A-9CD6366B42AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8655FA-E148-48D8-936A-9CD6366B42AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8655FA-E148-48D8-936A-9CD6366B42AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8655FA-E148-48D8-936A-9CD6366B42AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
