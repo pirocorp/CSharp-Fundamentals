@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27.Pairs by Difference", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29. Array Statistics", "29. Array Statistics\29. Array Statistics.csproj", "{4628F9A7-4649-4882-A19D-44E40D226A96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30. Manipulate Array", "30. Manipulate Array\30. Manipulate Array.csproj", "{055153C4-9A85-451F-BACC-23FEFBC3A142}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{4628F9A7-4649-4882-A19D-44E40D226A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4628F9A7-4649-4882-A19D-44E40D226A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4628F9A7-4649-4882-A19D-44E40D226A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055153C4-9A85-451F-BACC-23FEFBC3A142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055153C4-9A85-451F-BACC-23FEFBC3A142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055153C4-9A85-451F-BACC-23FEFBC3A142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055153C4-9A85-451F-BACC-23FEFBC3A142}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
