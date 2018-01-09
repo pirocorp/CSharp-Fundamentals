@@ -48,7 +48,6 @@ namespace _17.Resizable_Array
             }
             else
             {
-                //numbers = SortArrey(numbers);
                 int freeIndex = GetIndexOfFreeSpaceInArray(numbers);
                 numbers[freeIndex] = element;
             }
@@ -216,23 +215,6 @@ namespace _17.Resizable_Array
             }
 
             return arrayIsEmpty;
-        }
-        
-        private static double[] SortArrey(double[] numbers)
-        {
-            double[] sortedArray = new double[numbers.Length];
-            Initialise(sortedArray);
-            int sortedIndex = 0;
-            for (int indexNumbers = 0; indexNumbers < numbers.Length; indexNumbers++)
-            {
-                if (!Double.IsNaN(numbers[indexNumbers]))
-                {
-                    sortedArray[sortedIndex] = numbers[indexNumbers];
-                    sortedIndex++;
-                }
-            }
-
-            return sortedArray;
         }
     }
 }
