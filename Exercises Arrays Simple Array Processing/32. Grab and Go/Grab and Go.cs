@@ -5,7 +5,7 @@ namespace _32.Grab_and_Go
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             char[] delimeterList = { ' ' };
             long[] numbers = Console.ReadLine()
