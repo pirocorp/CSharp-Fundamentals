@@ -23,6 +23,5 @@ namespace _29.Array_Statistics
             Console.WriteLine($"Sum = {sum}");
             Console.WriteLine($"Average = {average}");
         }
-
     }
 }
