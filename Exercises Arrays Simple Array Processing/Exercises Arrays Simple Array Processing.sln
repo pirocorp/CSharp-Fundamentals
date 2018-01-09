@@ -69,6 +69,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "32. Grab and Go", "32. Grab
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "33. Pizza Ingredients", "33. Pizza Ingredients\33. Pizza Ingredients.csproj", "{E677EE1F-2112-4761-8831-7554EA5935CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "34. Heists", "34. Heists\34. Heists.csproj", "{5E481465-5FAC-492C-A2C7-67BB1587CFCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{E677EE1F-2112-4761-8831-7554EA5935CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E677EE1F-2112-4761-8831-7554EA5935CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E677EE1F-2112-4761-8831-7554EA5935CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E481465-5FAC-492C-A2C7-67BB1587CFCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E481465-5FAC-492C-A2C7-67BB1587CFCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E481465-5FAC-492C-A2C7-67BB1587CFCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E481465-5FAC-492C-A2C7-67BB1587CFCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
