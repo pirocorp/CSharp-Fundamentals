@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("27.Pairs by Difference")]
+[assembly: AssemblyTitle("29. Array Statistics")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("27.Pairs by Difference")]
+[assembly: AssemblyProduct("29. Array Statistics")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("e4185754-6f60-461f-a845-9d3578bbfebe")]
+[assembly: Guid("4628f9a7-4649-4882-a19d-44e40d226a96")]
 
 // Version information for an assembly consists of the following four values:
 //
