@@ -21,7 +21,7 @@ namespace _34.Heists
             while (command[0] != "Jail" && command[1] != "Time")
             {
                 totalExpenses += long.Parse(command[1]);
-
+                 
                 for (int i = 0; i < command[0].Length; i++)
                 {
                     if (command[0][i] == '%')
