@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1B7F7E43-4518-468F-A19C-49C4FB348F78}</ProjectGuid>
+    <ProjectGuid>{84AB0C0B-F6AD-4877-B3E5-C583E21AFA54}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_06.Square_Numbers</RootNamespace>
-    <AssemblyName>_06.Square_Numbers</AssemblyName>
+    <RootNamespace>_07.Count_Numbers</RootNamespace>
+    <AssemblyName>_07.Count_Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Square Numbers.cs" />
+    <Compile Include="Count Numbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
