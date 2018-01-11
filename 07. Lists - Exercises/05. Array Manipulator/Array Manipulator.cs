@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 
 namespace _05.Array_Manipulator
@@ -47,7 +48,7 @@ namespace _05.Array_Manipulator
                 command = Console.ReadLine()
                     .Split(delimeterList, StringSplitOptions.RemoveEmptyEntries);
             }
-            
+
             Console.WriteLine($"[{String.Join(", ", nums)}]");
         }
 
@@ -69,7 +70,7 @@ namespace _05.Array_Manipulator
                     result.Add(nums[i] + nums[i + 1]);
                 }
 
-                result.Add(nums[nums.Count-1]);
+                result.Add(nums[nums.Count - 1]);
             }
 
             return result;
@@ -87,7 +88,7 @@ namespace _05.Array_Manipulator
         private static void AddMany(string[] command, List<int> nums)
         {
             int index = int.Parse(command[1]);
-            for (int i = command.Length -1; i >= 2; i--)
+            for (int i = command.Length - 1; i >= 2; i--)
             {
                 int element = int.Parse(command[i]);
                 nums.Insert(index, element);
