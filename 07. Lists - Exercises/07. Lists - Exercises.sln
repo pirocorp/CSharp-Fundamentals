@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Change List", "02. Chan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Search for a Number", "03. Search for a Number\03. Search for a Number.csproj", "{837CDFEF-2156-4F8D-B603-0760420A4FE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Longest Increasing Subsequence", "04. Longest Increasing Subsequence\04. Longest Increasing Subsequence.csproj", "{B05F0938-462D-4412-B673-31A0C3B0B9AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{837CDFEF-2156-4F8D-B603-0760420A4FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{837CDFEF-2156-4F8D-B603-0760420A4FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{837CDFEF-2156-4F8D-B603-0760420A4FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B05F0938-462D-4412-B673-31A0C3B0B9AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B05F0938-462D-4412-B673-31A0C3B0B9AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B05F0938-462D-4412-B673-31A0C3B0B9AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B05F0938-462D-4412-B673-31A0C3B0B9AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
