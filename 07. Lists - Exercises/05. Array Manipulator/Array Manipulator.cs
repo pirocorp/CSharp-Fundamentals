@@ -82,6 +82,7 @@ namespace _05.Array_Manipulator
             {
                 nums.Add(nums[0]);
                 nums.RemoveAt(0);
+
             }
         }
 
