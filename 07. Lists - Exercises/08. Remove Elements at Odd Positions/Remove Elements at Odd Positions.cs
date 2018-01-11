@@ -10,7 +10,7 @@ namespace _08.Remove_Elements_at_Odd_Positions
     {
         static void Main()
         {
-
+             
         }
     }
 }
