@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace _01.Max_Sequence_of_Equal_Elements
@@ -13,33 +14,43 @@ namespace _01.Max_Sequence_of_Equal_Elements
                 .Select(int.Parse)
                 .ToList();
 
-            int lenth = 1;
-            int position = 0;
-            int bestLenth = 1;
-            int bestPosition = 0;
+            var maxSequenceOfEqualElements = GetMaxSequenceOfEqualElements(numbers);
+            Console.WriteLine($"{String.Join(" ", maxSequenceOfEqualElements)}");
+        }
 
-            for (int i = 1; i < numbers.Count; i++)
+        private static List<int> GetMaxSequenceOfEqualElements(List<int> arr)
+        {
+            var longestSequence = new List<int>();
+            var currentSequence = new List<int>();
+            currentSequence.Add(arr[0]);
+
+            for (int i = 1; i < arr.Count; i++)
             {
-                if (numbers[i - 1] == numbers[i])
+                var currentNum = arr[i];
+                var searchNum = currentSequence[0];
+                if (currentNum == searchNum)
                 {
-                    lenth++;
+                    currentSequence.Add(currentNum);
                 }
                 else
                 {
-                    position = i;
-                    lenth = 1;
+                    if (currentSequence.Count > longestSequence.Count)
+                    {
+                        longestSequence = new List<int>(currentSequence);
+                    }
+
+                    currentSequence.Clear();
+                    currentSequence.Add(currentNum);
                 }
 
-                if (lenth > bestLenth)
+                if (currentSequence.Count > longestSequence.Count)
                 {
-                    bestLenth = lenth;
-                    bestPosition = position;
-
+                    longestSequence = new List<int>(currentSequence);
                 }
+
             }
 
-            string result = String.Join(" ", numbers.Select(i => i.ToString()).ToArray(), bestPosition, bestLenth);
-            Console.WriteLine($"{result}");
+            return longestSequence;
         }
     }
 }
