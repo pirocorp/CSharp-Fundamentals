@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 
 namespace _05.Array_Manipulator
@@ -80,9 +79,8 @@ namespace _05.Array_Manipulator
         {
             for (int i = 0; i < positions % nums.Count; i++)
             {
-                int swap = nums[0];
+                nums.Add(nums[0]);
                 nums.RemoveAt(0);
-                nums.Insert(nums.Count, swap);
             }
         }
 
