@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Distinct List", "14. Di
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Integer Insertion", "15. Integer Insertion\15. Integer Insertion.csproj", "{406F06BE-21CD-46C1-BAF1-84FF82611B9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Camel's Back", "16. Camel's Back\16. Camel's Back.csproj", "{EDD29912-301D-4421-8629-E307C7408707}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{406F06BE-21CD-46C1-BAF1-84FF82611B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406F06BE-21CD-46C1-BAF1-84FF82611B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406F06BE-21CD-46C1-BAF1-84FF82611B9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD29912-301D-4421-8629-E307C7408707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD29912-301D-4421-8629-E307C7408707}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD29912-301D-4421-8629-E307C7408707}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD29912-301D-4421-8629-E307C7408707}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
