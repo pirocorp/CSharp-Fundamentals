@@ -36,13 +36,11 @@ namespace _09.Track_Downloader
             for (int i = 0; i < blackList.Length; i++)
             {
                 string currentWord = blackList[i];
-                for (int j = 0; j < filename.Length; j++)
-                {
-                    if (filename.Contains(currentWord))
+                if (filename.Contains(currentWord))
                     {
                         return false;
                     }
-                }
+                
             }
 
             return true;
