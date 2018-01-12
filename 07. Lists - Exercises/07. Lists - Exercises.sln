@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Stuck Zipper", "13. Stu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Distinct List", "14. Distinct List\14. Distinct List.csproj", "{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Integer Insertion", "15. Integer Insertion\15. Integer Insertion.csproj", "{406F06BE-21CD-46C1-BAF1-84FF82611B9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406F06BE-21CD-46C1-BAF1-84FF82611B9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406F06BE-21CD-46C1-BAF1-84FF82611B9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406F06BE-21CD-46C1-BAF1-84FF82611B9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406F06BE-21CD-46C1-BAF1-84FF82611B9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
