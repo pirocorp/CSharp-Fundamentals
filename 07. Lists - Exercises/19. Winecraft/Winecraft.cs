@@ -53,7 +53,7 @@ namespace _19.Winecraft
                 if (elementsMap[i] == 1)
                 {
                     elements[i] += 1;
-                    if (elements[i - 1] > 0)
+                    if (elements[i - 1] > 0) 
                     {
                         elements[i - 1] -= 1;
                         elements[i] += 1;
