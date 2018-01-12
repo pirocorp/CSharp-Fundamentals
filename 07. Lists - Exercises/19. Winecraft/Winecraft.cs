@@ -1,96 +1,75 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _19.Winecraft
+﻿namespace _06.Winecraft
 {
-    class Winecraft
+    using System;
+    using System.Linq;
+
+    public class Winecraft
     {
-        static void Main()
+        public static void Main()
         {
-            char[] delimeterList = { ' ' };
-            var elements = Console.ReadLine()
-                .Split(delimeterList, StringSplitOptions.RemoveEmptyEntries)
-                .Select(int.Parse)
-                .ToList();
+            var grapes = Console.ReadLine()
+                .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(x => Convert.ToInt16(x)).ToArray();
 
-            int growthDays = int.Parse(Console.ReadLine());
-            var elementsMap = new int[elements.Count];
+            var rounds = Convert.ToInt16(Console.ReadLine());
+            var grapesCounter = grapes.Length;
 
-            while (elements.Count >= growthDays)
+            //---spin for each season until the grapes are less than rounds---
+            while (grapesCounter >= rounds)
             {
-                for (int i = 0; i < growthDays; i++)
+                //---count the rounds---
+                for (int counter = 0; counter < rounds; counter++)
                 {
-                    elementsMap = MapElements(elements);
-                    CalculateResultElements(elements, elementsMap);
-                }
-
-                RemoveAllElements(elements, growthDays);
-            }
-
-            Console.WriteLine(String.Join(" ", elements));
-
-        }
-
-        private static void RemoveAllElements(List<int> elements, int growthDays)
-        {
-            for (int i = 0; i < elements.Count; i++)
-            {
-                if (elements[i] <= growthDays)
-                {
-                    elements.RemoveAt(i);
-                    i--;
-                }
-            }
-        }
-
-        private static void CalculateResultElements(List<int> elements, int[] elementsMap)
-        {
-            for (int i = 0; i < elements.Count; i++)
-            {
-                if (elementsMap[i] == 1)
-                {
-                    elements[i] += 1;
-                    if (elements[i - 1] > 0) 
+                    // -1 => lesser, 0 => normal, 1 => greater
+                    var grapesKind = new int[grapes.Length];
+                    for (int index = 1; index < grapes.Length - 1; index++)
                     {
-                        elements[i - 1] -= 1;
-                        elements[i] += 1;
+                        if (grapes[index] > grapes[index - 1] && grapes[index] > grapes[index + 1])
+                        {
+                            grapesKind[index] = 1;
+                            grapesKind[index - 1] = -1;
+                            grapesKind[index + 1] = -1;
+                            index++;
+                        }
                     }
 
-                    if (elements[i + 1] > 0)
+                    //---calculate the grapes---
+                    for (int index = 0; index < grapes.Length; index++)
                     {
-                        elements[i + 1] -= 1;
-                        elements[i] += 1;
+                        if (grapesKind[index] == 0 && grapes[index] > 0)
+                        {
+                            grapes[index]++;
+                        }
+                        else if (grapesKind[index] == 1)
+                        {
+                            grapes[index]++;
+                            if (grapes[index - 1] > 0)
+                            {
+                                grapes[index]++;
+                                grapes[index - 1]--;
+                            }
+                            if (grapes[index + 1] > 0)
+                            {
+                                grapes[index]++;
+                                grapes[index + 1]--;
+                            }
+                            index++;
+                        }
                     }
                 }
-                else if (elementsMap[i] == 0)
+
+                grapesCounter = grapes.Length;
+
+                for (int index = 0; index < grapes.Length; index++)
                 {
-                    elements[i]++;
+                    if (grapes[index] <= rounds)
+                    {
+                        grapes[index] = 0;
+                        grapesCounter--;
+                    }
                 }
             }
-        }
-
-        private static int[] MapElements(List<int> elements)
-        {
-            var elementsMap = new int [elements.Count];
-            for (int i = 0; i < elements.Count; i++)
-            {
-                bool leftElementExist = i - 1 >= 0;
-                bool rightElementExist = i + 1 < elements.Count;
-
-                if (leftElementExist && rightElementExist && elements[i - 1] < elements[i] &&
-                    elements[i + 1] < elements[i])
-                {
-                    elementsMap[i - 1] = -1;
-                    elementsMap[i] = 1;
-                    elementsMap[i + 1] = -1;
-                }
-
-            }
-
-            return elementsMap;
+            Console.WriteLine(string.Join(" ", grapes.Where(x => x > rounds)));
         }
     }
 }
