@@ -32,8 +32,6 @@ namespace _18.Note_Statistics
                 var currentNote = notes[index];
                 notesResultList.Add(currentNote);
 
-                //Console.Beep((int)inputFreq[i], 100);
-
                 if (currentNote.Contains("#"))
                 {
                     stringResultSharp.Add(currentNote);
@@ -51,7 +49,6 @@ namespace _18.Note_Statistics
             Console.WriteLine($"Sharps: {String.Join(", ", stringResultSharp)}");
             Console.WriteLine($"Naturals sum: {naturalsSum}");
             Console.WriteLine($"Sharps sum: {sharpsSum}");
-            
         }
     }
 }
