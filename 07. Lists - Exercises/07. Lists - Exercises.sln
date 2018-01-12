@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Tear List in Half", "12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Stuck Zipper", "13. Stuck Zipper\13. Stuck Zipper.csproj", "{C70890AD-281E-40D9-95CA-DBF003FD97FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Distinct List", "14. Distinct List\14. Distinct List.csproj", "{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C70890AD-281E-40D9-95CA-DBF003FD97FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C70890AD-281E-40D9-95CA-DBF003FD97FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C70890AD-281E-40D9-95CA-DBF003FD97FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5732733E-3C7E-41AA-B5ED-6C79685B2CD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
