@@ -37,10 +37,9 @@ namespace _09.Track_Downloader
             {
                 string currentWord = blackList[i];
                 if (filename.Contains(currentWord))
-                    {
-                        return false;
-                    }
-                
+                {
+                    return false;
+                }
             }
 
             return true;
