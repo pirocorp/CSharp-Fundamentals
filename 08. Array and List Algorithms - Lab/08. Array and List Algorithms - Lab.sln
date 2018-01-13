@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Smallest Element in Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Reverse Array In-place", "03. Reverse Array In-place\03. Reverse Array In-place.csproj", "{98DB9D66-A17F-4DF4-9D50-FBA2620819B1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sort Array Using Bubble Sort", "04. Sort Array Using Bubble Sort\04. Sort Array Using Bubble Sort.csproj", "{63D92D6D-9B2A-4279-B066-04E572EDCF9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{98DB9D66-A17F-4DF4-9D50-FBA2620819B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98DB9D66-A17F-4DF4-9D50-FBA2620819B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98DB9D66-A17F-4DF4-9D50-FBA2620819B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63D92D6D-9B2A-4279-B066-04E572EDCF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63D92D6D-9B2A-4279-B066-04E572EDCF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63D92D6D-9B2A-4279-B066-04E572EDCF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63D92D6D-9B2A-4279-B066-04E572EDCF9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
