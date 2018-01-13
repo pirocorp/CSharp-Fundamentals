@@ -21,7 +21,7 @@ namespace _07.Rabbit_Hole
             {
                 var currentObstacle = listOfStrings[currentIndex].Split('|');
                 var command = currentObstacle[0];
-                
+
                 switch (command)
                 {
                     case "RabbitHole":
@@ -57,15 +57,12 @@ namespace _07.Rabbit_Hole
                         break;
                 }
 
-                if (listOfStrings[listOfStrings.Count -1] != "RabbitHole")
+                if (listOfStrings[listOfStrings.Count - 1] != "RabbitHole")
                 {
                     listOfStrings.RemoveAt(listOfStrings.Count - 1);
-                    listOfStrings.Add($"Bomb|{energy}");
                 }
-                else
-                {
-                    listOfStrings.Add($"Bomb|{energy}");
-                }
+
+                listOfStrings.Add($"Bomb|{energy}");
                 currentObstacle = listOfStrings[currentIndex].Split('|');
                 command = currentObstacle[0];
             }
