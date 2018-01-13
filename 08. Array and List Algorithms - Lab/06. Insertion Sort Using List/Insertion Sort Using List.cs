@@ -4,16 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _05.Sort_Array_Using_Insertion_Sort
+namespace _06.Insertion_Sort_Using_List
 {
     class Program
     {
         static void Main()
         {
-            var arr = Console.ReadLine()
-                .Split()
-                .Select(int.Parse)
-                .ToArray();
+
 
             for (int firstUnsorted = 0; firstUnsorted < arr.Length - 1; firstUnsorted++)
             {
@@ -21,19 +18,11 @@ namespace _05.Sort_Array_Using_Insertion_Sort
                 while (i > 0)
                 {
                     if (arr[i - 1] > arr[i])
-                        Swap(arr, i, i - 1);
+                        Swap(arr, i, i - 1); // todo: write Swap() method
                     i--;
                 }
             }
 
-            Console.WriteLine(string.Join(" ", arr));
-        }
-
-        private static void Swap(int[] arr, int i, int i1)
-        {
-            var temp = arr[i];
-            arr[i] = arr[i1];
-            arr[i1] = temp;
         }
     }
 }
