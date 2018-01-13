@@ -33,16 +33,7 @@ namespace _07.Rabbit_Hole
                         killByBomb = false;
                         valueLeft %= listOfStrings.Count;
                         currentIndex -= valueLeft;
-
-                        if (currentIndex > listOfStrings.Count - 1)
-                        {
-                            currentIndex = currentIndex - (listOfStrings.Count - 1);
-                        }
-
-                        if (currentIndex < 0)
-                        {
-                            currentIndex = (listOfStrings.Count - 1) - currentIndex;
-                        }
+                        currentIndex = Math.Abs(currentIndex);
 
                         break;
                     case "Right":
@@ -54,12 +45,7 @@ namespace _07.Rabbit_Hole
 
                         if (currentIndex > listOfStrings.Count - 1)
                         {
-                            currentIndex = currentIndex - (listOfStrings.Count - 1);
-                        }
-
-                        if (currentIndex < 0)
-                        {
-                            currentIndex = (listOfStrings.Count - 1) - currentIndex;
+                            currentIndex = currentIndex - listOfStrings.Count;
                         }
 
                         break;
