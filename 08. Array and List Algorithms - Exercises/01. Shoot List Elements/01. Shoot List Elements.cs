@@ -54,7 +54,7 @@ namespace _01.Shoot_List_Elements
             }
             else
             {
-                Console.WriteLine($"nobody left to shoot!last one was {lastRemovedInt}");
+                Console.WriteLine($"nobody left to shoot! last one was {lastRemovedInt}");
                 bang = false;
             }
 
