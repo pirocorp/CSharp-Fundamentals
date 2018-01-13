@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Array Histogram", "04. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Decode Radio Frequencies", "05. Decode Radio Frequencies\05. Decode Radio Frequencies.csproj", "{CEE840C7-6033-49EB-891E-F36BDE76888B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Batteries", "06. Batteries\06. Batteries.csproj", "{9BAAF171-3C60-481D-BBE5-97A3AA626BC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CEE840C7-6033-49EB-891E-F36BDE76888B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CEE840C7-6033-49EB-891E-F36BDE76888B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CEE840C7-6033-49EB-891E-F36BDE76888B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BAAF171-3C60-481D-BBE5-97A3AA626BC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BAAF171-3C60-481D-BBE5-97A3AA626BC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BAAF171-3C60-481D-BBE5-97A3AA626BC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BAAF171-3C60-481D-BBE5-97A3AA626BC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
