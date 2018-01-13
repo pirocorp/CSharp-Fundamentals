@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Sort Array of Strings",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Array Histogram", "04. Array Histogram\04. Array Histogram.csproj", "{339455DE-DEA2-4652-9F60-C9DCBFFE36D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Decode Radio Frequencies", "05. Decode Radio Frequencies\05. Decode Radio Frequencies.csproj", "{CEE840C7-6033-49EB-891E-F36BDE76888B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{339455DE-DEA2-4652-9F60-C9DCBFFE36D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{339455DE-DEA2-4652-9F60-C9DCBFFE36D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{339455DE-DEA2-4652-9F60-C9DCBFFE36D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE840C7-6033-49EB-891E-F36BDE76888B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE840C7-6033-49EB-891E-F36BDE76888B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE840C7-6033-49EB-891E-F36BDE76888B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE840C7-6033-49EB-891E-F36BDE76888B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

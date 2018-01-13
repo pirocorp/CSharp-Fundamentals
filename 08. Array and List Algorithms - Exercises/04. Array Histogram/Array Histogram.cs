@@ -36,6 +36,7 @@ namespace _04.Array_Histogram
         {
             var swapped = true;
             var n = uniqueWordOccurrences.Count;
+
             while (swapped)
             {
                 swapped = false;
@@ -46,7 +47,6 @@ namespace _04.Array_Histogram
                     var previusElementWordList = uniqueWords[i - 1];
                     var currentElementOccurrenceList = uniqueWordOccurrences[i];
                     var previusElementOccurrenceList = uniqueWordOccurrences[i - 1];
-
 
                     if (currentElementOccurrenceList > previusElementOccurrenceList)
                     {
