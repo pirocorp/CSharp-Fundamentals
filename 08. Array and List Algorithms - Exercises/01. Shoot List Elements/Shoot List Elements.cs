@@ -9,7 +9,6 @@ namespace _01.Shoot_List_Elements
     class Program
     {
         static int lastRemovedElement = -1;
-        static double lastAverage = -1;
 
         static void Main()
         {
@@ -66,7 +65,6 @@ namespace _01.Shoot_List_Elements
                     Console.WriteLine($"shot {numbers[i]}");
                     lastRemovedElement = numbers[i];
                     numbers.RemoveAt(i);
-                    lastAverage = average;
                     return;
                 }
 
