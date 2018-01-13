@@ -20,6 +20,7 @@ namespace _03.Sort_Array_of_Strings
         {
             var swapped = true;
             var n = originalStrings.Length;
+
             while (swapped)
             {
                 swapped = false;
