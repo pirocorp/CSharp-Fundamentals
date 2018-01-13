@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{61F083E2-8F56-4B57-9017-0841A6EC67D6}</ProjectGuid>
+    <ProjectGuid>{26C4EB7B-2B6B-4A3C-B0C1-D8B8E61AEC47}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_01.Shoot_List_Elements</RootNamespace>
-    <AssemblyName>_01.Shoot_List_Elements</AssemblyName>
+    <RootNamespace>_02.Average_Character_Delimiter</RootNamespace>
+    <AssemblyName>_02.Average_Character_Delimiter</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Shoot List Elements.cs" />
+    <Compile Include="Average Character Delimiter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
