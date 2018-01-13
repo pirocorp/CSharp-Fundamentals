@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Reverse Array In-place"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sort Array Using Bubble Sort", "04. Sort Array Using Bubble Sort\04. Sort Array Using Bubble Sort.csproj", "{63D92D6D-9B2A-4279-B066-04E572EDCF9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Sort Array Using Insertion Sort", "05. Sort Array Using Insertion Sort\05. Sort Array Using Insertion Sort.csproj", "{D141ED25-D651-4B71-A028-6C1CDD4353D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{63D92D6D-9B2A-4279-B066-04E572EDCF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63D92D6D-9B2A-4279-B066-04E572EDCF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63D92D6D-9B2A-4279-B066-04E572EDCF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D141ED25-D651-4B71-A028-6C1CDD4353D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D141ED25-D651-4B71-A028-6C1CDD4353D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D141ED25-D651-4B71-A028-6C1CDD4353D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D141ED25-D651-4B71-A028-6C1CDD4353D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
