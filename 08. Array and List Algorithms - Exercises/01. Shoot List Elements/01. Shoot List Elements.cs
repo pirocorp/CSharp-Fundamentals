@@ -8,81 +8,76 @@ namespace _01.Shoot_List_Elements
 {
     class Program
     {
-        static double lastRemovedInt = double.NaN;
-        private static bool bang = true;
+        static int lastRemovedElement = -1;
+        static double lastAverage = -1;
 
         static void Main()
         {
-            var resutList = new List<int>();
-            var command = Console.ReadLine();
+            var numbers = new List<int>();
+            var inputLine = Console.ReadLine();
 
-            while (command != "stop")
+            while (inputLine != "stop")
             {
-                if (command == "bang")
+                if (inputLine == "bang")
                 {
-                    BangProcessing(resutList);
-                    if (!bang)
+                    if (numbers.Count == 0)
                     {
+                        Console.WriteLine($"nobody left to shoot! last one was {lastRemovedElement}");
                         return;
                     }
+
+                    var average = numbers.Average();
+                    ShootElement(numbers, average);
+                    DecrementElements(numbers);
                 }
                 else
                 {
-                    resutList.Insert(0, int.Parse(command));
+                    var number = int.Parse(inputLine);
+                    numbers.Insert(0, number);
                 }
 
-                command = Console.ReadLine();
+                inputLine = Console.ReadLine();
             }
 
-            if (resutList.Count > 0)
+            if (numbers.Count == 0)
             {
-                Console.WriteLine($"survivors: {String.Join(" ", resutList)}");
+                Console.WriteLine($"you shot them all. last one was {lastRemovedElement}");
             }
             else
             {
-                Console.WriteLine($"you shot them all. last one was {lastRemovedInt}");
+                Console.WriteLine($"survivors: {String.Join(" ", numbers)}");
             }
         }
 
-        private static void BangProcessing(List<int> resutList)
+        private static void DecrementElements(List<int> numbers)
         {
-            if (resutList.Count > 0)
+            for (int i = 0; i < numbers.Count; i++)
             {
-                double average = resutList.Average();
-                lastRemovedInt = RemoveFirstElementSmallerThanAverage(average, resutList);
-                DecrementEveryElementInList(1, resutList);
-            }
-            else
-            {
-                Console.WriteLine($"nobody left to shoot! last one was {lastRemovedInt}");
-                bang = false;
-            }
-
-            bang = true;
-        }
-
-        private static void DecrementEveryElementInList(int i, List<int> resutList)
-        {
-            for (int j = 0; j < resutList.Count; j++)
-            {
-                resutList[j] -= i;
+                numbers[i]--;
             }
         }
 
-        private static double RemoveFirstElementSmallerThanAverage(double average, List<int> resutList)
+        private static void ShootElement(List<int> numbers, double average)
         {
-            for (int i = 0; i < resutList.Count; i++)
+            for (int i = 0; i < numbers.Count; i++)
             {
-                if (resutList[i] <= average)
+                if (numbers[i] < average)
                 {
-                    int lastBangElement = resutList[i];
-                    resutList.RemoveAt(i);
-                    Console.WriteLine($"shot {lastBangElement}");
-                    return lastBangElement;
+                    Console.WriteLine($"shot {numbers[i]}");
+                    lastRemovedElement = numbers[i];
+                    numbers.RemoveAt(i);
+                    lastAverage = average;
+                    return;
                 }
+
             }
 
-            return Double.NaN;
+            if (numbers.Count == 1)
+            {
+                Console.WriteLine($"shot {numbers[0]}");
+                lastRemovedElement = numbers[0];
+                numbers.RemoveAt(0);
+            }
         }
     }
 }
