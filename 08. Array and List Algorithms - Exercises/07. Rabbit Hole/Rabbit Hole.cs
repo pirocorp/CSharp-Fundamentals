@@ -42,7 +42,6 @@ namespace _07.Rabbit_Hole
                         killByBomb = false;
                         valueRight %= listOfStrings.Count;
                         currentIndex += valueRight;
-
                         if (currentIndex > listOfStrings.Count - 1)
                         {
                             currentIndex = currentIndex - listOfStrings.Count;
