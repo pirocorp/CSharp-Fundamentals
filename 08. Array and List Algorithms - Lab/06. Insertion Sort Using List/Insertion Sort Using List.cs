@@ -10,19 +10,36 @@ namespace _06.Insertion_Sort_Using_List
     {
         static void Main()
         {
+            var arr = Console.ReadLine()
+                .Split()
+                .Select(int.Parse)
+                .ToArray();
 
+            var resultList = new List<int>();
 
-            for (int firstUnsorted = 0; firstUnsorted < arr.Length - 1; firstUnsorted++)
+            for (int arrIndex = 0; arrIndex < arr.Length; arrIndex++)
             {
-                var i = firstUnsorted + 1;
-                while (i > 0)
+                var inserted = false;
+                var currentElement = arr[arrIndex];
+                for (int listIndex = 0; listIndex < resultList.Count; listIndex++)
                 {
-                    if (arr[i - 1] > arr[i])
-                        Swap(arr, i, i - 1); // todo: write Swap() method
-                    i--;
+                    var currentListElement = resultList[listIndex];
+
+                    if (currentElement <= currentListElement)
+                    {
+                        inserted = true;
+                        resultList.Insert(Math.Max(0, listIndex), currentElement);
+                        break;
+                    }
+                }
+
+                if (!inserted)
+                {
+                    resultList.Add(currentElement);
                 }
             }
 
+            Console.WriteLine(string.Join(" ", resultList));
         }
     }
 }
