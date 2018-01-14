@@ -20,7 +20,6 @@ namespace JapaneseRoulette
             var deadMan = false;
             var deadPlayerIndex = -1;
 
-
             for (var playerIndex = 0; playerIndex < players.Count; playerIndex++)
             {
                 var currentPlayer = players[playerIndex].Split(',').ToArray();
