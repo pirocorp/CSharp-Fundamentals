@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Rabbit Hole", "07. Rabb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Binary Search", "08. Binary Search\08. Binary Search.csproj", "{2BEE0E9F-E57F-4A68-ACDB-ECE37DA66056}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Mirror Image", "09. Mirror Image\09. Mirror Image.csproj", "{0D751501-4D69-4313-BBE1-5D776A2EF197}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2BEE0E9F-E57F-4A68-ACDB-ECE37DA66056}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BEE0E9F-E57F-4A68-ACDB-ECE37DA66056}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BEE0E9F-E57F-4A68-ACDB-ECE37DA66056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D751501-4D69-4313-BBE1-5D776A2EF197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D751501-4D69-4313-BBE1-5D776A2EF197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D751501-4D69-4313-BBE1-5D776A2EF197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D751501-4D69-4313-BBE1-5D776A2EF197}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
