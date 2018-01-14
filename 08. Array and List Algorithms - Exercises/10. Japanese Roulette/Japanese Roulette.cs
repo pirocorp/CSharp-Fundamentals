@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace JapaneseRoulette
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var cylinder = Console.ReadLine()
                 .Split()
@@ -21,40 +18,39 @@ namespace JapaneseRoulette
                 .ToList();
 
             var deadMan = false;
-            var deadPlayer = 0;
+            var deadPlayerIndex = -1;
 
-            foreach (var player in players)
+
+            for (var playerIndex = 0; playerIndex < players.Count; playerIndex++)
             {
-                var spinInfo = player
-                    .Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries)
-                    .Select(a => a.Trim())
-                    .ToArray();
+                var currentPlayer = players[playerIndex].Split(',').ToArray();
+                var command = currentPlayer[1];
+                var power = int.Parse(currentPlayer[0]);
+                power %= cylinder.Count;
 
-                var spinStrength = int.Parse(spinInfo[0]) % cylinder.Count;
-                var spinDirection = spinInfo[1];
-
-                if (spinDirection == "Left")
+                switch (command)
                 {
-                    cylinder = SpinLeft(cylinder, spinStrength);
-
-                }
-                else if (spinDirection == "Right")
-                {
-                    cylinder = SpinRight(cylinder, spinStrength);
+                    case "Left":
+                        SpinLeft(cylinder, power);
+                        break;
+                    case "Right":
+                        SpinRight(cylinder, power);
+                        break;
                 }
 
                 if (cylinder[2] == 1)
                 {
                     deadMan = true;
-                    deadPlayer = players.IndexOf(player);
+                    deadPlayerIndex = playerIndex;
                     break;
                 }
-                cylinder = SpinRight(cylinder, 1); //Trigger
+
+                SpinRight(cylinder, 1);
             }
 
             if (deadMan)
             {
-                Console.WriteLine($"Game over! Player {deadPlayer} is dead.");
+                Console.WriteLine($"Game over! Player {deadPlayerIndex} is dead.");
             }
             else
             {
@@ -62,28 +58,24 @@ namespace JapaneseRoulette
             }
         }
 
-        private static List<int> SpinLeft(List<int> cylinder, int spinStrength)
+        private static void SpinRight(List<int> cylinder, int power)
         {
-            for (int i = 0; i < spinStrength; i++)
+            for (int i = 0; i < power; i++)
             {
-                cylinder = cylinder
-                    .Skip(1)
-                    .Concat(cylinder.Take(1))
-                    .ToList();
+                var swap = cylinder[cylinder.Count - 1];
+                cylinder.RemoveAt(cylinder.Count -1);
+                cylinder.Insert(0, swap);
             }
-            return cylinder;
         }
 
-        private static List<int> SpinRight(List<int> cylinder, int spinStrength)
+        private static void SpinLeft(List<int> cylinder, int power)
         {
-            for (int i = 0; i < spinStrength; i++)
+            for (int i = 0; i < power; i++)
             {
-                cylinder = cylinder
-                    .Skip(cylinder.Count - 1)
-                    .Concat(cylinder.Take(cylinder.Count - 1))
-                    .ToList();
-            }
-            return cylinder;
+                var swap = cylinder[0];
+                cylinder.RemoveAt(0);
+                cylinder.Add(swap);
+            } 
         }
     }
 }

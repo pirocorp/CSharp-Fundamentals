@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("04. Array Histogram")]
+[assembly: AssemblyTitle("11. Increasing Crisis")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("04. Array Histogram")]
+[assembly: AssemblyProduct("11. Increasing Crisis")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("339455de-dea2-4652-9f60-c9dcbffe36d2")]
+[assembly: Guid("bf4d62e2-ee7b-4d4c-a382-d7612e793082")]
 
 // Version information for an assembly consists of the following four values:
 //
