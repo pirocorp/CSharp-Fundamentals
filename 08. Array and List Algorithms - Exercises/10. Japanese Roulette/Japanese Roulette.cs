@@ -1,6 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Text;
+using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace JapaneseRoulette
 {
@@ -19,6 +23,7 @@ namespace JapaneseRoulette
 
             var deadMan = false;
             var deadPlayerIndex = -1;
+
 
             for (var playerIndex = 0; playerIndex < players.Count; playerIndex++)
             {
