@@ -6,7 +6,7 @@ namespace _11.Increasing_Crisis
 {
     class Program
     {
-        private static int mostRightToNumberIndex;
+
         static void Main()
         {
             char[] delimeterList = {' '};
@@ -24,63 +24,70 @@ namespace _11.Increasing_Crisis
                     .Select(int.Parse)
                     .ToList();
 
-                    mostRightToNumberIndex = MostRightToNumber(sequencesOfIntegers[0], resultedList);
-                    bool allInserted = InsertList(resultedList, sequencesOfIntegers);
+                var appendIndex = FindAppendIndex(sequencesOfIntegers[0], resultedList);
 
-                    if (!allInserted)
+                if (appendIndex == resultedList.Count)
+                {
+                    AppendList(resultedList, sequencesOfIntegers);
+                    continue;
+                }
+
+                if (appendIndex <= 0)
+                {
+                    resultedList.Clear();
+                    continue;
+                }
+
+                for (int j = 1; j < sequencesOfIntegers.Count; j++)
+                {
+                    resultedList.Insert(appendIndex, sequencesOfIntegers[j - 1]);
+                    appendIndex++;
+
+                    if (sequencesOfIntegers[j - 1] <= sequencesOfIntegers[j])
                     {
-                        RemoveAfterIndexFromList(resultedList);
+                        resultedList.Insert(appendIndex, sequencesOfIntegers[j]);
+                        appendIndex++;
                     }
+                    else
+                    {
+                        resultedList.RemoveRange(appendIndex, resultedList.Count - appendIndex);
+                        break;
+                    }
+                }
             }
 
             Console.WriteLine(String.Join(" ", resultedList));
         }
 
-        private static void RemoveAfterIndexFromList(List<int> resultedList)
+        private static void AppendList(List<int> resultedList, List<int> sequencesOfIntegers)
         {
-            int n = resultedList.Count;
-            mostRightToNumberIndex++;
-            for (int i = mostRightToNumberIndex; i < n; i++)
+            resultedList.Add(sequencesOfIntegers[0]);
+            for (int j = 1; j < sequencesOfIntegers.Count; j++)
             {
-                resultedList.RemoveAt(resultedList.Count-1);
-            }
-        }
-
-        private static bool InsertList(List<int> resultedList, List<int> sequencesOfIntegers)
-        {
-            mostRightToNumberIndex++;
-            resultedList.Insert(mostRightToNumberIndex, sequencesOfIntegers[0]);
-
-            for (int i = 1; i < sequencesOfIntegers.Count; i++)
-            {
-                var nextElement = sequencesOfIntegers[i];
-                var currentElement = sequencesOfIntegers[i - 1];
-
-                if (currentElement <= nextElement)
+                if (sequencesOfIntegers[j - 1] <= sequencesOfIntegers[j])
                 {
-                    mostRightToNumberIndex++;
-                    resultedList.Insert(mostRightToNumberIndex, nextElement);
+                    resultedList.Add(sequencesOfIntegers[j]);
                 }
                 else
                 {
-                    return false;
+                    break;
                 }
             }
-            return true;
         }
 
-        private static int MostRightToNumber(int big, List<int> resultedList)
+        private static int FindAppendIndex(int sequencesOfInteger, List<int> resultedList)
         {
-            var index = -1;
+            int result = -1;
+
             for (int i = 0; i < resultedList.Count; i++)
             {
-                if (resultedList[i] <= big)
+                if (resultedList[i] < sequencesOfInteger)
                 {
-                    index = i;
+                     result = i;
                 }
             }
 
-            return index;
+            return result + 1;
         }
     }
 }
