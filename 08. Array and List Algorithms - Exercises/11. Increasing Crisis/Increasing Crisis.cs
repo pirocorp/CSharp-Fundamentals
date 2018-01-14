@@ -32,7 +32,7 @@ namespace _11.Increasing_Crisis
                         RemoveAfterIndexFromList(resultedList);
                     }
                 }
-                else
+                else 
                 {
                     AppendElementsToList(resultedList, sequencesOfIntegers);
                 }
