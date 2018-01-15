@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace _03.Mixed_Phones
+﻿namespace _03.Mixed_Phones
 {
+    using System;
+    using System.Collections.Generic;
+
     class Program
     {
         static void Main()
