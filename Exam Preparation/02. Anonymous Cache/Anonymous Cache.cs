@@ -13,8 +13,8 @@ namespace _02.Anonymous_Cache
         {
             var input = string.Empty;
 
-            var dataDict = new Dictionary<string, Dictionary<string, int>>();
-            var cacheDict = new Dictionary<string, Dictionary<string, int>>();
+            var dataDict = new Dictionary<string, Dictionary<string, long>>();
+            var cacheDict = new Dictionary<string, Dictionary<string, long>>();
 
             while (input != "thetinggoesskrra")
             {
@@ -25,7 +25,7 @@ namespace _02.Anonymous_Cache
                 if (tokens.Length == 1)
                 {
                     var currentDataSet = tokens[0];
-                    dataDict[currentDataSet] = new Dictionary<string, int>();
+                    dataDict[currentDataSet] = new Dictionary<string, long>();
                     foreach (var cashData in cacheDict)
                     {
                         if (dataDict.ContainsKey(cashData.Key))
@@ -39,14 +39,14 @@ namespace _02.Anonymous_Cache
                 }
 
                 var dataKey = tokens[0];
-                var dataSize = int.Parse(tokens[1]);
+                var dataSize = long.Parse(tokens[1]);
                 var dataSet = tokens[2];
 
                 if (!dataDict.ContainsKey(dataSet))
                 {
                     if (!cacheDict.ContainsKey(dataSet))
                     {
-                        cacheDict[dataSet] = new Dictionary<string, int>();
+                        cacheDict[dataSet] = new Dictionary<string, long>();
                     }
                     cacheDict[dataSet].Add(dataKey, dataSize);
                     continue;
@@ -66,13 +66,13 @@ namespace _02.Anonymous_Cache
                 }
             }
 
-            var maxSum = 0;
+            var maxSum = 0l;
             var maxDataSet = string.Empty;
             var maxSet = string.Empty;
 
             foreach (var data in dataDict)
             {
-                var currentSum = 0;
+                var currentSum = 0l;
                 var currentString = string.Empty;
                 foreach (var kvp in data.Value)
                 {
@@ -89,9 +89,12 @@ namespace _02.Anonymous_Cache
             }
 
             var result = maxDataSet.Trim().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries).ToList();
-            
-            Console.WriteLine($"Data Set: {maxSet}, Total Size: {maxSum}");
-            Console.WriteLine($"{String.Join(Environment.NewLine, result)}");
+            if (maxSum > 0)
+            {
+                Console.WriteLine($"Data Set: {maxSet}, Total Size: {maxSum}");
+                Console.WriteLine($"{String.Join(Environment.NewLine, result)}");
+            }
+
         }
     }
 }
