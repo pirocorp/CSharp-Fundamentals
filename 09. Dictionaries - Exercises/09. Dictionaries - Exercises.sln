@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Letter Repetition", "01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Dict-Ref", "02. Dict-Ref\02. Dict-Ref.csproj", "{5E07367D-264B-477E-A938-4D38A40715B5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Mixed Phones", "03. Mixed Phones\03. Mixed Phones.csproj", "{F9544335-4F9B-4BC9-AFE2-66D84C7F60DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5E07367D-264B-477E-A938-4D38A40715B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E07367D-264B-477E-A938-4D38A40715B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E07367D-264B-477E-A938-4D38A40715B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9544335-4F9B-4BC9-AFE2-66D84C7F60DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9544335-4F9B-4BC9-AFE2-66D84C7F60DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9544335-4F9B-4BC9-AFE2-66D84C7F60DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9544335-4F9B-4BC9-AFE2-66D84C7F60DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
