@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Travel Company", "03. T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Shellbound", "04. Shellbound\04. Shellbound.csproj", "{8AB3ECAC-A121-4957-9E2A-2917CA64D388}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Dict-Ref-Advanced", "05. Dict-Ref-Advanced\05. Dict-Ref-Advanced.csproj", "{87BAE593-BC62-44E0-8DFE-C3994A664334}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8AB3ECAC-A121-4957-9E2A-2917CA64D388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AB3ECAC-A121-4957-9E2A-2917CA64D388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AB3ECAC-A121-4957-9E2A-2917CA64D388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BAE593-BC62-44E0-8DFE-C3994A664334}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BAE593-BC62-44E0-8DFE-C3994A664334}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BAE593-BC62-44E0-8DFE-C3994A664334}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BAE593-BC62-44E0-8DFE-C3994A664334}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
