@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Average Student Grades"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Cities by Continent and Country", "02. Cities by Continent and Country\02. Cities by Continent and Country.csproj", "{2E2FDFB8-3B72-419B-A802-C64B1A477355}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Record Unique Names", "03. Record Unique Names\03. Record Unique Names.csproj", "{830F56DC-1AF9-48A2-9237-142149289145}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2E2FDFB8-3B72-419B-A802-C64B1A477355}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E2FDFB8-3B72-419B-A802-C64B1A477355}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E2FDFB8-3B72-419B-A802-C64B1A477355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830F56DC-1AF9-48A2-9237-142149289145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830F56DC-1AF9-48A2-9237-142149289145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830F56DC-1AF9-48A2-9237-142149289145}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830F56DC-1AF9-48A2-9237-142149289145}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
