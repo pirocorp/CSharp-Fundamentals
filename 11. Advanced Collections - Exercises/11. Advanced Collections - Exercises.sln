@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Wardrobe", "01. Wardrobe\01. Wardrobe.csproj", "{B86AAC41-8790-4D69-B050-32CE0A6F1033}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Key-Key Value-Value", "02. Key-Key Value-Value\02. Key-Key Value-Value.csproj", "{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B86AAC41-8790-4D69-B050-32CE0A6F1033}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B86AAC41-8790-4D69-B050-32CE0A6F1033}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B86AAC41-8790-4D69-B050-32CE0A6F1033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
