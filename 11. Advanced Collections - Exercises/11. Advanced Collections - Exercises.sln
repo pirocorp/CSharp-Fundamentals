@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Wardrobe", "01. Wardrob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Key-Key Value-Value", "02. Key-Key Value-Value\02. Key-Key Value-Value.csproj", "{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Travel Company", "03. Travel Company\03. Travel Company.csproj", "{C5E38A66-ACF0-43C2-97C3-695F53FC034C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{182D5A53-5BA0-41D5-8E0D-4F71B97B40A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E38A66-ACF0-43C2-97C3-695F53FC034C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E38A66-ACF0-43C2-97C3-695F53FC034C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E38A66-ACF0-43C2-97C3-695F53FC034C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E38A66-ACF0-43C2-97C3-695F53FC034C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
