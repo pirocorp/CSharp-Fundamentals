@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Largest 3 Numbers", "02
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Short Words Sorted", "03. Short Words Sorted\03. Short Words Sorted.csproj", "{F29B913B-1061-4A84-940E-716DE50E3DBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Fold and Sum", "04. Fold and Sum\04. Fold and Sum.csproj", "{AAAF3AAE-5E8E-4752-9D24-769864ABF92A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{F29B913B-1061-4A84-940E-716DE50E3DBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F29B913B-1061-4A84-940E-716DE50E3DBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F29B913B-1061-4A84-940E-716DE50E3DBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAAF3AAE-5E8E-4752-9D24-769864ABF92A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAAF3AAE-5E8E-4752-9D24-769864ABF92A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAAF3AAE-5E8E-4752-9D24-769864ABF92A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAAF3AAE-5E8E-4752-9D24-769864ABF92A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
