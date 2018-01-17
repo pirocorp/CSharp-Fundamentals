@@ -29,7 +29,14 @@
                 inputData = Console.ReadLine();
             }
 
-            var result = users.Reverse().OrderBy(x => x.Value).Take(5).OrderByDescending(x => x.Value).Select(x => x.Key).ToList();
+            var result = users
+                .Reverse()
+                .OrderBy(x => x.Value)
+                .Take(5)
+                .OrderByDescending(x => x.Value)
+                .Select(x => x.Key)
+                .ToList();
+
             Console.WriteLine(String.Join(Environment.NewLine, result));
         }
     }
