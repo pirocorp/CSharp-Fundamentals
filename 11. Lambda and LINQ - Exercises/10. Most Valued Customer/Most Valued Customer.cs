@@ -70,11 +70,10 @@ namespace _10.Most_Valued_Customer
             var Biggest = clients
                 .Where(x => x.Value.Sum(y => inventory[y]) == max)
                 .First();
-            var biggestSpender = Biggest.Key;
 
-            Console.WriteLine($"Biggest spender: {biggestSpender}");
+            Console.WriteLine($"Biggest spender: {Biggest.Key}");
             Console.WriteLine("^Products bought:");
-            clients[biggestSpender]
+            clients[Biggest.Key]
                 .Distinct()
                 .OrderByDescending(x => inventory[x])
                 .ToList()
