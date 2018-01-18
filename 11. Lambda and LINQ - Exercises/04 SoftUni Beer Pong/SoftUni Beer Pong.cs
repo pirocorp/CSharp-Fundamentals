@@ -10,7 +10,7 @@ namespace _04_SoftUni_Beer_Pong
     {
         static void Main()
         {
-            var teamPoints = new Dictionary<string, Dictionary<string, long>>(); //TeamName<PlayerName, PointsMade>
+            var teamPoints = new Dictionary<string, Dictionary<string, long>>(); //<TeamName<PlayerName, PointsMade>>
             var inputData = Console.ReadLine();
 
             while (inputData != "stop the game")
