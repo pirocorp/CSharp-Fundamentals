@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data.SqlClient;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace _10.Most_Valued_Customer
 {
@@ -62,14 +58,18 @@ namespace _10.Most_Valued_Customer
                         .Take(3)
                         .ToDictionary(x => x.Key, x => x.Value * 0.9m);
 
-                    inventory = result.Concat(inventory.OrderByDescending(x => x.Value).Skip(3)).ToDictionary(x => x.Key, x => x.Value);
+                    inventory = result
+                        .Concat(inventory.OrderByDescending(x => x.Value)
+                        .Skip(3)).ToDictionary(x => x.Key, x => x.Value);
                 }
 
                 inputData = Console.ReadLine();
             }
             
             var max = clients.Max(x => x.Value.Sum(y => inventory[y]));
-            var Biggest = clients.Where(x => x.Value.Sum(y => inventory[y]) == max).First();
+            var Biggest = clients
+                .Where(x => x.Value.Sum(y => inventory[y]) == max)
+                .First();
             var biggestSpender = Biggest.Key;
 
             var biggestSpenderTotalSpend = clients[biggestSpender].Sum(x => inventory[x]);
