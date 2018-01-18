@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -66,22 +67,10 @@ namespace _10.Most_Valued_Customer
 
                 inputData = Console.ReadLine();
             }
-
-            var biggestSpender = string.Empty;
-            var max = -1m;
-
-            foreach (var client in clients)
-            {
-                var clientName = client.Key;
-                var productsbought = client.Value;
-                var sum = productsbought.Sum(x => inventory[x]);
-
-                if (sum > max)
-                {
-                    max = sum;
-                    biggestSpender = clientName;
-                }
-            }
+            
+            var max = clients.Max(x => x.Value.Sum(y => inventory[y]));
+            var Biggest = clients.Where(x => x.Value.Sum(y => inventory[y]) == max).First();
+            var biggestSpender = Biggest.Key;
 
             var biggestSpenderTotalSpend = clients[biggestSpender].Sum(x => inventory[x]);
             Console.WriteLine($"Biggest spender: {biggestSpender}");
