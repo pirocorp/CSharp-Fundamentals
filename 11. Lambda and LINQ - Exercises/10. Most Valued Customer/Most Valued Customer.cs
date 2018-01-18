@@ -72,15 +72,14 @@ namespace _10.Most_Valued_Customer
                 .First();
             var biggestSpender = Biggest.Key;
 
-            var biggestSpenderTotalSpend = clients[biggestSpender].Sum(x => inventory[x]);
             Console.WriteLine($"Biggest spender: {biggestSpender}");
-            Console.WriteLine($"^Products bought:");
+            Console.WriteLine("^Products bought:");
             clients[biggestSpender]
                 .Distinct()
                 .OrderByDescending(x => inventory[x])
                 .ToList()
                 .ForEach(x => Console.WriteLine($"^^^{x}: {inventory[x]:f2}"));
-            Console.WriteLine($"Total: {biggestSpenderTotalSpend:f2}");
+            Console.WriteLine($"Total: {max:f2}");
         }
     }
 }
