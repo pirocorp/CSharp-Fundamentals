@@ -12,7 +12,6 @@ namespace _17.Fix_Emails
         {
             string name = Console.ReadLine();
             Dictionary<string, string> emails = new Dictionary<string, string>();
-
             while (name != "stop")
             {
                 string email = Console.ReadLine();
@@ -22,10 +21,6 @@ namespace _17.Fix_Emails
                 {
                     emails.Add(name, email);
                 }
-                else
-                {
-                    name = Console.ReadLine();
-                }
 
                 name = Console.ReadLine();
             }
@@ -33,5 +28,7 @@ namespace _17.Fix_Emails
             emails.ToList().ForEach(x => Console.WriteLine($"{x.Key} -> {x.Value}"));
 
         }
+
     }
+
 }
