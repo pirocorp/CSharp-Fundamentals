@@ -47,7 +47,7 @@ namespace _19.User_Logs
                     .ToList()
                     .Skip(x.Value.Count - 1)
                     .ToList()
-                    .ForEach(z => Console.Write($"{z.Key} => {z.Value}."));
+                    .ForEach(z => Console.WriteLine($"{z.Key} => {z.Value}."));
             });
         }
     }
