@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Camping", "09. Camping\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Most Valued Customer", "10. Most Valued Customer\10. Most Valued Customer.csproj", "{A7130D4A-6E25-42B8-82B1-C81E6164BE7E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Lambada Expressions", "11. Lambada Expressions\11. Lambada Expressions.csproj", "{B9EEF650-316E-480D-877A-C4EB484B9D08}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{A7130D4A-6E25-42B8-82B1-C81E6164BE7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7130D4A-6E25-42B8-82B1-C81E6164BE7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7130D4A-6E25-42B8-82B1-C81E6164BE7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9EEF650-316E-480D-877A-C4EB484B9D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9EEF650-316E-480D-877A-C4EB484B9D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9EEF650-316E-480D-877A-C4EB484B9D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9EEF650-316E-480D-877A-C4EB484B9D08}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
