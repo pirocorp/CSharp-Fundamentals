@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("22. Legendary Farming")]
+[assembly: AssemblyTitle("23. Сръбско Unleashed")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("22. Legendary Farming")]
+[assembly: AssemblyProduct("23. Сръбско Unleashed")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("43096337-63aa-4b03-846d-76a7e648367c")]
+[assembly: Guid("9859c27a-8089-40bc-966c-d0a07c40452f")]
 
 // Version information for an assembly consists of the following four values:
 //
