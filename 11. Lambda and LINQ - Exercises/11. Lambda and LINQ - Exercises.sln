@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Ordered Banking System"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. LINQuistics", "13. LINQuistics\13. LINQuistics.csproj", "{4576E203-07F1-4E54-806B-9BE7CE7684C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Phonebook", "14. Phonebook\14. Phonebook.csproj", "{34278BC5-454A-4BCD-9189-168DD8006AAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4576E203-07F1-4E54-806B-9BE7CE7684C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4576E203-07F1-4E54-806B-9BE7CE7684C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4576E203-07F1-4E54-806B-9BE7CE7684C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34278BC5-454A-4BCD-9189-168DD8006AAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34278BC5-454A-4BCD-9189-168DD8006AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34278BC5-454A-4BCD-9189-168DD8006AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34278BC5-454A-4BCD-9189-168DD8006AAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
