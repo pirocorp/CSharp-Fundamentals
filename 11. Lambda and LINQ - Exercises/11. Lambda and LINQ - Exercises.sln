@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Fix Emails", "17. Fix E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Hands of Cards", "18. Hands of Cards\18. Hands of Cards.csproj", "{1A7A0904-760F-4181-A897-ABAB8A7C25C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. User Logs", "19. User Logs\19. User Logs.csproj", "{4A423321-9A8E-4349-B468-BD14809952FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{1A7A0904-760F-4181-A897-ABAB8A7C25C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A7A0904-760F-4181-A897-ABAB8A7C25C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A7A0904-760F-4181-A897-ABAB8A7C25C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A423321-9A8E-4349-B468-BD14809952FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A423321-9A8E-4349-B468-BD14809952FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A423321-9A8E-4349-B468-BD14809952FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A423321-9A8E-4349-B468-BD14809952FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
