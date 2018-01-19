@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Phonebook", "14. Phoneb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Phonebook Upgrade", "15. Phonebook Upgrade\15. Phonebook Upgrade.csproj", "{D302E794-212F-4DA7-AE63-49C7AA54BD23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. A Miner Task", "16. A Miner Task\16. A Miner Task.csproj", "{DBD058EA-C95F-4DAF-A07B-8670ADAA8869}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{D302E794-212F-4DA7-AE63-49C7AA54BD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D302E794-212F-4DA7-AE63-49C7AA54BD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D302E794-212F-4DA7-AE63-49C7AA54BD23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD058EA-C95F-4DAF-A07B-8670ADAA8869}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD058EA-C95F-4DAF-A07B-8670ADAA8869}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD058EA-C95F-4DAF-A07B-8670ADAA8869}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD058EA-C95F-4DAF-A07B-8670ADAA8869}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
