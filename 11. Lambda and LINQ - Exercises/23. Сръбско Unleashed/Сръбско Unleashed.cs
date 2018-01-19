@@ -78,6 +78,7 @@ namespace _23.Сръбско_Unleashed
                 }
 
                 inputData = Console.ReadLine();
+
             }
 
             concerts.ToList().ForEach(x =>
