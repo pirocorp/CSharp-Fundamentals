@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. LINQuistics", "13. LINQ
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Phonebook", "14. Phonebook\14. Phonebook.csproj", "{34278BC5-454A-4BCD-9189-168DD8006AAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Phonebook Upgrade", "15. Phonebook Upgrade\15. Phonebook Upgrade.csproj", "{D302E794-212F-4DA7-AE63-49C7AA54BD23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{34278BC5-454A-4BCD-9189-168DD8006AAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34278BC5-454A-4BCD-9189-168DD8006AAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34278BC5-454A-4BCD-9189-168DD8006AAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D302E794-212F-4DA7-AE63-49C7AA54BD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D302E794-212F-4DA7-AE63-49C7AA54BD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D302E794-212F-4DA7-AE63-49C7AA54BD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D302E794-212F-4DA7-AE63-49C7AA54BD23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
