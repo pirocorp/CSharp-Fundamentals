@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("26. Immune System")]
+[assembly: AssemblyTitle("29. Byte Flip")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("26. Immune System")]
+[assembly: AssemblyProduct("29. Byte Flip")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a7664e96-208f-46b1-a745-5b37286df538")]
+[assembly: Guid("6ec5dbc5-3be2-4222-8ed9-e839d9a59ded")]
 
 // Version information for an assembly consists of the following four values:
 //
