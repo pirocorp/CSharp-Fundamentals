@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. Parking Validation", "2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29. Byte Flip", "29. Byte Flip\29. Byte Flip.csproj", "{6EC5DBC5-3BE2-4222-8ED9-E839D9A59DED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "30. Take Skip Rope", "30. Take Skip Rope\30. Take Skip Rope.csproj", "{D5FCA03B-1753-428B-90F0-1384AEB4FA81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -183,6 +185,10 @@ Global
 		{6EC5DBC5-3BE2-4222-8ED9-E839D9A59DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EC5DBC5-3BE2-4222-8ED9-E839D9A59DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EC5DBC5-3BE2-4222-8ED9-E839D9A59DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5FCA03B-1753-428B-90F0-1384AEB4FA81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5FCA03B-1753-428B-90F0-1384AEB4FA81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5FCA03B-1753-428B-90F0-1384AEB4FA81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5FCA03B-1753-428B-90F0-1384AEB4FA81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
