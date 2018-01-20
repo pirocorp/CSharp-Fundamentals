@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -31,8 +32,9 @@ namespace _07.Sales_Report
 
         static void Main()
         {
-            Sale[] sales = ReadSales();
+            var sales = ReadSales();
             var towns = sales.Select(s => s.Town).Distinct().OrderBy(t => t);
+
             foreach (string town in towns)
             {
                 var salesByTown = sales.Where(s => s.Town == town)
@@ -42,14 +44,14 @@ namespace _07.Sales_Report
 
         }
 
-        static Sale[] ReadSales()
+        static List<Sale> ReadSales()
         {
-            int n = int.Parse(Console.ReadLine());
-            Sale[] sales = new Sale[n];
+            var n = int.Parse(Console.ReadLine());
+            var sales = new List<Sale>();
 
             for (int i = 0; i < n; i++)
             {
-                sales[i] = ReadSale();
+                sales.Add(ReadSale());
             }
 
             return sales;
