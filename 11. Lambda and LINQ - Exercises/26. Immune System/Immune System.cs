@@ -30,7 +30,7 @@ namespace _26.Immune_System
                 }
 
                 var TimeToDefeatInSec = (int)(virusStrength * virusName.Length);
-                Console.WriteLine($"Virus {virusName}: {virusStrengthOriginal} => {TimeToDefeatInSec}");
+                Console.WriteLine($"Virus {virusName}: {virusStrengthOriginal} => {TimeToDefeatInSec} seconds");
 
                 if (TimeToDefeatInSec < remainingHealth)
                 {
