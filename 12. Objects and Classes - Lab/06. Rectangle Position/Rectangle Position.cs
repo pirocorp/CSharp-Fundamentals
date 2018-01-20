@@ -26,11 +26,11 @@ namespace _06.Rectangle_Position
 
             public bool IsInside(Rectangle other)
             {
-                var isInLeft = Left >= other.Left;
-                var isInRight = Right <= other.Right;
+                var isInLeft = this.Left >= other.Left;
+                var isInRight = this.Right <= other.Right;
                 var isInsideHorizontal = isInLeft && isInRight;
-                var isInTop = Top >= other.Top;
-                var isInBottom = Bottom <= other.Bottom;
+                var isInTop = this.Top >= other.Top;
+                var isInBottom = this.Bottom <= other.Bottom;
                 var isInsideVertical = isInTop && isInBottom;
                 return isInsideHorizontal && isInsideVertical;
             }
