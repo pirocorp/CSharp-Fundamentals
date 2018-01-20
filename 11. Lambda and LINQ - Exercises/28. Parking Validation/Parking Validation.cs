@@ -63,7 +63,7 @@ namespace _28.Parking_Validation
 
             if (!LicensePlateValidation(licensePlateNumber))
             {
-                Console.WriteLine($"ERROR: invalid license plate {licensePlateNumber}“");
+                Console.WriteLine($"ERROR: invalid license plate {licensePlateNumber}");
                 return;
             }
 
