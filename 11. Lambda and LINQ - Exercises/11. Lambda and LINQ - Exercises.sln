@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26. Immune System", "26. Im
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "27. Supermarket Database", "27. Supermarket Database\27. Supermarket Database.csproj", "{A10101E0-4F01-47AE-91DC-A90A2F223FD9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "28. Parking Validation", "28. Parking Validation\28. Parking Validation.csproj", "{AEF021F8-442C-4260-88DE-09854B3621CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{A10101E0-4F01-47AE-91DC-A90A2F223FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A10101E0-4F01-47AE-91DC-A90A2F223FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A10101E0-4F01-47AE-91DC-A90A2F223FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF021F8-442C-4260-88DE-09854B3621CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF021F8-442C-4260-88DE-09854B3621CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF021F8-442C-4260-88DE-09854B3621CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF021F8-442C-4260-88DE-09854B3621CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
