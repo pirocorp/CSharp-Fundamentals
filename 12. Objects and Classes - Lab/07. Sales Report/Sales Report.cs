@@ -33,13 +33,13 @@ namespace _07.Sales_Report
         static void Main()
         {
             var sales = ReadSales();
-            var towns = sales.Select(s => s.Town).Distinct().OrderBy(t => t);
+            var towns = sales.Select(s => s.Town).Distinct();
 
             foreach (string town in towns)
             {
                 var salesByTown = sales.Where(s => s.Town == town)
-                    .Select(s => s.Price * s.Quantity);
-                Console.WriteLine("{0} -> {1:f2}", town, salesByTown.Sum());
+                    .Select(s => s.Price * s.Quantity).Sum();
+                Console.WriteLine("{0} -> {1:f2}", town, salesByTown);
             }
 
         }
@@ -54,7 +54,7 @@ namespace _07.Sales_Report
                 sales.Add(ReadSale());
             }
 
-            return sales;
+            return sales.OrderBy(x => x.Town).ToList();
         }
     }
 }
