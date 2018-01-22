@@ -13,7 +13,7 @@ namespace _11.Book_Library
         public string Author { get; set; }
         public string Publisher { get; set; }
         public DateTime ReleaseDate { get; set; }
-        public long ISBN { get; set; }
+        public string ISBN { get; set; }
         public decimal Price { get; set; }
 
         public static Book Parse(string inputData)
@@ -24,7 +24,7 @@ namespace _11.Book_Library
             var publisher = tokens[2];
             var format = "dd.MM.yyyy";
             var releaseDate = DateTime.ParseExact(tokens[3], format, CultureInfo.InvariantCulture);
-            var isbn = long.Parse(tokens[4]);
+            var isbn = tokens[4];
             var price = decimal.Parse(tokens[5]);
 
             var newBook = new Book()
