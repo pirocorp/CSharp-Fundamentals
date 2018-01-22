@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D3612E72-FB1F-4C9A-B013-7CD33483FAD6}</ProjectGuid>
+    <ProjectGuid>{243325D1-8628-42ED-AACF-98C3C38FBFCE}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_07.Test</RootNamespace>
-    <AssemblyName>_07.Test</AssemblyName>
+    <RootNamespace>_09.Circles_Intersection</RootNamespace>
+    <AssemblyName>_09.Circles_Intersection</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Circle.cs" />
+    <Compile Include="Circles Intersection.cs" />
+    <Compile Include="Point.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
