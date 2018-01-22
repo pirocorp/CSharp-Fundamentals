@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Book Library", "11. Boo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Book Library Modification", "12. Book Library Modification\12. Book Library Modification.csproj", "{566DDEC8-9750-4657-BD74-AB45D3E33AE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Andrey and Billiard", "13. Andrey and Billiard\13. Andrey and Billiard.csproj", "{01516B18-9A4B-4E27-98D1-5A7B62844628}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{566DDEC8-9750-4657-BD74-AB45D3E33AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{566DDEC8-9750-4657-BD74-AB45D3E33AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{566DDEC8-9750-4657-BD74-AB45D3E33AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01516B18-9A4B-4E27-98D1-5A7B62844628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01516B18-9A4B-4E27-98D1-5A7B62844628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01516B18-9A4B-4E27-98D1-5A7B62844628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01516B18-9A4B-4E27-98D1-5A7B62844628}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
