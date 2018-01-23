@@ -5,11 +5,21 @@ namespace _11.Book_Library
 {
     public class Book
     {
+        public Book(string title, string author, string publisher, DateTime releaseDate, string isbn, decimal price)
+        {
+            Title = title;
+            Author = author;
+            Publisher = publisher;
+            ReleaseDate = releaseDate;
+            Isbn = isbn;
+            Price = price;
+        }
+
         public string Title { get; set; }
         public string Author { get; set; }
         public string Publisher { get; set; }
         public DateTime ReleaseDate { get; set; }
-        public string ISBN { get; set; }
+        public string Isbn { get; set; }
         public decimal Price { get; set; }
 
         public static Book Parse(string inputData)
@@ -22,17 +32,7 @@ namespace _11.Book_Library
             var releaseDate = DateTime.ParseExact(tokens[3], format, CultureInfo.InvariantCulture);
             var isbn = tokens[4];
             var price = decimal.Parse(tokens[5]);
-
-            var newBook = new Book()
-            {
-                Title = title,
-                Author = author,
-                Publisher = publisher,
-                ReleaseDate = releaseDate,
-                ISBN = isbn,
-                Price = price
-            };
-
+            var newBook = new Book(title, author, publisher, releaseDate, isbn, price);
             return newBook;
         }
     }
