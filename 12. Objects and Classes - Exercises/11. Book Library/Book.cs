@@ -11,7 +11,7 @@ namespace _11.Book_Library
             Author = author;
             Publisher = publisher;
             ReleaseDate = releaseDate;
-            ISBN = isbn;
+            Isbn = isbn;
             Price = price;
         }
 
@@ -19,7 +19,7 @@ namespace _11.Book_Library
         public string Author { get; set; }
         public string Publisher { get; set; }
         public DateTime ReleaseDate { get; set; }
-        public string ISBN { get; set; }
+        public string Isbn { get; set; }
         public decimal Price { get; set; }
 
         public static Book Parse(string inputData)
