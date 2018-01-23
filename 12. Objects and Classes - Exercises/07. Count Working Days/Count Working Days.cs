@@ -12,9 +12,7 @@ namespace _07.Count_Working_Days
             var endDateString = Console.ReadLine();
             var startDate = DateTime.ParseExact(startDateString, format, CultureInfo.InvariantCulture);
             var endDate = DateTime.ParseExact(endDateString, format, CultureInfo.InvariantCulture);
-
-
-
+            
             var workingDaysCounter = 0;
 
             for (var i = startDate; i <= endDate; i = i.AddDays(1))
