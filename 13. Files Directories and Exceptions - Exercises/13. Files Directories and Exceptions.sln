@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Filter Extensions", "01
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. HTML Contents", "02. HTML Contents\02. HTML Contents.csproj", "{358FDCFD-A665-4616-8373-88A14A18119F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. User Database", "03. User Database\03. User Database.csproj", "{63856F1B-50EF-4180-A76F-2B5244A4806B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{358FDCFD-A665-4616-8373-88A14A18119F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{358FDCFD-A665-4616-8373-88A14A18119F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{358FDCFD-A665-4616-8373-88A14A18119F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63856F1B-50EF-4180-A76F-2B5244A4806B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63856F1B-50EF-4180-A76F-2B5244A4806B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63856F1B-50EF-4180-A76F-2B5244A4806B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63856F1B-50EF-4180-A76F-2B5244A4806B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
