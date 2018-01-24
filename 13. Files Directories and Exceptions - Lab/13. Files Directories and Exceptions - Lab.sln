@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Line Numbers", "02. Lin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Word Count", "03. Word Count\03. Word Count.csproj", "{ABA91A56-92AC-41F2-82D0-1250957B1E74}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Merge Files", "04. Merge Files\04. Merge Files.csproj", "{5763C5DA-AAC4-4F0F-8400-5D1B10A59CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Folder Size", "05. Folder Size\05. Folder Size.csproj", "{68CCEDC7-0D95-4E9B-A95E-532A917B8E4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{ABA91A56-92AC-41F2-82D0-1250957B1E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABA91A56-92AC-41F2-82D0-1250957B1E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABA91A56-92AC-41F2-82D0-1250957B1E74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5763C5DA-AAC4-4F0F-8400-5D1B10A59CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5763C5DA-AAC4-4F0F-8400-5D1B10A59CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5763C5DA-AAC4-4F0F-8400-5D1B10A59CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5763C5DA-AAC4-4F0F-8400-5D1B10A59CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CCEDC7-0D95-4E9B-A95E-532A917B8E4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CCEDC7-0D95-4E9B-A95E-532A917B8E4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CCEDC7-0D95-4E9B-A95E-532A917B8E4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CCEDC7-0D95-4E9B-A95E-532A917B8E4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
