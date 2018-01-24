@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1. Odd Lines", "1. Odd Lines\1. Odd Lines.csproj", "{3F730857-2223-4BED-8837-9562DAC78089}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Odd Lines", "01. Odd Lines\01. Odd Lines.csproj", "{3F730857-2223-4BED-8837-9562DAC78089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2. Line Numbers", "2. Line Numbers\2. Line Numbers.csproj", "{8E1C70D0-078E-48C5-9098-58641D466239}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Line Numbers", "02. Line Numbers\02. Line Numbers.csproj", "{8E1C70D0-078E-48C5-9098-58641D466239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Word Count", "03. Word Count\03. Word Count.csproj", "{ABA91A56-92AC-41F2-82D0-1250957B1E74}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8E1C70D0-078E-48C5-9098-58641D466239}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8E1C70D0-078E-48C5-9098-58641D466239}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8E1C70D0-078E-48C5-9098-58641D466239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA91A56-92AC-41F2-82D0-1250957B1E74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA91A56-92AC-41F2-82D0-1250957B1E74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA91A56-92AC-41F2-82D0-1250957B1E74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA91A56-92AC-41F2-82D0-1250957B1E74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
