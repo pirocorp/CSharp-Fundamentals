@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("09. Max Sequence of Equal Elements")]
+[assembly: AssemblyTitle("11. Fix Emails")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("09. Max Sequence of Equal Elements")]
+[assembly: AssemblyProduct("11. Fix Emails")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("320d4abc-2e23-4baf-b1f8-632381c534e3")]
+[assembly: Guid("8ae10076-8ba6-4dca-852b-ccb6261671ca")]
 
 // Version information for an assembly consists of the following four values:
 //
