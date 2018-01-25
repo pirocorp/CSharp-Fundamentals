@@ -24,16 +24,16 @@ namespace _18.Jarvis
                 switch (component)
                 {
                     case "Arm":
-                        ArmResult(componentData, listOfArms);
+                        AddElementToList(componentData, listOfArms);
                         break;
                     case "Leg":
-                        LegResult(componentData, listOfLegs);
+                        AddElementToList(componentData, listOfLegs);
                         break;
                     case "Torso":
-                        torsoResult = TorsoResult(torsoResult, componentData);
+                        torsoResult = AddElement(torsoResult, componentData);
                         break;
                     case "Head":
-                        headResult = HeadResult(headResult, componentData);
+                        headResult = AddElement(headResult, componentData);
                         break;
                 }
 
@@ -51,7 +51,7 @@ namespace _18.Jarvis
 
                 if (maximumEnergyCapacity >= currentPartEnergyNeeds)
                 {
-                    PrlongRobot(headResult, torsoResult, listOfArms, listOfLegs);
+                    PrintRobot(headResult, torsoResult, listOfArms, listOfLegs);
                 }
                 else
                 {
@@ -64,7 +64,7 @@ namespace _18.Jarvis
             }
         }
 
-        private static void PrlongRobot(Head headResult, Torso torsoResult, List<Arm> listOfArms, List<Leg> listOfLegs)
+        private static void PrintRobot(Head headResult, Torso torsoResult, List<Arm> listOfArms, List<Leg> listOfLegs)
         {
             Console.WriteLine($"Jarvis:");
             Console.WriteLine(headResult.ToString());
@@ -81,7 +81,7 @@ namespace _18.Jarvis
             }
         }
 
-        private static void LegResult(string componentData, List<Leg> listOfLegs)
+        private static void AddElementToList(string componentData, List<Leg> listOfLegs)
         {
             var currentLeg = Leg.Parse(componentData);
 
@@ -102,7 +102,7 @@ namespace _18.Jarvis
             }
         }
 
-        private static void ArmResult(string componentData, List<Arm> listOfArms)
+        private static void AddElementToList(string componentData, List<Arm> listOfArms)
         {
             var currentArm = Arm.Parse(componentData);
 
@@ -123,7 +123,7 @@ namespace _18.Jarvis
             }
         }
 
-        private static Head HeadResult(Head headResult, string componentData)
+        private static Head AddElement(Head headResult, string componentData)
         {
             if (headResult == null)
             {
@@ -142,7 +142,7 @@ namespace _18.Jarvis
             return headResult;
         }
 
-        private static Torso TorsoResult(Torso torsoResult, string componentData)
+        private static Torso AddElement(Torso torsoResult, string componentData)
         {
             if (torsoResult == null)
             {
