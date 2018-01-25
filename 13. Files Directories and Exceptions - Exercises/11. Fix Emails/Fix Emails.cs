@@ -23,7 +23,7 @@ namespace _11.Fix_Emails
                 }
             }
 
-            emails.ToList().ForEach(x => File.AppendAllLines("Output.txt", new []{ $"{x.Key} -> {x.Value}" }));
+            emails.ToList().ForEach(x => File.AppendAllLines("Output.txt", new []{ $"{x.Key} -> {x.Value}"}));
         }
     }
 }
