@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Jarvis", "18. Jarvis\18
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Punctuation Finder", "19. Punctuation Finder\19. Punctuation Finder.csproj", "{2A7417D5-1F85-4EDE-8ED4-E2829356B97F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Write to File", "20. Write to File\20. Write to File.csproj", "{CF2731C3-6A6D-4FA4-B0D9-D836C2C6A4E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{2A7417D5-1F85-4EDE-8ED4-E2829356B97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7417D5-1F85-4EDE-8ED4-E2829356B97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7417D5-1F85-4EDE-8ED4-E2829356B97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2731C3-6A6D-4FA4-B0D9-D836C2C6A4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2731C3-6A6D-4FA4-B0D9-D836C2C6A4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2731C3-6A6D-4FA4-B0D9-D836C2C6A4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2731C3-6A6D-4FA4-B0D9-D836C2C6A4E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
