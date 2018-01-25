@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Re-Directory", "04. Re-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Products", "05. Products\05. Products.csproj", "{9A6E8BA5-8207-40AF-91CE-15D20D7EC05C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Most Frequent Number", "06. Most Frequent Number\06. Most Frequent Number.csproj", "{04868AF9-00A4-4635-B673-33AA693599C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9A6E8BA5-8207-40AF-91CE-15D20D7EC05C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A6E8BA5-8207-40AF-91CE-15D20D7EC05C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A6E8BA5-8207-40AF-91CE-15D20D7EC05C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04868AF9-00A4-4635-B673-33AA693599C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04868AF9-00A4-4635-B673-33AA693599C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04868AF9-00A4-4635-B673-33AA693599C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04868AF9-00A4-4635-B673-33AA693599C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
