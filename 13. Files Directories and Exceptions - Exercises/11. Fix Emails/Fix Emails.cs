@@ -1,6 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace _11.Fix_Emails
 {
@@ -11,7 +14,7 @@ namespace _11.Fix_Emails
             var inputLines = File.ReadAllLines("Input.txt");
             Dictionary<string, string> emails = new Dictionary<string, string>();
 
-            for (int i = 0; i < inputLines.Length-1; i += 2)
+            for (int i = 0; i < inputLines.Length; i += 2)
             {
                 var name = inputLines[i];
                 var email = inputLines[i + 1];
@@ -23,7 +26,7 @@ namespace _11.Fix_Emails
                 }
             }
 
-            emails.ToList().ForEach(x => File.AppendAllLines("Output.txt", new []{ $"{x.Key} -> {x.Value}"}));
+            emails.ToList().ForEach(x => File.AppendAllLines("Output.txt", new []{ $"{x.Key} -> {x.Value}" }));
         }
     }
 }

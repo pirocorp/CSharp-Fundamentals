@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. A Miner Task", "10. A M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Fix Emails", "11. Fix Emails\11. Fix Emails.csproj", "{8AE10076-8BA6-4DCA-852B-CCB6261671CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Advertisement Message", "12. Advertisement Message\12. Advertisement Message.csproj", "{B2296BDC-E68C-4494-A4FA-B2663E8125D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{8AE10076-8BA6-4DCA-852B-CCB6261671CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8AE10076-8BA6-4DCA-852B-CCB6261671CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8AE10076-8BA6-4DCA-852B-CCB6261671CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2296BDC-E68C-4494-A4FA-B2663E8125D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2296BDC-E68C-4494-A4FA-B2663E8125D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2296BDC-E68C-4494-A4FA-B2663E8125D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2296BDC-E68C-4494-A4FA-B2663E8125D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

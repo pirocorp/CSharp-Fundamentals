@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("10. A Miner Task")]
+[assembly: AssemblyTitle("12. Advertisement Message")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("10. A Miner Task")]
+[assembly: AssemblyProduct("12. Advertisement Message")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("32d6647e-ee1a-4b3d-93bd-90c312bdc4c3")]
+[assembly: Guid("b2296bdc-e68c-4494-a4fa-b2663e8125d5")]
 
 // Version information for an assembly consists of the following four values:
 //
