@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("18. Jarvis")]
+[assembly: AssemblyTitle("19. Punctuation Finder")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("18. Jarvis")]
+[assembly: AssemblyProduct("19. Punctuation Finder")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("0cb738c5-fe79-4ff1-9b07-94f37d41d6f5")]
+[assembly: Guid("2a7417d5-1f85-4ede-8ed4-e2829356b97f")]
 
 // Version information for an assembly consists of the following four values:
 //
