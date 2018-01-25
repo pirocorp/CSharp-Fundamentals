@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Book Library Modificati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Order by Age", "16. Order by Age\16. Order by Age.csproj", "{60263CD5-64BA-4FEB-BAF7-9079879B56D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Vehicle Catalogue", "17. Vehicle Catalogue\17. Vehicle Catalogue.csproj", "{F2523340-E992-4F8C-A752-DC4641B0F88F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{60263CD5-64BA-4FEB-BAF7-9079879B56D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60263CD5-64BA-4FEB-BAF7-9079879B56D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60263CD5-64BA-4FEB-BAF7-9079879B56D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2523340-E992-4F8C-A752-DC4641B0F88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2523340-E992-4F8C-A752-DC4641B0F88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2523340-E992-4F8C-A752-DC4641B0F88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2523340-E992-4F8C-A752-DC4641B0F88F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
