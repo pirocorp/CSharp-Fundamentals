@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. JSON Parse", "04. JSON 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Points Counter", "05. Points Counter\05. Points Counter.csproj", "{6C20EB86-F866-440E-9E3E-256CC4669845}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Sentence Split", "06. Sentence Split\06. Sentence Split.csproj", "{801D3BAF-B1CA-4B64-8D02-8FADC6E142F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6C20EB86-F866-440E-9E3E-256CC4669845}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C20EB86-F866-440E-9E3E-256CC4669845}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C20EB86-F866-440E-9E3E-256CC4669845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{801D3BAF-B1CA-4B64-8D02-8FADC6E142F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{801D3BAF-B1CA-4B64-8D02-8FADC6E142F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{801D3BAF-B1CA-4B64-8D02-8FADC6E142F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{801D3BAF-B1CA-4B64-8D02-8FADC6E142F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

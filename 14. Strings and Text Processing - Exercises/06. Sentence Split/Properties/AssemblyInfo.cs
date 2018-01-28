@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("05. Points Counter")]
+[assembly: AssemblyTitle("06. Sentence Split")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("05. Points Counter")]
+[assembly: AssemblyProduct("06. Sentence Split")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("6c20eb86-f866-440e-9e3e-256cc4669845")]
+[assembly: Guid("801d3baf-b1ca-4b64-8d02-8fadc6e142f2")]
 
 // Version information for an assembly consists of the following four values:
 //
