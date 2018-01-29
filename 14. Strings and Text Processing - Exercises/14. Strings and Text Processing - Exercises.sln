@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Value of a String", "08
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Diamond Problem", "09. Diamond Problem\09. Diamond Problem.csproj", "{166BF45C-EBC9-468E-825A-24054FDC4911}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Serialize String", "10. Serialize String\10. Serialize String.csproj", "{7420F2A7-98A9-4180-AE85-56F2FAB58749}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{166BF45C-EBC9-468E-825A-24054FDC4911}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{166BF45C-EBC9-468E-825A-24054FDC4911}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{166BF45C-EBC9-468E-825A-24054FDC4911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7420F2A7-98A9-4180-AE85-56F2FAB58749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7420F2A7-98A9-4180-AE85-56F2FAB58749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7420F2A7-98A9-4180-AE85-56F2FAB58749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7420F2A7-98A9-4180-AE85-56F2FAB58749}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
