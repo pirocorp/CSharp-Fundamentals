@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Serialize String", "10.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Deserialize String", "11. Deserialize String\11. Deserialize String.csproj", "{303BF0F0-294A-4D82-BD39-A602E01D0302}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. String Commander", "12. String Commander\12. String Commander.csproj", "{C2985C4D-B932-4E5E-B0A3-75FBA1B7E072}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{303BF0F0-294A-4D82-BD39-A602E01D0302}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{303BF0F0-294A-4D82-BD39-A602E01D0302}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{303BF0F0-294A-4D82-BD39-A602E01D0302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2985C4D-B932-4E5E-B0A3-75FBA1B7E072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2985C4D-B932-4E5E-B0A3-75FBA1B7E072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2985C4D-B932-4E5E-B0A3-75FBA1B7E072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2985C4D-B932-4E5E-B0A3-75FBA1B7E072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
