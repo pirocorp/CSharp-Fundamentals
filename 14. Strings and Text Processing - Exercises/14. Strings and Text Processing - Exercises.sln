@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Stateless", "13. Statel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Pyramidic", "14. Pyramidic\14. Pyramidic.csproj", "{2E6C2A84-39D0-41A4-AFC1-DEDB4E8CA37D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Nilapdromes", "15. Nilapdromes\15. Nilapdromes.csproj", "{FD4168CF-30BF-49D2-A35A-44C888352991}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{2E6C2A84-39D0-41A4-AFC1-DEDB4E8CA37D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E6C2A84-39D0-41A4-AFC1-DEDB4E8CA37D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E6C2A84-39D0-41A4-AFC1-DEDB4E8CA37D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD4168CF-30BF-49D2-A35A-44C888352991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD4168CF-30BF-49D2-A35A-44C888352991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD4168CF-30BF-49D2-A35A-44C888352991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD4168CF-30BF-49D2-A35A-44C888352991}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

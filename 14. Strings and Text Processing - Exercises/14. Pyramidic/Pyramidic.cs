@@ -27,9 +27,9 @@
             var count = maxPyramid.Value;
             var character = maxPyramid.Key;
 
-            for (int i = 0; i <= count; i += 2)
+            for (int i = 1; i <= count; i += 2)
             {
-                Console.WriteLine(new string(character, i + 1));
+                Console.WriteLine(new string(character, i));
             }
         }
 
