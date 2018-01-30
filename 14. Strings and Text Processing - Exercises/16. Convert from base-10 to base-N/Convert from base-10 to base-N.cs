@@ -1,8 +1,7 @@
-﻿using System.Numerics;
-
-namespace _16.Convert_from_base_10_to_base_N
+﻿namespace _16.Convert_from_base_10_to_base_N
 {
     using System;
+    using System.Numerics;
 
     class Program
     {
