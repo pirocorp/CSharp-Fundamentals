@@ -9,9 +9,15 @@
             var inputData = Console.ReadLine().Split(new[] {' '}, StringSplitOptions.RemoveEmptyEntries);
             var firstString = inputData[0];
             var secondString = inputData[1];
-            var totalSum = 0L;
+            var totalSum = TotalSum(firstString, secondString);
 
+            Console.WriteLine(totalSum);
+        }
+
+        private static long TotalSum(string firstString, string secondString)
+        {
             var count = Math.Min(firstString.Length, secondString.Length);
+            var totalSum = 0L;
 
             for (int i = 0; i < count; i++)
             {
@@ -33,7 +39,7 @@
                 }
             }
 
-            Console.WriteLine(totalSum);
+            return totalSum;
         }
     }
 }
