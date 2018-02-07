@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("20. Magic exchangeable words")]
+[assembly: AssemblyTitle("21. Sum Big Numbers")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("20. Magic exchangeable words")]
+[assembly: AssemblyProduct("21. Sum Big Numbers")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("be647994-5565-4ea3-986f-51d3204459c1")]
+[assembly: Guid("9043a98d-7256-4bf6-b4a1-90bff8df98ec")]
 
 // Version information for an assembly consists of the following four values:
 //
