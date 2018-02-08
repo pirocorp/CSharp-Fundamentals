@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Match Hexadecimal Numbe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Match Dates", "04. Match Dates\04. Match Dates.csproj", "{34A13924-697D-4EDD-A23E-9F17087076CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Match Numbers", "05. Match Numbers\05. Match Numbers.csproj", "{D01B0592-3910-45DF-B95F-349A7BDD4DE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{34A13924-697D-4EDD-A23E-9F17087076CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34A13924-697D-4EDD-A23E-9F17087076CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34A13924-697D-4EDD-A23E-9F17087076CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01B0592-3910-45DF-B95F-349A7BDD4DE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01B0592-3910-45DF-B95F-349A7BDD4DE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01B0592-3910-45DF-B95F-349A7BDD4DE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01B0592-3910-45DF-B95F-349A7BDD4DE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
