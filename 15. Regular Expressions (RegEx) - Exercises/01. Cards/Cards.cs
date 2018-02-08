@@ -8,7 +8,7 @@
     {
         static void Main()
         {
-            var pattern = @"(^|(?<=[A-Z]))(?<power>[AKQJ]|10|[2-9])(?<suit>[SHDC])";
+            var pattern = @"(^|(?<=[A-Z]))(?<power>[AKQJ]|10|[2-9])(?<suit>[SHDC])"; //positive lookbehind
 
             var inputString = Console.ReadLine();
             var matches = Regex.Matches(inputString, pattern);
