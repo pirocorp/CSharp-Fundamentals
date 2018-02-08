@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Match Full Name", "01. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Match Phone Number", "02. Match Phone Number\02. Match Phone Number.csproj", "{1B12E684-46B8-4587-996E-36A62DE3A6AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Match Hexadecimal Numbers", "03. Match Hexadecimal Numbers\03. Match Hexadecimal Numbers.csproj", "{8CB0B8AB-91F2-4967-9104-6174CC68C63C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1B12E684-46B8-4587-996E-36A62DE3A6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B12E684-46B8-4587-996E-36A62DE3A6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B12E684-46B8-4587-996E-36A62DE3A6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CB0B8AB-91F2-4967-9104-6174CC68C63C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CB0B8AB-91F2-4967-9104-6174CC68C63C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CB0B8AB-91F2-4967-9104-6174CC68C63C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CB0B8AB-91F2-4967-9104-6174CC68C63C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
