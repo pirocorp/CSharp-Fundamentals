@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Cards", "01. Cards\01. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Word Encounter", "02. Word Encounter\02. Word Encounter.csproj", "{6F22CC22-2109-4D57-8747-D64F98725679}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Booming Cannon", "03. Booming Cannon\03. Booming Cannon.csproj", "{4C2F218D-3416-4C08-A878-D7662286AF53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{6F22CC22-2109-4D57-8747-D64F98725679}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F22CC22-2109-4D57-8747-D64F98725679}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F22CC22-2109-4D57-8747-D64F98725679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C2F218D-3416-4C08-A878-D7662286AF53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C2F218D-3416-4C08-A878-D7662286AF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C2F218D-3416-4C08-A878-D7662286AF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C2F218D-3416-4C08-A878-D7662286AF53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
