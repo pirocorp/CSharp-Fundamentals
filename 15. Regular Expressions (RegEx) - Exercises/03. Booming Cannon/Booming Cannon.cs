@@ -61,10 +61,6 @@
                     resultedStrings.Add(currentSubString);
                 }
             }
-            //else
-            //{
-            //    Console.WriteLine("Not found");
-            //}
 
             resultedStrings = resultedStrings.Where(x => x.Length > 0).ToList();
             Console.WriteLine(String.Join("/\\", resultedStrings));
