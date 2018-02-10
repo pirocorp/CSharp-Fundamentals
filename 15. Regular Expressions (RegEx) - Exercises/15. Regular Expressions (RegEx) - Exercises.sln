@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. SoftUni Messages", "05.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Fish Statistics", "06. Fish Statistics\06. Fish Statistics.csproj", "{268A22F0-0B2D-486A-987B-446A43232CF1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Happiness Index", "07. Happiness Index\07. Happiness Index.csproj", "{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{268A22F0-0B2D-486A-987B-446A43232CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{268A22F0-0B2D-486A-987B-446A43232CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{268A22F0-0B2D-486A-987B-446A43232CF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
