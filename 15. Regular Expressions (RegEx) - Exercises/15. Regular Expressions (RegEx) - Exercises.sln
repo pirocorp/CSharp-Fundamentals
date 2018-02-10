@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Grocery Shop", "04. Gro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. SoftUni Messages", "05. SoftUni Messages\05. SoftUni Messages.csproj", "{DD69687A-5201-448C-A924-B3CE52691A4A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Fish Statistics", "06. Fish Statistics\06. Fish Statistics.csproj", "{268A22F0-0B2D-486A-987B-446A43232CF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{DD69687A-5201-448C-A924-B3CE52691A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD69687A-5201-448C-A924-B3CE52691A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD69687A-5201-448C-A924-B3CE52691A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{268A22F0-0B2D-486A-987B-446A43232CF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{268A22F0-0B2D-486A-987B-446A43232CF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{268A22F0-0B2D-486A-987B-446A43232CF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{268A22F0-0B2D-486A-987B-446A43232CF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
