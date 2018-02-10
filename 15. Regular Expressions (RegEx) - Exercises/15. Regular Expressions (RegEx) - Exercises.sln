@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Word Encounter", "02. W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Booming Cannon", "03. Booming Cannon\03. Booming Cannon.csproj", "{4C2F218D-3416-4C08-A878-D7662286AF53}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Grocery Shop", "04. Grocery Shop\04. Grocery Shop.csproj", "{7CB8A1E7-EEB8-471D-8407-11D5D1A01D10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4C2F218D-3416-4C08-A878-D7662286AF53}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C2F218D-3416-4C08-A878-D7662286AF53}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C2F218D-3416-4C08-A878-D7662286AF53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CB8A1E7-EEB8-471D-8407-11D5D1A01D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CB8A1E7-EEB8-471D-8407-11D5D1A01D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CB8A1E7-EEB8-471D-8407-11D5D1A01D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CB8A1E7-EEB8-471D-8407-11D5D1A01D10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
