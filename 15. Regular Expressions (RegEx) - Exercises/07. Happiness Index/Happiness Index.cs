@@ -3,17 +3,17 @@
     using System;
     using System.Text.RegularExpressions;
 
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
-            var happyEmojiPattern = @"(\:\)|\:D|\;\)|\:\*|\:\]|\;\]|\:\}|\;\}|\(\:|\*\:|c\:|\[\:|\[\;)";
-            var sadEmojiPattern = @"(\:\(|D\:|\;\(|\:\[|\;\[|\:\{|\;\{|\)\:|\:c|\]\:|\]\;)";
+            const string happyEmojiPattern = @"(\:\)|\:D|\;\)|\:\*|\:\]|\;\]|\:\}|\;\}|\(\:|\*\:|c\:|\[\:|\[\;)";
+            const string sadEmojiPattern = @"(\:\(|D\:|\;\(|\:\[|\;\[|\:\{|\;\{|\)\:|\:c|\]\:|\]\;)";
             var inputLine = Console.ReadLine();
             var happyCount = Regex.Matches(inputLine, happyEmojiPattern).Count;
             var sadCount = Regex.Matches(inputLine, sadEmojiPattern).Count;
             var happinessIndex = happyCount / (double) sadCount;
-            var emoji = string.Empty;
+            string emoji;
 
             if (happinessIndex >= 2)
             {
