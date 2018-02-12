@@ -1,9 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
-
-namespace _09.Extract_Emails
+﻿namespace _09.Extract_Emails
 {
+    using System;
+    using System.Linq;
+    using System.Text.RegularExpressions;
+
     class Program
     {
         static void Main()
