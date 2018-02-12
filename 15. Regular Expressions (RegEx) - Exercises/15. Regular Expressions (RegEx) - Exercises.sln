@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Camera View", "11. Came
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Weather", "12. Weather\12. Weather.csproj", "{B8694FB8-0983-4733-A83D-289C116788C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Key Replacer", "13. Key Replacer\13. Key Replacer.csproj", "{7BB2F1A8-9F9C-4EE3-B64D-9BFEDBC9D537}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{B8694FB8-0983-4733-A83D-289C116788C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8694FB8-0983-4733-A83D-289C116788C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8694FB8-0983-4733-A83D-289C116788C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BB2F1A8-9F9C-4EE3-B64D-9BFEDBC9D537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB2F1A8-9F9C-4EE3-B64D-9BFEDBC9D537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB2F1A8-9F9C-4EE3-B64D-9BFEDBC9D537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB2F1A8-9F9C-4EE3-B64D-9BFEDBC9D537}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
