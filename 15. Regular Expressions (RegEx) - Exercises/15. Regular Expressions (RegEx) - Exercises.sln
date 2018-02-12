@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Extract Emails", "09. E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Extract Sentences by Keyword", "10. Extract Sentences by Keyword\10. Extract Sentences by Keyword.csproj", "{549BCB64-E76A-4E2A-A32F-012AFD9F9F73}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Camera View", "11. Camera View\11. Camera View.csproj", "{355DC73D-7ECF-49AA-BF35-E6CF0B77E203}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{549BCB64-E76A-4E2A-A32F-012AFD9F9F73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{549BCB64-E76A-4E2A-A32F-012AFD9F9F73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{549BCB64-E76A-4E2A-A32F-012AFD9F9F73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355DC73D-7ECF-49AA-BF35-E6CF0B77E203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355DC73D-7ECF-49AA-BF35-E6CF0B77E203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355DC73D-7ECF-49AA-BF35-E6CF0B77E203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355DC73D-7ECF-49AA-BF35-E6CF0B77E203}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
