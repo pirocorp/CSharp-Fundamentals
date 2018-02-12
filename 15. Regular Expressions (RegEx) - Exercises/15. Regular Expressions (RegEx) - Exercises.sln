@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Fish Statistics", "06. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Happiness Index", "07. Happiness Index\07. Happiness Index.csproj", "{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Commits", "08. Commits\08. Commits.csproj", "{755476C1-F4F2-4D06-906F-165069F1C109}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C28C2FB-FC9D-47BE-823F-1BB0FF5DCACC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{755476C1-F4F2-4D06-906F-165069F1C109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{755476C1-F4F2-4D06-906F-165069F1C109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{755476C1-F4F2-4D06-906F-165069F1C109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{755476C1-F4F2-4D06-906F-165069F1C109}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
