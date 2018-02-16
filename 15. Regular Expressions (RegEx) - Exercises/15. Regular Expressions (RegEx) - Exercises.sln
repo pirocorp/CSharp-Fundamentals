@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20. Morse Code Upgraded", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21. Only Letters", "21. Only Letters\21. Only Letters.csproj", "{E5362518-102A-442D-BCA8-948AE0D8700A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22. Email Statistics", "22. Email Statistics\22. Email Statistics.csproj", "{3CE34600-77D6-411E-BE37-3176BBF48BB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{E5362518-102A-442D-BCA8-948AE0D8700A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5362518-102A-442D-BCA8-948AE0D8700A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5362518-102A-442D-BCA8-948AE0D8700A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CE34600-77D6-411E-BE37-3176BBF48BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE34600-77D6-411E-BE37-3176BBF48BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE34600-77D6-411E-BE37-3176BBF48BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE34600-77D6-411E-BE37-3176BBF48BB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
