@@ -4,11 +4,11 @@
     using System.Linq;
     using System.Text.RegularExpressions;
 
-    class Mines
+    public class Mines
     {
-        static void Main()
+        public static void Main()
         {
-            var minePattern = @"<(?<mine>.{2})>";
+            const string minePattern = @"<(?<mine>.{2})>";
             var inputLine = Console.ReadLine();
             var mines = Regex.Matches(inputLine, minePattern).Cast<Match>().ToArray();
 
