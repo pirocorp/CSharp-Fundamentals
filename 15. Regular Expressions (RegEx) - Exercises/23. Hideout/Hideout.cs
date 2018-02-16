@@ -20,31 +20,11 @@
                 if (regex.IsMatch(inputLine))
                 {
                     var indexAtFound = regex.Match(inputLine).Index;
-                    var sizeOfFound = GetSize(inputLine.Substring(indexAtFound));
+                    var sizeOfFound = regex.Match(inputLine).Length;
                     Console.WriteLine($"Hideout found at index {indexAtFound} and it is with size {sizeOfFound}!");
                     break;
                 }
             }
-        }
-
-        private static int GetSize(string substring)
-        {
-            var result = 1;
-            var character = substring[0];
-
-            for (var i = 1; i < substring.Length; i++)
-            {
-                if (substring[i] == character)
-                {
-                    result++;
-                }
-                else
-                {
-                    break;
-                }
-            }
-
-            return result;
         }
     }
 }
