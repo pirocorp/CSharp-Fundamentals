@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Dragon Army", "03. Drag
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Sino The Walker", "04. Sino The Walker\04. Sino The Walker.csproj", "{681157C1-833F-4114-9604-1A7113C744D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. SoftUni Karaoke", "05. SoftUni Karaoke\05. SoftUni Karaoke.csproj", "{0EEB9E72-138C-430A-B82C-AD4D3766FF61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{681157C1-833F-4114-9604-1A7113C744D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{681157C1-833F-4114-9604-1A7113C744D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{681157C1-833F-4114-9604-1A7113C744D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEB9E72-138C-430A-B82C-AD4D3766FF61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEB9E72-138C-430A-B82C-AD4D3766FF61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEB9E72-138C-430A-B82C-AD4D3766FF61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEB9E72-138C-430A-B82C-AD4D3766FF61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
