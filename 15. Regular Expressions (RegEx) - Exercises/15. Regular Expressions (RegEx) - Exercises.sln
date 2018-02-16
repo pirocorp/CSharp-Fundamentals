@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Query Mess", "15. Query
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Use Your Chains, Buddy", "16. Use Your Chains, Buddy\16. Use Your Chains, Buddy.csproj", "{3108DDDD-C360-4B8F-BD69-6B54D917BFD1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Censorship", "17. Censorship\17. Censorship.csproj", "{6B3F154D-2DD1-468D-84B5-75ED74CDAD6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{3108DDDD-C360-4B8F-BD69-6B54D917BFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3108DDDD-C360-4B8F-BD69-6B54D917BFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3108DDDD-C360-4B8F-BD69-6B54D917BFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3F154D-2DD1-468D-84B5-75ED74CDAD6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3F154D-2DD1-468D-84B5-75ED74CDAD6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3F154D-2DD1-468D-84B5-75ED74CDAD6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3F154D-2DD1-468D-84B5-75ED74CDAD6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

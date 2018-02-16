@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("15. Query Mess")]
+[assembly: AssemblyTitle("17. Censorship")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("15. Query Mess")]
+[assembly: AssemblyProduct("17. Censorship")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("65398db9-37c7-4728-a199-f908f9a49d1b")]
+[assembly: Guid("6b3f154d-2dd1-468d-84b5-75ed74cdad6e")]
 
 // Version information for an assembly consists of the following four values:
 //
