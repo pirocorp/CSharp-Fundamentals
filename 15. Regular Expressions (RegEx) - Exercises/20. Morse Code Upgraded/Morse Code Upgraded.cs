@@ -32,7 +32,7 @@
             var sum = 0;
             var zeros = cryptedLetter.Count(x => x == '0');
             var ones = cryptedLetter.Count(x => x == '1');
-            var consecutiveEqualDigits = regex.Matches(cryptedLetter).Cast<Match>().Select(x => x.Length).ToArray().Sum();
+            var consecutiveEqualDigits = regex.Matches(cryptedLetter).Cast<Match>().Select(x => x.Length).Sum();
             sum = zeros * 3 + ones * 5 + consecutiveEqualDigits;
             return (char)sum;
         }
