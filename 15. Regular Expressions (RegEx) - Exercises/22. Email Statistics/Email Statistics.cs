@@ -11,7 +11,7 @@
         {
             var n = int.Parse(Console.ReadLine());
             var emails = new Dictionary<string, List<string>>(); //Domain, userList
-            var pattern = @"^(?<username>[A-Za-z]{5,})@(?<domain>[a-z]{3,}(?:\.com|\.bg|\.org))$";
+            const string pattern = @"^(?<username>[A-Za-z]{5,})@(?<domain>[a-z]{3,}(?:\.com|\.bg|\.org))$";
             var regex = new Regex(pattern);
 
             for (var i = 0; i < n; i++)
