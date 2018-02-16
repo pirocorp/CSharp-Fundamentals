@@ -5,9 +5,9 @@
     using System.Linq;
     using System.Text.RegularExpressions;
 
-    class Program
+    public class Program
     {
-        static void Main()
+        public static void Main()
         {
             var n = int.Parse(Console.ReadLine());
             var emails = new Dictionary<string, List<string>>(); //Domain, userList
