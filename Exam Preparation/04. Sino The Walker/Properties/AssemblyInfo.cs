@@ -4,11 +4,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("03. Dragon Army")]
+[assembly: AssemblyTitle("04. Sino The Walker")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("03. Dragon Army")]
+[assembly: AssemblyProduct("04. Sino The Walker")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("4d03ac10-7412-4ac1-9e78-700f043c9690")]
+[assembly: Guid("681157c1-833f-4114-9604-1a7113c744d6")]
 
 // Version information for an assembly consists of the following four values:
 //
