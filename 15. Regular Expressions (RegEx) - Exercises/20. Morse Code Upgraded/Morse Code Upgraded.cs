@@ -20,7 +20,7 @@
             for (var i = 0; i < cryptedLetters.Length; i++)
             {
                 var regex = new Regex("(?<zeroGroup>0{2,})|(?<oneGroup>1{2,})");
-                char currentChar = CharDecode(cryptedLetters[i], regex);
+                var currentChar = CharDecode(cryptedLetters[i], regex);
                 result.Append(currentChar);
             }
 
