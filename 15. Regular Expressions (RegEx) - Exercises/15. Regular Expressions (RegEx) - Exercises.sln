@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Censorship", "17. Censo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Email me", "18. Email me\18. Email me.csproj", "{3D1DF311-CAFF-461D-9CAB-24D7E3EC5561}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Karate Strings", "19. Karate Strings\19. Karate Strings.csproj", "{20018856-5311-45B2-9307-D4EC2FD4F134}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{3D1DF311-CAFF-461D-9CAB-24D7E3EC5561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D1DF311-CAFF-461D-9CAB-24D7E3EC5561}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D1DF311-CAFF-461D-9CAB-24D7E3EC5561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20018856-5311-45B2-9307-D4EC2FD4F134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20018856-5311-45B2-9307-D4EC2FD4F134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20018856-5311-45B2-9307-D4EC2FD4F134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20018856-5311-45B2-9307-D4EC2FD4F134}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
