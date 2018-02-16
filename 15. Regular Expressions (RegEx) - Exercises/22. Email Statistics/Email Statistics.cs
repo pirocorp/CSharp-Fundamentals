@@ -18,21 +18,23 @@
             {
                 var inputLine = Console.ReadLine();
 
-                if (regex.IsMatch(inputLine))
+                if (!regex.IsMatch(inputLine))
                 {
-                    var match = regex.Match(inputLine);
-                    var domain = match.Groups["domain"].Value;
-                    var username = match.Groups["username"].Value;
+                    continue;
+                }
 
-                    if (!emails.ContainsKey(domain))
-                    {
-                        emails[domain] = new List<string>();
-                    }
+                var match = regex.Match(inputLine);
+                var domain = match.Groups["domain"].Value;
+                var username = match.Groups["username"].Value;
 
-                    if (!emails[domain].Contains(username))
-                    {
-                        emails[domain].Add(username);
-                    }
+                if (!emails.ContainsKey(domain))
+                {
+                    emails[domain] = new List<string>();
+                }
+
+                if (!emails[domain].Contains(username))
+                {
+                    emails[domain].Add(username);
                 }
             }
 
