@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _09.Ladybugs
+﻿namespace _09.Ladybugs
 {
+    using System;
+    using System.Linq;
+
     class Ladybugs
     {
         static void Main()
