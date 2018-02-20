@@ -1,14 +1,10 @@
-﻿using System;
-using System.CodeDom;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-
-namespace _10.Nether_Realms
+﻿namespace _10.Nether_Realms
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text.RegularExpressions;
+
     class Program
     {
         static void Main()
@@ -23,10 +19,36 @@ namespace _10.Nether_Realms
             var digitsRegex = new Regex(digitsPattern);
             var demonsBaseDamage = demons.Select(x =>
                 digitsRegex.Matches(x).Cast<Match>().Select(y => y.Value).Select(double.Parse).Sum(s => s)).ToArray();
-            var modifingDamagePattern = @"[*\/]";
+            const string modifingDamagePattern = @"[*\/]";
             var modifingDamageRegex = new Regex(modifingDamagePattern);
             var demonsDamageModifier = demons.Select(x =>
                 string.Join("", modifingDamageRegex.Matches(x).Cast<Match>().Select(m => m.Value).ToArray())).ToArray();
+            var demonsDamage = DemonsDamage(demonsBaseDamage, demonsDamageModifier);
+
+            var demonsResult = new List<Demon>();
+
+            for (var i = 0; i < demons.Length; i++)
+            {
+                var currentDemonName = demons[i];
+                var currentDemonHealth = demonsHealth[i];
+                var currentDemonDamage = demonsDamage[i];
+                var currentDemon = new Demon(currentDemonName, currentDemonHealth, currentDemonDamage);
+                demonsResult.Add(currentDemon);
+            }
+
+            demonsResult = demonsResult.OrderBy(x => x.DemonName).ToList();
+
+            foreach (var demon in demonsResult)
+            {
+                var name = demon.DemonName;
+                var health = demon.DemonHealth;
+                var damage = demon.DemonDamage;
+                Console.WriteLine($"{name} - {health} health, {damage:F2} damage");
+            }
+        }
+
+        private static double[] DemonsDamage(double[] demonsBaseDamage, string[] demonsDamageModifier)
+        {
             var demonsDamage = new double[demonsBaseDamage.Length];
 
             for (var i = 0; i < demonsDamage.Length; i++)
@@ -57,26 +79,7 @@ namespace _10.Nether_Realms
                 demonsDamage[i] = currentDamage;
             }
 
-            var demonsResult = new List<Demon>();
-
-            for (var i = 0; i < demons.Length; i++)
-            {
-                var currentDemonName = demons[i];
-                var currentDemonHealth = demonsHealth[i];
-                var currentDemonDamage = demonsDamage[i];
-                var currentDemon = new Demon(currentDemonName, currentDemonHealth, currentDemonDamage);
-                demonsResult.Add(currentDemon);
-            }
-
-            demonsResult = demonsResult.OrderBy(x => x.DemonName).ToList();
-
-            foreach (var demon in demonsResult)
-            {
-                var name = demon.DemonName;
-                var health = demon.DemonHealth;
-                var damage = demon.DemonDamage;
-                Console.WriteLine($"{name} - {health} health, {damage:F2} damage");
-            }
+            return demonsDamage;
         }
     }
 }
