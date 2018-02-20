@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Nether Realms", "10. Ne
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Roli The Coder", "11. Roli The Coder\11. Roli The Coder.csproj", "{406F6D6C-E2FB-4586-A8CD-C9634DD86C4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Softuni Coffee Orders", "12. Softuni Coffee Orders\12. Softuni Coffee Orders.csproj", "{F2E12853-9628-4269-8138-D5D35F8C3922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{406F6D6C-E2FB-4586-A8CD-C9634DD86C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{406F6D6C-E2FB-4586-A8CD-C9634DD86C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{406F6D6C-E2FB-4586-A8CD-C9634DD86C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E12853-9628-4269-8138-D5D35F8C3922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E12853-9628-4269-8138-D5D35F8C3922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E12853-9628-4269-8138-D5D35F8C3922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E12853-9628-4269-8138-D5D35F8C3922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
