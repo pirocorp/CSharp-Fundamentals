@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Charity Marathon", "08.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Ladybugs", "09. Ladybugs\09. Ladybugs.csproj", "{A2D48385-FFC2-4126-AE65-0CEB09E6C790}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Nether Realms", "10. Nether Realms\10. Nether Realms.csproj", "{0A966426-0A0B-4299-9F10-8ACC2CE85783}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A2D48385-FFC2-4126-AE65-0CEB09E6C790}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2D48385-FFC2-4126-AE65-0CEB09E6C790}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2D48385-FFC2-4126-AE65-0CEB09E6C790}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A966426-0A0B-4299-9F10-8ACC2CE85783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A966426-0A0B-4299-9F10-8ACC2CE85783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A966426-0A0B-4299-9F10-8ACC2CE85783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A966426-0A0B-4299-9F10-8ACC2CE85783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
