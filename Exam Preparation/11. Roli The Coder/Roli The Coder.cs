@@ -27,8 +27,7 @@
                 var eventName = match.Groups["eventName"].Value.Trim();
                 var participants = match.Groups["participant"]
                     .Captures.Cast<Capture>()
-                    .ToArray().Select(x => x.Value)
-                    .Select(x => x.Trim())
+                    .Select(x => x.Value.Trim())
                     .Distinct()
                     .ToArray();
 
