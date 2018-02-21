@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _16.Sweet_Dessert
+﻿namespace _16.Sweet_Dessert
 {
+    using System;
+
     class Program
     {
         static void Main()
