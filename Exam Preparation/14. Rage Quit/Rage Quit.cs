@@ -1,10 +1,10 @@
-﻿using System;
-using System.Linq;
-using System.Text;
-using System.Text.RegularExpressions;
-
-namespace _14.Rage_Quit
+﻿namespace _14.Rage_Quit
 {
+    using System;
+    using System.Linq;
+    using System.Text;
+    using System.Text.RegularExpressions;
+
     class Program
     {
         static void Main()
