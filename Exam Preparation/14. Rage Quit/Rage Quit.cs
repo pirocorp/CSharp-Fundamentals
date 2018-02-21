@@ -9,17 +9,24 @@
     {
         static void Main()
         {
-            var input = Console.ReadLine();
-            const string pattern = @"((?<string>[^\d]+)(?<digit>\d+))";
-            var resultedString = new StringBuilder();
+            var input = Console.ReadLine().ToUpper();
+            const string pattern = @"(\D+?)(\d+)";
             var matches = Regex.Matches(input, pattern).Cast<Match>().ToArray();
+            var resultedString = new StringBuilder();
 
             for (var i = 0; i < matches.Length; i++)
             {
                 var currentMatch = matches[i];
-                var currentString = currentMatch.Groups["string"].Value.ToUpper();
-                var currentDigit = int.Parse(currentMatch.Groups["digit"].Value);
-                resultedString.Append(string.Join("", Enumerable.Repeat(currentString, currentDigit)));
+                var currentString = currentMatch.Groups[1].Value;
+                var currentDigit = int.Parse(currentMatch.Groups[2].Value);
+                var currentResultedString = new StringBuilder();
+
+                for (var j = 0; j < currentDigit; j++)
+                {
+                    currentResultedString.Append(currentString);
+                }
+
+                resultedString.Append(currentResultedString);
             }
 
             Console.WriteLine($"Unique symbols used: {resultedString.ToString().Distinct().Count()}");
