@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. Softuni Coffee Orders",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Command Interpreter", "13. Command Interpreter\13. Command Interpreter.csproj", "{C1EA45A1-60DC-4112-A21A-84DCCAE0FE8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Rage Quit", "14. Rage Quit\14. Rage Quit.csproj", "{C6E7C03F-2EB2-4D0F-B9CC-E39E3E6757EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{C1EA45A1-60DC-4112-A21A-84DCCAE0FE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1EA45A1-60DC-4112-A21A-84DCCAE0FE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1EA45A1-60DC-4112-A21A-84DCCAE0FE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6E7C03F-2EB2-4D0F-B9CC-E39E3E6757EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6E7C03F-2EB2-4D0F-B9CC-E39E3E6757EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6E7C03F-2EB2-4D0F-B9CC-E39E3E6757EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6E7C03F-2EB2-4D0F-B9CC-E39E3E6757EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
