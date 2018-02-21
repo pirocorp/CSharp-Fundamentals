@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace _17.Array_Manipulator
+﻿namespace _17.Array_Manipulator
 {
+    using System;
+    using System.Linq;
+
     class Program
     {
         static void Main()
@@ -110,7 +106,6 @@ namespace _17.Array_Manipulator
 
         private static int GetIndexOfMinEvenOrOddElement(int[] numbers, string evenOrOddElement)
         {
-            var index = -1;
             var evenOrOdd = evenOrOddElement == "even" ? 0 : 1;
 
             var minIndex = -1;
@@ -127,13 +122,11 @@ namespace _17.Array_Manipulator
                 }
             }
 
-            index = minIndex;
-            return index;
+            return minIndex;
         }
 
         private static int GetIndexOfMaxEvenOrOddElement(int[] numbers, string evenOrOddElement)
         {
-            var index = -1;
             var evenOrOdd = evenOrOddElement == "even" ? 0 : 1;
 
             var maxIndex = -1;
@@ -149,9 +142,8 @@ namespace _17.Array_Manipulator
                     currentMax = currentElement;
                 }
             }
-
-            index = maxIndex;
-            return index;
+            
+            return maxIndex;
         }
 
         private static void ProcessExchangeCommand(int index, int[] numbers)
