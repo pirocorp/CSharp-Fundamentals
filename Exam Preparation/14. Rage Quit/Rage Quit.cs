@@ -12,25 +12,23 @@
             var input = Console.ReadLine().ToUpper();
             const string pattern = @"(\D+?)(\d+)";
             var matches = Regex.Matches(input, pattern).Cast<Match>().ToArray();
-            var resultedString = new StringBuilder();
+            var result = new StringBuilder();
 
             for (var i = 0; i < matches.Length; i++)
             {
                 var currentMatch = matches[i];
                 var currentString = currentMatch.Groups[1].Value;
                 var currentDigit = int.Parse(currentMatch.Groups[2].Value);
-                var currentResultedString = new StringBuilder();
 
                 for (var j = 0; j < currentDigit; j++)
                 {
-                    currentResultedString.Append(currentString);
+                    result.Append(currentString);
                 }
 
-                resultedString.Append(currentResultedString);
             }
 
-            Console.WriteLine($"Unique symbols used: {resultedString.ToString().Distinct().Count()}");
-            Console.WriteLine(resultedString);
+            Console.WriteLine($"Unique symbols used: {result.ToString().Distinct().Count()}");
+            Console.WriteLine(result);
         }
     }
 }
