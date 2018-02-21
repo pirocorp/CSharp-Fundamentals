@@ -32,7 +32,7 @@
             const string filenamePattern = @"\\(?<filename>[^\\]+\.[^\\]+)(?!\\)$";
             var filenameRegex = new Regex(filenamePattern, RegexOptions.Compiled);
             var root = command[2];
-            var rootRegex = new Regex($@"^{root}\\");
+            var rootRegex = new Regex($@"^{root}\\", RegexOptions.Compiled);
             var resultFiles = files
                 .Where(x => rootRegex.IsMatch(x.Key))
                 .Where(x => extensionRegex.IsMatch(x.Key))
