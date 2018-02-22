@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Array Manipulator", "17
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Football League", "18. Football League\18. Football League.csproj", "{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19. Cubic Messages", "19. Cubic Messages\19. Cubic Messages.csproj", "{212B274E-15BB-46AA-8072-E3D16B4583A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212B274E-15BB-46AA-8072-E3D16B4583A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212B274E-15BB-46AA-8072-E3D16B4583A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212B274E-15BB-46AA-8072-E3D16B4583A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212B274E-15BB-46AA-8072-E3D16B4583A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
