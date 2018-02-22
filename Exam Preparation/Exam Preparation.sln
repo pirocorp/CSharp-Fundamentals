@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2026
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Anonymous Threat", "01. Anonymous Threat\01. Anonymous Threat.csproj", "{D388E697-EA8A-4EBF-8BCF-329C9B38CA68}"
 EndProject
@@ -36,6 +36,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16. Sweet Dessert", "16. Sweet Dessert\16. Sweet Dessert.csproj", "{33D1183C-3222-4228-A517-2E946A5FBC53}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17. Array Manipulator", "17. Array Manipulator\17. Array Manipulator.csproj", "{2BF41B38-FF5A-4E94-BE47-0B6350576B45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18. Football League", "18. Football League\18. Football League.csproj", "{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{2BF41B38-FF5A-4E94-BE47-0B6350576B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BF41B38-FF5A-4E94-BE47-0B6350576B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BF41B38-FF5A-4E94-BE47-0B6350576B45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87BCCB4B-06B7-4220-9525-9A4E1F73ACB5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
