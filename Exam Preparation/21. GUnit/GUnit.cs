@@ -1,9 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace _21.GUnit
 {
@@ -11,17 +9,17 @@ namespace _21.GUnit
     {
         public static void Main()
         {
-            var inputLine = Console.ReadLine().Trim();
+            var inputLine = Console.ReadLine();
             var database = new List<Class>();
             
             while (inputLine != @"It's testing time!")
             {
                 ParseLine(database, inputLine);
-                inputLine = Console.ReadLine().Trim();
+                inputLine = Console.ReadLine();
             }
 
             database = database
-                .OrderByDescending(x => x.Methods.Sum(y => y.Tests.Distinct().Count()))
+                .OrderByDescending(x => x.Methods.Sum(y => y.Tests.Count()))
                 .ThenBy(x => x.Methods.Count)
                 .ThenBy(x => x.ClassName)
                 .Select(x =>
@@ -50,7 +48,7 @@ namespace _21.GUnit
                 foreach (var method in methods)
                 {
                     var methodName = method.MethodName;
-                    var tests = method.Tests.OrderBy(x => x.Length).ThenBy(s => s);
+                    var tests = method.Tests.OrderBy(x => x.Length).ThenBy(s => s, StringComparer.Ordinal);
                     Console.WriteLine($"##{methodName}");
 
                     foreach (var test in tests)
