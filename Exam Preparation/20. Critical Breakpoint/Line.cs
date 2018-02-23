@@ -1,8 +1,8 @@
-﻿using System;
-using System.Linq;
-
-namespace _20.Critical_Breakpoint
+﻿namespace _20.Critical_Breakpoint
 {
+    using System;
+    using System.Linq;
+
     public class Line
     {
         public Line(Point pointOne, Point pointTwo)

@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Numerics;
-
-namespace _20.Critical_Breakpoint
+﻿namespace _20.Critical_Breakpoint
 {
+    using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Numerics;
 
     class Program
     {
