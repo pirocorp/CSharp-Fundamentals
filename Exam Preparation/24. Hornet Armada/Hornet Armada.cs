@@ -10,7 +10,7 @@
         static void Main()
         {
             Dictionary<string, int> legionsWithActivity = new Dictionary<string, int>();
-            Dictionary<string, Dictionary<string, long>> legionsWithSoldiers = new Dictionary<string, Dictionary<string, long>>(); 
+            Dictionary<string, Dictionary<string, long>> legionsWithSoldiers = new Dictionary<string, Dictionary<string, long>>();
 
             var n = int.Parse(Console.ReadLine());
 
