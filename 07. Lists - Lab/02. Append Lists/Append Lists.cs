@@ -8,26 +8,30 @@ namespace _02.Append_Lists
     {
         static void Main()
         {
-            char[] delimeterList = { '|' };
-            char[] delimeterList2 = { ' ' };
-            var stringsOfLists = Console.ReadLine()
-                .Split(delimeterList, StringSplitOptions.RemoveEmptyEntries);
-            List <List<int>> listOfLists = new List<List<int>>();
+            var input = Console.ReadLine()
+                .Split(new[] { '|' }, StringSplitOptions.RemoveEmptyEntries)
+                .Select(x => x.Trim())
+                .ToArray();
 
-            for (int i = stringsOfLists.Length - 1; i >= 0; i--)
+            var result = new List<int>();
+
+            Array.Reverse(input);
+
+            foreach (var token in input)
             {
-                listOfLists.Add(stringsOfLists[i].Split(delimeterList2, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToList());
+                var numbers = token
+                    .Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
+                    .Select(x => x.Trim())
+                    .Select(int.Parse)
+                    .ToArray();
+
+                foreach (var item in numbers)
+                {
+                    result.Add(item);
+                }
             }
 
-            string result = String.Empty;
-
-            for (int i = 0; i < listOfLists.Count; i++)
-            {
-                result += String.Join(" ", listOfLists[i]);
-                result += " ";
-            }
-
-            Console.WriteLine(result);
+            Console.WriteLine(string.Join(" ", result));
         }
     }
 }
