@@ -171,9 +171,11 @@
             Console.WriteLine(spice);
         }
 
-        private static void Task10
+        private static void Task10()
         {
-
+            var power = int.Parse(Console.ReadLine());
+            var distance = int.Parse(Console.ReadLine());
+            var exhaustion = int.Parse(Console.ReadLine());
         }
     }
 }
