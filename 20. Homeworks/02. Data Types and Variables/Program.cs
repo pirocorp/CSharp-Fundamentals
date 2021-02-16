@@ -2,6 +2,7 @@
 {
     using System;
     using System.Collections.Generic;
+    using System.Numerics;
 
     public static class Program
     {
@@ -16,7 +17,8 @@
             // Task7();
             // Task8();
             // Task9();
-            Task10();
+            // Task10();
+            Task11();
         }
 
         private static void Task1()
@@ -173,9 +175,63 @@
 
         private static void Task10()
         {
-            var power = int.Parse(Console.ReadLine());
-            var distance = int.Parse(Console.ReadLine());
-            var exhaustion = int.Parse(Console.ReadLine());
+            var n = int.Parse(Console.ReadLine());
+            var initial = n;
+            var m = int.Parse(Console.ReadLine());
+            var y = int.Parse(Console.ReadLine());
+
+            var count = 0;
+
+            if ((0.5 * n) % m == 0)
+            {
+                count = (initial / 2) / m;
+                n -= (count * m);
+
+                if (y != 0)
+                {
+                    n /= y;
+                }
+
+                count += n / m;
+                n %= m;
+            }
+            else
+            {
+                n %= m;
+                count = initial / m;
+            }
+
+            Console.WriteLine(n);
+            Console.WriteLine(count);
+        }
+
+        private static void Task11()
+        {
+            var n = int.Parse(Console.ReadLine());
+
+            var maxSnowballSnow = 0;
+            var maxSnowballTime = 0;
+            var maxSnowballQuality = 0;
+            BigInteger maxValue = 0;
+
+            for (var i = 0; i < n; i++)
+            {
+                var snowballSnow = int.Parse(Console.ReadLine());
+                var snowballTime = int.Parse(Console.ReadLine());
+                var snowballQuality = int.Parse(Console.ReadLine());
+
+                var value = BigInteger.Pow(snowballSnow / snowballTime, snowballQuality);
+
+                if (maxValue < value)
+                {
+                    maxSnowballSnow = snowballSnow;
+                    maxSnowballTime = snowballTime;
+                    maxSnowballQuality = snowballQuality;
+                    maxValue = value;
+                }
+            }
+
+            Console.WriteLine($"{maxSnowballSnow} : {maxSnowballTime} = {maxValue} ({maxSnowballQuality})");
         }
     }
 }
