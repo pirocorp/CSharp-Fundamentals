@@ -422,6 +422,12 @@
                         break;
                     case "Insert":
                         var index = int.Parse(tokens[2]);
+
+                        if (index < 0 || index >= arr.Count)
+                        {
+                            break;
+                        }
+
                         if (!arr.Contains(title))
                         {
                             arr.Insert(index, title);
@@ -431,6 +437,11 @@
                         if (arr.Contains(title))
                         {
                             arr.Remove(title);
+
+                            if (arr.Contains($"{title}-Exercise"))
+                            {
+                                arr.Remove($"{title}-Exercise");
+                            }
                         }
                         break;
                     case "Swap":
@@ -464,6 +475,7 @@
                                 arr.Insert(course2 + 1, swap);
                             }
                         }
+
                         break;
                     case "Exercise":
                         if (arr.Contains(title))
