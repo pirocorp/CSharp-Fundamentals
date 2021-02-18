@@ -12,11 +12,11 @@
             //Task01();
             //Task02();
             //Task03();
-            Task04();
+            //Task04();
             //Task05();
             //Task06();
             //Task07();
-            //Task08();
+            Task08();
             //Task09();
             //Task10();
         }
@@ -154,27 +154,159 @@
                     var product = new Product(name, price);
                     products.Add(name, product);
                 }
+
+                products[name].Quantity += quantity;
+                products[name].Price = price;
             }
+
+            products
+                .Values
+                .ToList()
+                .ForEach(p => Console.WriteLine($"{p.Name} -> {(p.Quantity * p.Price):F2}"));
         }
 
         private static void Task05()
         {
+            var n = int.Parse(Console.ReadLine());
+            var dict = new Dictionary<string, string>();
 
+            for (var i = 0; i < n; i++)
+            {
+                var tokens = Console.ReadLine()
+                    .Split(" ", StringSplitOptions.RemoveEmptyEntries);
+
+                var username = tokens[1];
+
+                switch (tokens.Length)
+                {
+                    case 2:
+                        if (dict.ContainsKey(username))
+                        {
+                            dict.Remove(username);
+                            Console.WriteLine($"{username} unregistered successfully");
+                        }
+                        else
+                        {
+                            Console.WriteLine($"ERROR: user {username} not found");
+                        }
+                        break;
+                    case 3:
+                        if (dict.ContainsKey(username))
+                        {
+                            Console.WriteLine($"ERROR: already registered with plate number {dict[username]}");
+                        }
+                        else
+                        {
+                            var licensePlate = tokens[2];
+                            dict.Add(username, licensePlate);
+                            Console.WriteLine($"{username} registered {licensePlate} successfully");
+                        }
+                        break;
+                }
+            }
+
+            dict
+                .ToList()
+                .ForEach(x => Console.WriteLine($"{x.Key} => {x.Value}"));
         }
 
         private static void Task06()
         {
+            var courses = new Dictionary<string, List<string>>();
 
+            string input;
+            while ((input = Console.ReadLine()) != "end")
+            {
+                var tokens = input.Split(" : ");
+                var course = tokens[0];
+                var student = tokens[1];
+
+                if (!courses.ContainsKey(course))
+                {
+                    courses.Add(course, new List<string>());
+                }
+
+                courses[course].Add(student);
+            }
+
+            courses = courses
+                .OrderByDescending(c => c.Value.Count)
+                .ToDictionary(x => x.Key, x => x.Value);
+
+            foreach (var course in courses)
+            {
+                var name = course.Key;
+                var students = course.Value
+                    .OrderBy(s => s)
+                    .ToList();
+
+                Console.WriteLine($"{name}: {students.Count}");
+                students.ForEach(s => Console.WriteLine($"-- {s}"));
+            }
         }
 
         private static void Task07()
         {
+            var n = int.Parse(Console.ReadLine());
+            var students = new Dictionary<string, List<double>>();
 
+            for (var i = 0; i < n; i++)
+            {
+                var student = Console.ReadLine();
+                var grade = double.Parse(Console.ReadLine());
+
+                if (!students.ContainsKey(student))
+                {
+                    students.Add(student, new List<double>());
+                }
+
+                students[student].Add(grade);
+            }
+
+            students
+                .Select(s => new 
+                {
+                    Name = s.Key,
+                    Grade = s.Value.Average()
+                })
+                .Where(s => s.Grade >= 4.5)
+                .OrderByDescending(s => s.Grade)
+                .ToList()
+                .ForEach(s => Console.WriteLine($"{s.Name} -> {s.Grade:F2}"));
         }
 
         private static void Task08()
         {
+            var dict = new Dictionary<string, HashSet<string>>();
 
+            string input;
+            while ((input = Console.ReadLine()) != "End")
+            {
+                var tokens = input.Split(" -> ", StringSplitOptions.RemoveEmptyEntries);
+                var company = tokens[0];
+                var id = tokens[1];
+
+                if (!dict.ContainsKey(company))
+                {
+                    dict.Add(company, new HashSet<string>());
+                }
+
+                dict[company].Add(id);
+            }
+
+            dict = dict
+                .OrderBy(c => c.Key)
+                .ToDictionary(x => x.Key, x => x.Value);
+
+            foreach (var company in dict)
+            {
+                Console.WriteLine(company.Key);
+
+                foreach (var id in company.Value)
+                {
+                    Console.WriteLine($"-- {id}");
+                }
+            }
         }
 
         private static void Task09()
@@ -198,6 +330,8 @@
             public string Name { get; set; }
 
             public decimal Price { get; set; }
+
+            public int Quantity { get; set; }
         }
     }
 }
