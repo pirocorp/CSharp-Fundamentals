@@ -13,8 +13,8 @@
             //Task01();
             //Task02();
             //Task03();
-            Task04();
-            //Task05();
+            //Task04();
+            Task05();
             //Task06();
         }
 
@@ -136,7 +136,70 @@
 
         private static void Task04()
         {
-            throw new System.NotImplementedException();
+            var pattern = "(.*?)@(?<name>[a-zA-Z]+)([^@\\-!:>]*?):(?<population>\\d+)([^@\\-!:>]*?)!(?<attack>[A,D])!([^@\\-!:>]*?)->(?<solders>\\d+)";
+            var regex = new Regex(pattern);
+            
+            var inputs = ReadInput();
+
+            var attacked = new List<string>();
+            var destroyed = new List<string>();
+
+            for (var i = 0; i < inputs.Count; i++)
+            {
+                var match = regex.Match(inputs[i]);
+
+                if (match.Success)
+                {
+                    var planet = match.Groups["name"].Value;
+                    var attack = match.Groups["attack"].Value;
+
+                    if (attack == "A")
+                    {
+                        attacked.Add(planet);
+                    }
+                    else
+                    {
+                        destroyed.Add(planet);
+                    }
+                }
+            }
+
+            Console.WriteLine($"Attacked planets: {attacked.Count}");
+            attacked
+                .OrderBy(x => x)
+                .ToList()
+                .ForEach(x => Console.WriteLine($"-> {x}"));
+
+            Console.WriteLine($"Destroyed planets: {destroyed.Count}");
+            destroyed
+                .OrderBy(x => x)
+                .ToList()
+                .ForEach(x => Console.WriteLine($"-> {x}"));
+        }
+
+        private static List<string> ReadInput()
+        {
+            var n = int.Parse(Console.ReadLine());
+
+            var inputs = new List<string>();
+
+            for (var i = 0; i < n; i++)
+            {
+                var crypto = Console.ReadLine() ?? string.Empty;
+                var decrypt = new List<char>();
+
+                var key = crypto.ToLower().Count(x => x == 's' || x == 't' || x == 'a' || x == 'r');
+
+                for (var j = 0; j < crypto.Length; j++)
+                {
+                    var currentChar = (char) (crypto[j] - key);
+                    decrypt.Add(currentChar);
+                }
+
+                inputs.Add(new string(decrypt.ToArray()));
+            }
+
+            return inputs;
         }
 
         private static void Task05()
