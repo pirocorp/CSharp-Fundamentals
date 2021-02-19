@@ -16,7 +16,7 @@
             //Task05();
             //Task06();
             //Task07();
-            Task08();
+            //Task08();
             //Task09();
             //Task10();
         }
@@ -311,12 +311,127 @@
 
         private static void Task09()
         {
+            // sides, users
+            var forceUsers = new Dictionary<string, List<string>>();
 
+            string input;
+            while ((input = Console.ReadLine()) != "Lumpawaroo")
+            {
+                var tokens = input.Split(new[] {" | ", " -> "}, StringSplitOptions.RemoveEmptyEntries);
+                var side = tokens[0];
+                var user = tokens[1];
+
+                if (input.Contains("|"))
+                {
+                    var users = forceUsers.SelectMany(x => x.Value).ToList();
+
+                    if (users.Contains(user))
+                    {
+                        continue;
+                    }
+
+                    RegisterForceUser(forceUsers, user, side);
+                }
+                else
+                {
+                    side = tokens[1];
+                    user = tokens[0];
+
+                    if (!forceUsers.ContainsKey(side))
+                    {
+                        forceUsers.Add(side, new List<string>());
+                    }
+
+                    foreach (var currentSide in forceUsers)
+                    {
+                        currentSide.Value.Remove(user);
+                    }
+
+                    forceUsers[side].Add(user);
+                    Console.WriteLine($"{user} joins the {side} side!");
+                }
+            }
+
+            var sides = forceUsers
+                .Select(x => new { Name = x.Key, Members = x.Value.OrderBy(x => x).ToList() })
+                .Where(x => x.Members.Count > 0)
+                .OrderByDescending(u => u.Members.Count)
+                .ThenBy(u => u.Name)
+                .ToList();
+
+            foreach (var side in sides)
+            {
+                Console.WriteLine($"Side: {side.Name}, Members: {side.Members.Count}");
+
+                foreach (var member in side.Members)
+                {
+                    Console.WriteLine($"! {member}");
+                }
+            }
+        }
+
+        private static void RegisterForceUser(Dictionary<string, List<string>> forceUsers, string user, string side)
+        {
+            if (!forceUsers.ContainsKey(side))
+            {
+                forceUsers.Add(side, new List<string>());
+            }
+
+            forceUsers[side].Add(user);
         }
 
         private static void Task10()
         {
+            var banned = new HashSet<string>();
+            var languages = new Dictionary<string, int>();
+            var users = new Dictionary<string, int>();
 
+            string input;
+            while ((input = Console.ReadLine()) != "exam finished")
+            {
+                var tokens = input.Split("-", StringSplitOptions.RemoveEmptyEntries);
+                var username = tokens[0];
+
+                if (tokens.Length == 2)
+                {
+                    banned.Add(username);
+                    users.Remove(username);
+                    continue;
+                }
+
+                if (banned.Contains(username))
+                {
+                    continue;
+                }
+
+                var language = tokens[1];
+                var points = int.Parse(tokens[2]);
+
+                if (!languages.ContainsKey(language))
+                {
+                    languages.Add(language, 0);
+                }
+
+                if (!users.ContainsKey(username))
+                {
+                    users.Add(username, 0);
+                }
+
+                languages[language]++;
+                users[username] = Math.Max(points, users[username]);
+            }
+
+            Console.WriteLine($"Results:");
+            foreach (var user in users.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
+            {
+                Console.WriteLine($"{user.Key} | {user.Value}");
+            }
+
+            Console.WriteLine($"Submissions:");
+            foreach (var lang in languages.OrderByDescending(x => x.Value).ThenBy(x => x.Key))     
+            {
+                Console.WriteLine($"{lang.Key} - {lang.Value}");
+            }
         }
 
         public class Product
