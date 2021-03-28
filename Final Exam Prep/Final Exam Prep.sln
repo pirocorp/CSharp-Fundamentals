@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. The Imitation Game", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Ad Astra", "02. Ad Astra\02. Ad Astra.csproj", "{D044E2EC-AEF8-4F45-A539-5978489F9E29}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. The Pianist", "03. The Pianist\03. The Pianist.csproj", "{4E05B57B-7918-4F1C-B858-8AA9073F13FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D044E2EC-AEF8-4F45-A539-5978489F9E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D044E2EC-AEF8-4F45-A539-5978489F9E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D044E2EC-AEF8-4F45-A539-5978489F9E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E05B57B-7918-4F1C-B858-8AA9073F13FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E05B57B-7918-4F1C-B858-8AA9073F13FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E05B57B-7918-4F1C-B858-8AA9073F13FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E05B57B-7918-4F1C-B858-8AA9073F13FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
